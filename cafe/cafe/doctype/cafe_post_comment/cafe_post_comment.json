@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-04-17 16:16:04.255715",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "content",
+  "section_break_pljp",
+  "post",
+  "column_break_spep",
+  "comment"
+ ],
+ "fields": [
+  {
+   "fieldname": "content",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Content",
+   "length": 200,
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_pljp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "post",
+   "fieldtype": "Link",
+   "label": "Post",
+   "options": "Cafe Post"
+  },
+  {
+   "fieldname": "column_break_spep",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Link",
+   "label": "Comment",
+   "options": "Cafe Post Comment"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-04-17 16:18:35.514319",
+ "modified_by": "Administrator",
+ "module": "Cafe",
+ "name": "Cafe Post Comment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -15,6 +15,9 @@ dependencies = [
 requires = ["flit_core >=3.4,<4"]
 build-backend = "flit_core.buildapi"
 
+[tool.bench.frappe-dependencies]
+frappe = ">=16.0.0-dev,<=17.0.0-dev"
+
 # These dependencies are only installed when developer mode is enabled
 [tool.bench.dev-dependencies]
 # package_name = "~=1.1.0"
@@ -22,11 +25,6 @@ build-backend = "flit_core.buildapi"
 # These apt dependencies will be installed from Ubuntu repositories when you host your app on Frappe Cloud
 [deploy.dependencies.apt]
 packages = []
-
-[tool.ruff]
-line-length = 110
-target-version = "py314"
-
 [tool.ruff.lint]
 select = [
     "F",
@@ -51,11 +49,10 @@ ignore = [
     "F405", # can't detect undefined names from * import
     "F722", # syntax error in forward type annotation
     "W191", # indentation contains tabs
+    "RUF001", # string contains ambiguous unicode character
     "UP030", # Use implicit references for positional format fields (translations)
     "UP031", # Use format specifiers instead of percent format
     "UP032", # Use f-string instead of `format` call (translations)
-    "UP037", # quoted annotations
-    "UP040", # Use type aliases instead of type annotations
 ]
 typing-modules = ["frappe.types.DF"]
 

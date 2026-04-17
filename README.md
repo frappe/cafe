@@ -1,33 +1,25 @@
-### Cafe
+<div align="center" markdown="1">
 
-Frappe Cafe
+<a href="https://frappe.io/products/cafe">
+    <img src=".github/logo.svg" height="80" alt="Frappe Cafe Logo">
+</a>
 
-### Installation
+<h1>Cafe</h1>
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+</div>
 
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app cafe
-```
+## Getting Started (Development)
 
-### Contributing
+### Local Setup
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+1. [Setup Bench](https://docs.frappe.io/framework/user/en/installation).
+1. In the frappe-bench directory, run `bench start` and keep it running.
+1. Open a new terminal session and cd into `frappe-bench` directory and run following commands:
+    ```sh
+    $ bench get-app builder
+    $ bench get-app cafe
+    $ bench new-site sitename.localhost --install-app cafe
+    $ bench browse sitename.localhost --user Administrator
+    ```
+1. Access the cafe page at `sitename.localhost:8000/cafe` in your web browser.
 
-```bash
-cd apps/cafe
-pre-commit install
-```
-
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
-
-### License
-
-agpl-3.0
