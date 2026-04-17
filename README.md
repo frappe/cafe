@@ -6,7 +6,12 @@
 
 <h1>Cafe</h1>
 
+**Professional networking, minus the noise**
+
 </div>
+
+## Cafe
+Cafe is a professional networking platform built on top of Frappe Framework to publish long-form insights and connect with like-minded individuals.
 
 ## Getting Started (Development)
 
