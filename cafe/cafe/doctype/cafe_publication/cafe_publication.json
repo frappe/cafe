@@ -5,10 +5,12 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "section_break_kito",
   "title",
   "description",
   "column_break_ghyz",
   "handle",
+  "image",
   "section_break_lsom",
   "members"
  ],
@@ -44,12 +46,21 @@
    "fieldtype": "Table",
    "label": "Members",
    "options": "Cafe Publication Member"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "section_break_kito",
+   "fieldtype": "Section Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-17 16:50:52.067200",
+ "modified": "2026-04-22 16:48:07.753212",
  "modified_by": "Administrator",
  "module": "Cafe",
  "name": "Cafe Publication",

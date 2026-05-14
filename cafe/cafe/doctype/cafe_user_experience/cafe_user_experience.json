@@ -36,11 +36,13 @@
   {
    "fieldname": "from_month",
    "fieldtype": "Select",
-   "label": "From Month"
+   "in_list_view": 1,
+   "label": "From Month",
+   "options": "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
   },
   {
    "fieldname": "from_year",
-   "fieldtype": "Select",
+   "fieldtype": "Int",
    "in_list_view": 1,
    "label": "From Year",
    "reqd": 1
@@ -68,16 +70,17 @@
    "label": "Description"
   },
   {
-   "depends_on": "!is_current",
    "fieldname": "to_month",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "To Month",
-   "mandatory_depends_on": "from_month&&!is_current"
+   "mandatory_depends_on": "from_month&&!is_current",
+   "options": "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
   },
   {
-   "depends_on": "!is_current",
    "fieldname": "to_year",
-   "fieldtype": "Select",
+   "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "To Year",
    "mandatory_depends_on": "from_year&&!is_current"
   }
@@ -86,7 +89,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-04-17 15:43:27.973627",
+ "modified": "2026-04-21 17:56:55.532617",
  "modified_by": "Administrator",
  "module": "Cafe",
  "name": "Cafe User Experience",

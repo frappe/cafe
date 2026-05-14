@@ -11,14 +11,16 @@
   {
    "fieldname": "post",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Post",
-   "options": "Cafe Post"
+   "options": "Cafe Post",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-17 16:19:57.121079",
+ "modified": "2026-04-27 18:52:52.988505",
  "modified_by": "Administrator",
  "module": "Cafe",
  "name": "Cafe Post Bookmark",

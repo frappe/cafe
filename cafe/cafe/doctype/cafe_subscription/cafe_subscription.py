@@ -1,7 +1,7 @@
 # Copyright (c) 2026, Frappe and contributors
 # For license information, please see license.txt
 
-# import frappe
+import frappe
 from frappe.model.document import Document
 
 
@@ -18,4 +18,15 @@ class CafeSubscription(Document):
 		user: DF.Link | None
 	# end: auto-generated types
 
-	pass
+	def insert(self, *args, **kwargs):
+		existing = frappe.db.get_value(
+			"Cafe Subscription",
+			{"publication": self.publication, "user": frappe.session.user},
+			"name",
+		)
+
+		if existing:
+			frappe.delete_doc("Cafe Subscription", existing, ignore_permissions=True)
+			return {"subscribed_by_me": False}
+
+		return {**super().insert(*args, **kwargs).as_dict(), "subscribed_by_me": True}

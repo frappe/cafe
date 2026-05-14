@@ -5,9 +5,14 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "title",
+  "description",
+  "cover_image",
   "content",
+  "slug",
   "tags",
-  "publication"
+  "publication",
+  "reading_time"
  ],
  "fields": [
   {
@@ -28,12 +33,42 @@
    "fieldtype": "Table MultiSelect",
    "label": "Tags",
    "options": "Cafe Post Tag Item"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "slug",
+   "fieldtype": "Data",
+   "label": "Slug"
+  },
+  {
+   "fieldname": "cover_image",
+   "fieldtype": "Attach Image",
+   "label": "Cover image"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "depends_on": "reading_time",
+   "fieldname": "reading_time",
+   "fieldtype": "Data",
+   "label": "Reading time",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-17 16:14:07.600281",
+ "modified": "2026-04-21 11:25:10.634368",
  "modified_by": "Administrator",
  "module": "Cafe",
  "name": "Cafe Post",
@@ -54,7 +89,9 @@
  ],
  "row_format": "Dynamic",
  "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "title"
 }

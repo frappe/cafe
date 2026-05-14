@@ -1,0 +1,8 @@
+{
+ "dark_value": "#EDEDED",
+ "doctype": "Builder Variable",
+ "name": "outline_gray_modals-1",
+ "type": "Color",
+ "value": "#EDEDED",
+ "variable_name": "outline-gray-modals"
+}

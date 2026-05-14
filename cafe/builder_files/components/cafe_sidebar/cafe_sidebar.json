@@ -1,0 +1,14 @@
+{
+ "block": "{\n \"activeState\": null,\n \"attributes\": {},\n \"baseStyles\": {\n  \"alignItems\": \"flex-start\",\n  \"backgroundColor\": \"#F3F3F3\",\n  \"display\": \"flex\",\n  \"flexDirection\": \"row\",\n  \"flexGrow\": 0,\n  \"flexShrink\": 0,\n  \"height\": \"100vh\",\n  \"justifyContent\": \"flex-start\",\n  \"overflow\": \"hidden\",\n  \"paddingBottom\": \"12px\",\n  \"paddingLeft\": \"8.5px\",\n  \"paddingRight\": \"8.5px\",\n  \"paddingTop\": \"12px\",\n  \"width\": \"48px\"\n },\n \"blockClientScript\": \"\",\n \"blockDataScript\": \"\",\n \"blockId\": \"1wq424e2t\",\n \"blockName\": \"Sidebar\",\n \"children\": [\n  {\n   \"activeState\": null,\n   \"attributes\": {\n    \"href\": \"/cafe\"\n   },\n   \"baseStyles\": {\n    \"alignItems\": \"center\",\n    \"display\": \"flex\",\n    \"flexDirection\": \"column\",\n    \"justifyContent\": \"center\"\n   },\n   \"blockClientScript\": \"\",\n   \"blockDataScript\": \"\",\n   \"blockId\": \"db33kzv43\",\n   \"blockName\": \"Logo\",\n   \"children\": [\n    {\n     \"activeState\": null,\n     \"attributes\": {\n      \"src\": \"/assets/cafe/builder_assets/cafe_logo.svg\"\n     },\n     \"baseStyles\": {\n      \"flexShrink\": 0,\n      \"height\": \"auto\",\n      \"objectFit\": \"cover\",\n      \"width\": \"auto\"\n     },\n     \"blockClientScript\": \"\",\n     \"blockDataScript\": \"\",\n     \"blockId\": \"uiedmfdzk\",\n     \"children\": [],\n     \"classes\": [],\n     \"customAttributes\": {},\n     \"dataKey\": null,\n     \"dynamicValues\": [],\n     \"element\": \"img\",\n     \"mobileStyles\": {},\n     \"props\": {},\n     \"rawStyles\": {},\n     \"tabletStyles\": {}\n    }\n   ],\n   \"classes\": [\n    \"\"\n   ],\n   \"customAttributes\": {},\n   \"dataKey\": null,\n   \"dynamicValues\": [],\n   \"element\": \"a\",\n   \"mobileStyles\": {},\n   \"props\": {},\n   \"rawStyles\": {},\n   \"tabletStyles\": {}\n  }\n ],\n \"classes\": [],\n \"customAttributes\": {},\n \"dataKey\": null,\n \"dynamicValues\": [],\n \"element\": \"div\",\n \"mobileStyles\": {},\n \"props\": {},\n \"rawStyles\": {},\n \"tabletStyles\": {}\n}",
+ "component_id": "a74edf7ebda043de",
+ "component_name": "Cafe Sidebar",
+ "creation": "2026-04-22 14:27:11.417357",
+ "docstatus": 0,
+ "doctype": "Builder Component",
+ "for_web_page": null,
+ "idx": 0,
+ "modified": "2026-05-13 17:44:53.451038",
+ "modified_by": "Administrator",
+ "name": "a74edf7ebda043de",
+ "owner": "Administrator"
+}

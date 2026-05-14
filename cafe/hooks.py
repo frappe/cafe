@@ -10,6 +10,8 @@ app_license = "agpl-3.0"
 
 required_apps = ["builder"]
 
+website_redirects = [{"source": r"/cafe/?", "target": "/cafe/explore"}]
+
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{

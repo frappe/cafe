@@ -17,6 +17,7 @@ class CafePublication(Document):
 
 		description: DF.Data | None
 		handle: DF.Data
+		image: DF.AttachImage | None
 		members: DF.Table[CafePublicationMember]
 		title: DF.Data
 	# end: auto-generated types

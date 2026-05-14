@@ -1,7 +1,7 @@
 # Copyright (c) 2026, Frappe and contributors
 # For license information, please see license.txt
 
-# import frappe
+import frappe
 from frappe.model.document import Document
 
 
@@ -19,4 +19,9 @@ class CafePostComment(Document):
 		post: DF.Link | None
 	# end: auto-generated types
 
-	pass
+	def on_trash(self):
+		likes = frappe.get_all(
+			"Cafe Social Like", filters={"comment": self.name}, pluck="name"
+		)
+		for like in likes:
+			frappe.delete_doc("Cafe Social Like", like, ignore_permissions=True)

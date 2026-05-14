@@ -1,0 +1,13 @@
+{
+ "creation": "2026-04-24 15:39:22.830695",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 12,
+ "modified": "2026-04-24 15:44:09.249095",
+ "modified_by": "Administrator",
+ "name": "Profile page script",
+ "owner": "Administrator",
+ "public_url": "/files/page_scripts/JavaScript-3f964-2193892031.js?v=44c187f8e8",
+ "script": "// Write your script here\nwindow.isEditMode = false\n\nfunction toggleEditMode() {\n    window.isEditMode = !window.isEditMode;\n\n    const button = document.getElementById('edit-profile-button');\n    const buttonText = button?.querySelector('.__text_block__');\n\n    // Sections that can be edited\n    const editableSections = [\n        '.fb-0966e37e',  // Introduction section header\n        '.fb-45e507db',  // Introduction container\n        '.fb-ec684e46',  // Work History section header\n        '.fb-8ff8a7ff',  // Work History container\n        '.fb-46120012',  // Education section header\n        '.fb-7b13b0c5',  // Education container\n    ];\n\n    if (window.isEditMode) {\n        // Enter edit mode\n        if (buttonText) buttonText.textContent = 'Editing';\n        document.body.classList.add('profile-edit-mode');\n\n        // Show edit indicators on sections\n        editableSections.forEach(selector => {\n            const section = document.querySelector(selector);\n            if (section) {\n                section.classList.add('editing');\n            }\n        });\n\n        // Add visual feedback\n        button?.classList.add('active-edit');\n\n    } else {\n        // Exit edit mode\n        if (buttonText) buttonText.textContent = 'Edit';\n        document.body.classList.remove('profile-edit-mode');\n\n        // Remove edit indicators\n        editableSections.forEach(selector => {\n            const section = document.querySelector(selector);\n            if (section) {\n                section.classList.remove('editing');\n            }\n        });\n\n        button?.classList.remove('active-edit');\n    }\n}\n\nfunction init() {\n    const editButton = document.getElementById('edit-profile-button');\n    if (editButton) {\n        editButton.addEventListener('click', function(e) {\n            e.preventDefault();\n            e.stopPropagation();\n            toggleEditMode();\n        });\n    }\n}\n\ninit();\n\n",
+ "script_type": "JavaScript"
+}

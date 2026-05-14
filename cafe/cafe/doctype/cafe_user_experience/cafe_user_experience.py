@@ -1,7 +1,9 @@
 # Copyright (c) 2026, Frappe and contributors
 # For license information, please see license.txt
 
-# import frappe
+from datetime import datetime
+
+import frappe
 from frappe.model.document import Document
 
 
@@ -16,16 +18,35 @@ class CafeUserExperience(Document):
 
 		description: DF.Data | None
 		experience_type: DF.Literal["Work", "Education"]
-		from_month: DF.Literal[None]
-		from_year: DF.Literal[None]
+		from_month: DF.Literal["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+		from_year: DF.Int
 		is_current: DF.Check
 		organization: DF.Data
 		parent: DF.Data
 		parentfield: DF.Data
 		parenttype: DF.Data
 		title: DF.Data
-		to_month: DF.Literal[None]
-		to_year: DF.Literal[None]
+		to_month: DF.Literal["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+		to_year: DF.Int
 	# end: auto-generated types
 
-	pass
+	def validate(self):
+		self.validate_years()
+
+	def validate_years(self):
+		min_year = 1900
+		max_year = datetime.now().year
+
+		if self.from_year and (self.from_year < min_year or self.from_year > max_year):
+			frappe.throw(
+				frappe._("From Year must be between {0} and {1}").format(
+					min_year, max_year
+				)
+			)
+
+		if self.to_year and (self.to_year < min_year or self.to_year > max_year):
+			frappe.throw(
+				frappe._("To Year must be between {0} and {1}").format(
+					min_year, max_year
+				)
+			)

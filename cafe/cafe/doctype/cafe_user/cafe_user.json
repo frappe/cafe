@@ -1,15 +1,20 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:user",
  "creation": "2026-04-17 15:17:25.449358",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "user",
+  "handle",
+  "section_break_kwmc",
   "company",
-  "column_break_jgfb",
-  "username",
+  "column_break_zzax",
   "designation",
+  "section_break_heed",
+  "bio",
+  "introduction",
   "section_break_weuv",
   "work_history",
   "education"
@@ -21,23 +26,13 @@
    "in_list_view": 1,
    "label": "User",
    "options": "User",
-   "reqd": 1
+   "reqd": 1,
+   "unique": 1
   },
   {
    "fieldname": "company",
    "fieldtype": "Data",
    "label": "Company"
-  },
-  {
-   "fieldname": "column_break_jgfb",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "username",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Username",
-   "reqd": 1
   },
   {
    "fieldname": "designation",
@@ -59,15 +54,45 @@
   {
    "fieldname": "section_break_weuv",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_kwmc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_zzax",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_heed",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bio",
+   "fieldtype": "Small Text",
+   "label": "Bio"
+  },
+  {
+   "fieldname": "introduction",
+   "fieldtype": "Small Text",
+   "label": "Introduction"
+  },
+  {
+   "fieldname": "handle",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Handle",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-17 16:51:17.441196",
+ "modified": "2026-04-24 18:29:35.135895",
  "modified_by": "Administrator",
  "module": "Cafe",
  "name": "Cafe User",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -79,6 +104,19 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
    "share": 1,
    "write": 1
   }
