@@ -372,7 +372,7 @@
             {
              "activeState": null,
              "attributes": {
-              "src": "/assets/cafe/builder_assets/image.webp"
+              "src": ""
              },
              "baseStyles": {
               "backgroundColor": "rgb(237, 237, 237)",
@@ -567,9 +567,10 @@
                    "activeState": null,
                    "attributes": {},
                    "baseStyles": {
-                    "alignItems": "flex-start",
+                    "alignItems": "center",
                     "display": "flex",
-                    "gap": "6px"
+                    "gap": "6px",
+                    "justifyContent": "flex-start"
                    },
                    "blockClientScript": "",
                    "blockDataScript": "",
@@ -605,36 +606,36 @@
                        "activeState": null,
                        "attributes": {},
                        "baseStyles": {
-                        "height": "16px",
-                        "width": "16px"
+                        "color": "var(--ink-gray-7)",
+                        "fontSize": "14px",
+                        "height": "fit-content",
+                        "lineHeight": "1.3",
+                        "minWidth": "10px",
+                        "position": "static",
+                        "width": "fit-content"
                        },
                        "blockClientScript": "",
                        "blockDataScript": "",
-                       "blockId": "4j79zhyju",
-                       "blockName": "icon/line/share",
+                       "blockId": "sect74a06",
                        "children": [],
                        "classes": [],
                        "customAttributes": {},
                        "dataKey": null,
                        "dynamicValues": [],
-                       "element": "svg",
-                       "extendedFromComponent": null,
-                       "innerHTML": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7.89746 2.75098C7.89776 2.1472 8.56404 1.80702 9.04688 2.11621L9.14062 2.18652L14.6494 7.00684C15.1044 7.40525 15.1045 8.11337 14.6494 8.51172L9.14063 13.3311C8.65569 13.7553 7.89746 13.411 7.89746 12.7666V10.208C6.0648 10.2702 4.86194 10.6777 3.95313 11.2656C3.03109 11.8622 2.37099 12.6694 1.64844 13.6201C1.51867 13.7909 1.29409 13.8602 1.09082 13.792C0.887463 13.7235 0.75 13.532 0.75 13.3174C0.750116 10.4265 1.46311 8.40938 2.76758 7.10156C4.06958 5.79635 5.87655 5.28186 7.87793 5.20898C7.88525 5.20872 7.8917 5.20599 7.89551 5.20215C7.89681 5.20072 7.89746 5.19922 7.89746 5.19922V2.75098ZM8.89746 5.2002C8.89746 5.75794 8.44685 6.18942 7.91504 6.20898C6.0463 6.27698 4.52911 6.75244 3.47559 7.80859C2.63227 8.65425 2.03264 9.92748 1.82813 11.8125C2.28577 11.3015 2.79367 10.8257 3.41016 10.4268C4.43538 9.76342 5.72299 9.33083 7.51367 9.22559L7.87891 9.20898C8.44612 9.19034 8.89733 9.65055 8.89746 10.2002V12.2158L13.9902 7.75879L8.89746 3.30176V5.2002Z\" fill=\"#383838\"/>\n</svg>\n",
-                       "isChildOfComponent": null,
-                       "isRepeaterBlock": false,
+                       "element": "p",
+                       "innerHTML": "<p>Edit</p>",
                        "mobileStyles": {},
-                       "originalElement": "__raw_html__",
                        "props": {},
                        "rawStyles": {},
-                       "referenceBlockId": null,
-                       "tabletStyles": {},
-                       "visibilityCondition": null
+                       "tabletStyles": {}
                       }
                      ],
                      "classes": [
                       "__text_block__"
                      ],
-                     "customAttributes": {},
+                     "customAttributes": {
+                      "id": "edit-profile-button"
+                     },
                      "dataKey": null,
                      "dynamicValues": [],
                      "element": "button",
@@ -648,7 +649,10 @@
                      "rawStyles": {},
                      "referenceBlockId": null,
                      "tabletStyles": {},
-                     "visibilityCondition": null
+                     "visibilityCondition": {
+                      "comesFrom": "dataScript",
+                      "key": "can_edit_profile"
+                     }
                     }
                    ],
                    "classes": [],
@@ -859,7 +863,10 @@
                    "rawStyles": {},
                    "referenceBlockId": null,
                    "tabletStyles": {},
-                   "visibilityCondition": null
+                   "visibilityCondition": {
+                    "comesFrom": "dataScript",
+                    "key": "user.designation"
+                   }
                   },
                   {
                    "activeState": null,
@@ -888,7 +895,10 @@
                    "rawStyles": {},
                    "referenceBlockId": null,
                    "tabletStyles": {},
-                   "visibilityCondition": null
+                   "visibilityCondition": {
+                    "comesFrom": "dataScript",
+                    "key": "user.designation"
+                   }
                   },
                   {
                    "activeState": null,
@@ -1073,7 +1083,7 @@
                  ],
                  "element": "p",
                  "extendedFromComponent": null,
-                 "innerHTML": "<p>Digital gardener and coffee enthusiast. Writing about the intersection of design, nature, and slow living.</p>",
+                 "innerHTML": "",
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -1455,7 +1465,7 @@
                  ],
                  "element": "p",
                  "extendedFromComponent": null,
-                 "innerHTML": "<p>I’m a product designer focused on building calm, durable software for people who think deeply about their work. I currently design at Stripe, where I work on systems that balance clarity, scale, and human intent. Outside of my day job, I write essays on design, technology, and the idea of “digital gardening” — treating knowledge as something cultivated over time rather than broadcast. I’m interested in slow tools, thoughtful interfaces, and products that respect attention. This space is where I publish long-form writing, notes from travel, and reflections on building things that last. When I’m not designing or writing, you’ll usually find me reading, walking, or searching for good coffee.</p>",
+                 "innerHTML": "",
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -1469,7 +1479,43 @@
                  },
                  "referenceBlockId": null,
                  "tabletStyles": {},
-                 "visibilityCondition": null
+                 "visibilityCondition": {}
+                },
+                {
+                 "activeState": null,
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignSelf": "stretch",
+                  "color": "var(--ink-gray-6)",
+                  "display": "-webkit-box",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "letterSpacing": "0.28px",
+                  "lineHeight": "150% "
+                 },
+                 "blockClientScript": "",
+                 "blockDataScript": "",
+                 "blockId": "t26xs49fs",
+                 "blockName": "I’m a product designer focused on building calm, durable software for people who think deeply about their work. I currently design at Stripe, where I work on systems that balance clarity, scale, and human intent. Outside of my day job, I write essays on design, technology, and the idea of “digital gardening” — treating knowledge as something cultivated over time rather than broadcast. I’m interested in slow tools, thoughtful interfaces, and products that respect attention. This space is where I publish long-form writing, notes from travel, and reflections on building things that last. When I’m not designing or writing, you’ll usually find me reading, walking, or searching for good coffee.",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "dataKey": null,
+                 "dynamicValues": [],
+                 "element": "p",
+                 "extendedFromComponent": null,
+                 "innerHTML": "<p>Write about yourself to let people know more about you</p>",
+                 "isChildOfComponent": null,
+                 "isRepeaterBlock": false,
+                 "mobileStyles": {},
+                 "originalElement": "",
+                 "props": {},
+                 "rawStyles": {
+                  "display": "{{ \"none\" if user.introduction else \"block\" }}"
+                 },
+                 "referenceBlockId": null,
+                 "tabletStyles": {},
+                 "visibilityCondition": {}
                 },
                 {
                  "activeState": null,
@@ -1564,7 +1610,9 @@
                    "mobileStyles": {},
                    "originalElement": null,
                    "props": {},
-                   "rawStyles": {},
+                   "rawStyles": {
+                    "display": "{{ \"block\" if user.introduction else \"none\" }}"
+                   },
                    "referenceBlockId": null,
                    "tabletStyles": {},
                    "visibilityCondition": null
@@ -1814,7 +1862,7 @@
                 "display": "flex",
                 "flexDirection": "column",
                 "flexShrink": 0,
-                "gap": "38px",
+                "gap": "32px",
                 "overflow": "hidden",
                 "width": "100%"
                },
@@ -2215,7 +2263,9 @@
                "mobileStyles": {},
                "originalElement": null,
                "props": {},
-               "rawStyles": {},
+               "rawStyles": {
+                "display": "{{ \"flex\" if page_data.posts_length else \"none\" }}"
+               },
                "referenceBlockId": null,
                "tabletStyles": {},
                "visibilityCondition": null
@@ -2328,12 +2378,82 @@
                "mobileStyles": {},
                "originalElement": "",
                "props": {},
-               "rawStyles": {},
+               "rawStyles": {
+                "display": "{{ \"none\" if page_data.posts_length == 0 else \"flex\" }}"
+               },
                "referenceBlockId": null,
                "tabletStyles": {},
                "visibilityCondition": {
                 "comesFrom": "dataScript",
                 "key": "posts.are_more_than_three"
+               }
+              },
+              {
+               "activeState": null,
+               "attributes": {},
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "height": "fit-content",
+                "overflow": "hidden",
+                "width": "fit-content"
+               },
+               "blockClientScript": "",
+               "blockDataScript": "",
+               "blockId": "85qhkra6n",
+               "blockName": "container",
+               "children": [
+                {
+                 "activeState": null,
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--ink-gray-6)",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "lineHeight": "20px ",
+                  "textAlign": "center"
+                 },
+                 "blockClientScript": "",
+                 "blockDataScript": "",
+                 "blockId": "ukgemi5or",
+                 "blockName": "View all posts",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "dataKey": null,
+                 "dynamicValues": [],
+                 "element": "p",
+                 "extendedFromComponent": null,
+                 "innerHTML": "<p>You haven't written any post.</p>",
+                 "isChildOfComponent": null,
+                 "isRepeaterBlock": false,
+                 "mobileStyles": {},
+                 "originalElement": "",
+                 "props": {},
+                 "rawStyles": {},
+                 "referenceBlockId": null,
+                 "tabletStyles": {},
+                 "visibilityCondition": {
+                  "comesFrom": "posts.are_more_than_three",
+                  "key": ""
+                 }
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "dataKey": null,
+               "dynamicValues": [],
+               "element": "div",
+               "mobileStyles": {},
+               "props": {},
+               "rawStyles": {
+                "display": "{{ \"block\" if page_data.posts_length == 0 else \"none\" }}"
+               },
+               "tabletStyles": {},
+               "visibilityCondition": {
+                "comesFrom": "dataScript",
+                "key": "page_data.all_posts_url"
                }
               }
              ],
@@ -2825,40 +2945,47 @@
                "rawStyles": {},
                "referenceBlockId": null,
                "tabletStyles": {},
-               "visibilityCondition": null
+               "visibilityCondition": {
+                "comesFrom": "dataScript",
+                "key": "page_data.work_history_length"
+               }
               },
               {
                "activeState": null,
                "attributes": {},
                "baseStyles": {
-                "alignItems": "flex-start",
-                "alignSelf": "stretch",
-                "display": "flex",
-                "flexDirection": "column",
-                "gap": "16px",
-                "width": "660px"
+                "color": "var(--ink-gray-6)",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "lineHeight": "20px ",
+                "textAlign": "center"
                },
                "blockClientScript": "",
                "blockDataScript": "",
-               "blockId": "2ksir2gf6",
-               "blockName": "Article",
+               "blockId": "n4mp0qeqs",
+               "blockName": "View all posts",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
                "dynamicValues": [],
-               "element": "section",
+               "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "",
+               "innerHTML": "<p>Add your work history</p>",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
                "originalElement": "",
                "props": {},
-               "rawStyles": {},
+               "rawStyles": {
+                "display": "{{ \"none\" if page_data.work_history_length else \"block\" }}"
+               },
                "referenceBlockId": null,
                "tabletStyles": {},
-               "visibilityCondition": null
+               "visibilityCondition": {
+                "comesFrom": "posts.are_more_than_three",
+                "key": ""
+               }
               }
              ],
              "classes": [],
@@ -3503,7 +3630,47 @@
                "rawStyles": {},
                "referenceBlockId": null,
                "tabletStyles": {},
-               "visibilityCondition": null
+               "visibilityCondition": {
+                "comesFrom": "dataScript",
+                "key": "page_data.education_length"
+               }
+              },
+              {
+               "activeState": null,
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--ink-gray-6)",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "lineHeight": "20px ",
+                "textAlign": "center"
+               },
+               "blockClientScript": "",
+               "blockDataScript": "",
+               "blockId": "9b4guc7oa",
+               "blockName": "View all posts",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "dataKey": null,
+               "dynamicValues": [],
+               "element": "p",
+               "extendedFromComponent": null,
+               "innerHTML": "<p>Add your education history</p>",
+               "isChildOfComponent": null,
+               "isRepeaterBlock": false,
+               "mobileStyles": {},
+               "originalElement": "",
+               "props": {},
+               "rawStyles": {
+                "display": "{{ \"none\" if page_data.education_length else \"block\" }}"
+               },
+               "referenceBlockId": null,
+               "tabletStyles": {},
+               "visibilityCondition": {
+                "comesFrom": "posts.are_more_than_three",
+                "key": ""
+               }
               }
              ],
              "classes": [],
@@ -3618,7 +3785,11 @@
   }
  ],
  "body_html": "",
- "client_scripts": [],
+ "client_scripts": [
+  {
+   "builder_script": "Profile page script"
+  }
+ ],
  "creation": "2026-04-20 11:27:50.358856",
  "disable_indexing": 0,
  "docstatus": 0,
@@ -3629,14 +3800,14 @@
  "idx": 3,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-14 12:18:09.948511",
+ "modified": "2026-05-16 17:11:02.497082",
  "modified_by": "Administrator",
  "name": "page-260c9d18",
  "owner": "Administrator",
- "page_data_script": "user = frappe.db.get_value(\"Cafe User\", {\"handle\": frappe.form_dict.handle},['handle','company','designation','bio','introduction','user'],as_dict=1)\n\nif not user:\n  raise frappe.PageDoesNotExistError\n\nfrappe_user = frappe.db.get_value(\"User\", user.user,['full_name','user_image'],as_dict=1)\n\ndata.can_edit_profile = user.user == frappe.session.user\n\ndata.user = {\n  **user,\n  **frappe_user,\n  \"handle\": f\"@{user.handle}\",\n  \"designation\": f\"{user.designation} at {user.company}\"\n}\n\ndata.all_posts_url = f\"/cafe/profile/{user.handle}/posts\"\n\ndata.education = []\ndata.work_history = []\n\n\nall_experiences = frappe.db.get_all(\n    \"Cafe User Experience\",\n    filters={\n        \"parent\": user.user,\n    },\n    fields=[\n        \"organization\",\n        \"title\",\n        \"description\",\n        \"from_month\",\n        \"from_year\",\n        \"to_month\",\n        \"to_year\",\n        \"is_current\",\n        \"experience_type\",\n        \"parentfield\"\n    ],\n    order_by=\"from_year desc, from_month desc\",\n)\n\n# data.experiences=experiences\n\nfor exp in all_experiences:\n    from_date = (\n        f\"{exp['from_month']} {exp['from_year']}\"\n        if exp[\"from_month\"]\n        else str(exp[\"from_year\"])\n    )\n\n    if exp[\"is_current\"]:\n        duration = f\"{from_date} - Present\"\n    else:\n        to_date = (\n            f\"{exp['to_month']} {exp['to_year']}\"\n            if exp[\"to_month\"]\n            else str(exp[\"to_year\"])\n            if exp[\"to_year\"]\n            else \"\"\n        )\n        duration = f\"{from_date} - {to_date}\" if to_date else from_date\n\n    exp[\"duration\"] = duration\n    if exp.experience_type == \"Work\":\n      data.work_history.append(exp)\n    else:\n      data.education.append(exp)\n\ndata.posts = {\n\"data\": [],\n\"are_more_than_three\": 0\n}\n\nposts = frappe.db.get_all(\"Cafe Post\", fields=['name', 'title', 'description', 'cover_image', 'reading_time', 'slug', 'creation'], limit=3)\n\nfor post in posts:\n  count = frappe.db.count(\"Cafe Post Comment\", filters={'post': post['name']})\n  \n  if count == 0:\n      post['comments_count'] = None\n  elif count == 1:\n      post['comments_count'] = f\"{count} comment\"\n  else:\n      post['comments_count'] = f\"{count} comments\"\n  \n  if post.get('creation'):\n      dt = frappe.utils.getdate(post['creation'])\n      months = [\"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", \"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\"]\n      post['formatted_date'] = f\"{months[dt.month - 1]} {dt.day} {dt.year}\"\n\n  post.url = f\"/cafe/posts/{post.slug}\"\n  \ndata.posts['data'] = posts\ndata.posts['are_more_than_three'] = frappe.db.count(\"Cafe Post\") > 3\n\nuser = frappe.db.get_value(\"Cafe User\", {\"user\": frappe.session.user}, \"name\")\n\n# data.work_history = []\n\n# experiences = frappe.db.get_all(\n#     \"Cafe User Experience\",\n#     filters={\"parent\": user, \"parentfield\": \"work_history\", \"experience_type\": \"Work\"},\n#     fields=[\"organization\", \"title\", \"description\", \"from_month\", \"from_year\", \"to_month\", \"to_year\", \"is_current\"],\n#     order_by=\"from_year desc, from_month desc\"\n# )\n\n# for exp in experiences:\n#     from_date = f\"{exp['from_month']} {exp['from_year']}\" if exp['from_month'] else str(exp['from_year'])\n\n#     if exp['is_current']:\n#         duration = f\"{from_date} - Present\"\n#     else:\n#         to_date = f\"{exp['to_month']} {exp['to_year']}\" if exp['to_month'] else str(exp['to_year']) if exp['to_year'] else \"\"\n#         duration = f\"{from_date} - {to_date}\" if to_date else from_date\n\n#     exp['duration'] = duration\n#     data.work_history.append(exp)",
+ "page_data_script": "user = frappe.db.get_value(\n    \"Cafe User\",\n    {\"handle\": frappe.form_dict.handle},\n    [\"handle\", \"company\", \"designation\", \"bio\", \"introduction\", \"user\"],\n    as_dict=1,\n)\n\nif not user:\n    raise frappe.PageDoesNotExistError\n\nfrappe_user = frappe.db.get_value(\n    \"User\", user.user, [\"full_name\", \"user_image\", \"first_name\", \"last_name\"], as_dict=1\n)\n\ndata.can_edit_profile = user.user == frappe.session.user\n\ndata.user = {\n    **user,\n    **frappe_user,\n    \"handle\": f\"@{user.handle}\",\n    \"designation\": f\"{user.designation} at {user.company}\"\n    if user.designation\n    else None,\n}\n\ndata.all_posts_url = f\"/cafe/profile/{user.handle}/posts\"\n\ndata.education = []\ndata.work_history = []\n\n\nall_experiences = frappe.db.get_all(\n    \"Cafe User Experience\",\n    filters={\n        \"parent\": user.user,\n    },\n    fields=[\n        \"organization\",\n        \"title\",\n        \"description\",\n        \"from_month\",\n        \"from_year\",\n        \"to_month\",\n        \"to_year\",\n        \"is_current\",\n        \"experience_type\",\n        \"parentfield\",\n    ],\n    order_by=\"from_year desc, from_month desc\",\n)\n\n# data.experiences=experiences\n\nfor exp in all_experiences:\n    from_date = (\n        f\"{exp['from_month']} {exp['from_year']}\"\n        if exp[\"from_month\"]\n        else str(exp[\"from_year\"])\n    )\n\n    if exp[\"is_current\"]:\n        duration = f\"{from_date} - Present\"\n    else:\n        to_date = (\n            f\"{exp['to_month']} {exp['to_year']}\"\n            if exp[\"to_month\"]\n            else str(exp[\"to_year\"])\n            if exp[\"to_year\"]\n            else \"\"\n        )\n        duration = f\"{from_date} - {to_date}\" if to_date else from_date\n\n    exp[\"duration\"] = duration\n    if exp.experience_type == \"Work\":\n        data.work_history.append(exp)\n    else:\n        data.education.append(exp)\n\ndata.posts = {\"data\": [], \"are_more_than_three\": 0}\n\nposts = frappe.db.get_all(\n    \"Cafe Post\",\n    fields=[\n        \"name\",\n        \"title\",\n        \"description\",\n        \"cover_image\",\n        \"reading_time\",\n        \"slug\",\n        \"creation\",\n    ],\n    limit=3,\n    filters={\n        \"owner\": user.user,\n    },\n    order_by=\"creation desc\",\n)\n\nfor post in posts:\n    count = frappe.db.count(\"Cafe Post Comment\", filters={\"post\": post[\"name\"]})\n\n    if count == 0:\n        post[\"comments_count\"] = None\n    elif count == 1:\n        post[\"comments_count\"] = f\"{count} comment\"\n    else:\n        post[\"comments_count\"] = f\"{count} comments\"\n\n    if post.get(\"creation\"):\n        dt = frappe.utils.getdate(post[\"creation\"])\n        months = [\n            \"Jan\",\n            \"Feb\",\n            \"Mar\",\n            \"Apr\",\n            \"May\",\n            \"Jun\",\n            \"Jul\",\n            \"Aug\",\n            \"Sep\",\n            \"Oct\",\n            \"Nov\",\n            \"Dec\",\n        ]\n        post[\"formatted_date\"] = f\"{months[dt.month - 1]} {dt.day} {dt.year}\"\n\n    post.url = f\"/cafe/posts/{post.slug}\"\n\ndata.posts[\"data\"] = posts\ndata.posts[\"are_more_than_three\"] = frappe.db.count(\"Cafe Post\") > 3\n\nuser = frappe.db.get_value(\"Cafe User\", {\"user\": frappe.session.user}, \"name\")\n\ndata.page_data = {\n    \"user\": data.user,\n    \"all_posts_url\": data.all_posts_url,\n    \"posts_length\": len(data.posts[\"data\"]),\n    \"work_history_length\": len(data.work_history),\n    \"education_length\": len(data.education),\n}\n# data.work_history = []\n\n# experiences = frappe.db.get_all(\n#     \"Cafe User Experience\",\n#     filters={\"parent\": user, \"parentfield\": \"work_history\", \"experience_type\": \"Work\"},\n#     fields=[\"organization\", \"title\", \"description\", \"from_month\", \"from_year\", \"to_month\", \"to_year\", \"is_current\"],\n#     order_by=\"from_year desc, from_month desc\"\n# )\n\n# for exp in experiences:\n#     from_date = f\"{exp['from_month']} {exp['from_year']}\" if exp['from_month'] else str(exp['from_year'])\n\n#     if exp['is_current']:\n#         duration = f\"{from_date} - Present\"\n#     else:\n#         to_date = f\"{exp['to_month']} {exp['to_year']}\" if exp['to_month'] else str(exp['to_year']) if exp['to_year'] else \"\"\n#         duration = f\"{from_date} - {to_date}\" if to_date else from_date\n\n#     exp['duration'] = duration\n#     data.work_history.append(exp)\n",
  "page_name": "page-260c9d18",
  "page_title": "Profile",
- "preview": "/files/page-260c9d18-preview.webp?v=88a32",
+ "preview": "/files/page-260c9d18-preview.webp?v=3f387",
  "project_folder": "cafe",
  "published": 1,
  "route": "cafe/profile/:handle"
