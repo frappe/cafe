@@ -14,9 +14,7 @@ class CafeUser(Document):
 	from typing import TYPE_CHECKING
 
 	if TYPE_CHECKING:
-		from cafe.cafe.doctype.cafe_user_experience.cafe_user_experience import (
-			CafeUserExperience,
-		)
+		from cafe.cafe.doctype.cafe_user_experience.cafe_user_experience import CafeUserExperience
 		from frappe.types import DF
 
 		bio: DF.SmallText | None

@@ -337,6 +337,7 @@
           "fontFamily": "Inter Regular",
           "gap": "24px",
           "height": "100vh",
+          "justifyContent": "space-between",
           "marginBottom": "0px",
           "marginTop": "60px",
           "maxWidth": "600px",
@@ -353,422 +354,18 @@
            "activeState": null,
            "attributes": {},
            "baseStyles": {
-            "alignItems": "flex-start",
-            "alignSelf": "stretch",
             "display": "flex",
             "flexDirection": "column",
-            "gap": "16px",
-            "width": "100%"
-           },
-           "blockClientScript": "",
-           "blockDataScript": "",
-           "blockId": "9ym34rvj8",
-           "blockName": "Frame 37",
-           "children": [
-            {
-             "activeState": null,
-             "attributes": {},
-             "baseStyles": {
-              "alignItems": "flex-start",
-              "display": "flex",
-              "flexDirection": "column"
-             },
-             "blockClientScript": "",
-             "blockDataScript": "",
-             "blockId": "nxtqfklx1",
-             "blockName": "Heading 1",
-             "children": [
-              {
-               "activeState": null,
-               "attributes": {},
-               "baseStyles": {
-                "color": "rgb(23, 23, 23)",
-                "fontFamily": "Newsreader",
-                "fontSize": "32px",
-                "fontWeight": "500",
-                "letterSpacing": "0.16px",
-                "lineHeight": "150% "
-               },
-               "blockClientScript": "",
-               "blockDataScript": "",
-               "blockId": "xmnrz93ze",
-               "blockName": "Writings from people on Cafe",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
-               "dataKey": null,
-               "dynamicValues": [],
-               "element": "p",
-               "innerHTML": "<p>Writings from people on Cafe</p>",
-               "mobileStyles": {},
-               "originalElement": "",
-               "props": {},
-               "rawStyles": {},
-               "tabletStyles": {}
-              }
-             ],
-             "classes": [],
-             "customAttributes": {},
-             "dataKey": null,
-             "dynamicValues": [],
-             "element": "section",
-             "innerHTML": "",
-             "mobileStyles": {},
-             "originalElement": "",
-             "props": {},
-             "rawStyles": {},
-             "tabletStyles": {}
-            },
-            {
-             "activeState": null,
-             "attributes": {},
-             "baseStyles": {
-              "alignItems": "center",
-              "alignSelf": "stretch",
-              "backgroundColor": "var(--ink-gray-1)",
-              "borderRadius": " 8px",
-              "display": "flex",
-              "gap": "14px",
-              "height": "28px",
-              "padding": "6px 8px",
-              "width": "100%"
-             },
-             "blockClientScript": "",
-             "blockDataScript": "",
-             "blockId": "ecz8epaq1",
-             "blockName": "input-text",
-             "children": [
-              {
-               "activeState": null,
-               "attributes": {},
-               "baseStyles": {
-                "alignItems": "center",
-                "display": "flex",
-                "gap": "8px",
-                "position": "static",
-                "width": "100%"
-               },
-               "blockClientScript": "",
-               "blockDataScript": "",
-               "blockId": "5nzf66db0",
-               "blockName": "input-text",
-               "children": [
-                {
-                 "activeState": null,
-                 "attributes": {},
-                 "baseStyles": {
-                  "height": "16px",
-                  "width": "16px"
-                 },
-                 "blockClientScript": "",
-                 "blockDataScript": "",
-                 "blockId": "z97zwg4id",
-                 "blockName": "icon/line/email",
-                 "children": [],
-                 "classes": [],
-                 "customAttributes": {},
-                 "dataKey": null,
-                 "dynamicValues": [],
-                 "element": "svg",
-                 "innerHTML": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7.80957 1.25781C10.9804 1.41843 13.502 4.04023 13.502 7.25098L13.4941 7.55957C13.4286 8.85376 12.9516 10.0387 12.1934 10.9893L14.5312 13.3271C14.8239 13.6201 14.8241 14.0949 14.5312 14.3877C14.2384 14.6804 13.7636 14.6803 13.4707 14.3877L11.1191 12.0361C10.113 12.7981 8.86044 13.252 7.50098 13.252L7.19238 13.2441C4.12376 13.0887 1.66325 10.6282 1.50781 7.55957L1.5 7.25098C1.5 3.93673 4.18673 1.25 7.50098 1.25L7.80957 1.25781ZM7.50098 2.75C5.01516 2.75 3 4.76516 3 7.25098C3 9.73679 5.01516 11.752 7.50098 11.752C9.98679 11.752 12.002 9.73679 12.002 7.25098C12.002 4.76516 9.98679 2.75 7.50098 2.75Z\" fill=\"#999999\"/>\n</svg>\n",
-                 "mobileStyles": {},
-                 "originalElement": "__raw_html__",
-                 "props": {},
-                 "rawStyles": {},
-                 "tabletStyles": {}
-                },
-                {
-                 "activeState": null,
-                 "attributes": {},
-                 "baseStyles": {
-                  "backgroundColor": "var(--ink-gray-1)",
-                  "borderRadius": "0 8px 8px 0",
-                  "color": "var(--ink-gray-7)",
-                  "display": "flex",
-                  "flexDirection": "column",
-                  "flexShrink": 1,
-                  "fontSize": "14px",
-                  "height": "28px",
-                  "overflow": "hidden",
-                  "overflowX": "hidden",
-                  "overflowY": "hidden",
-                  "paddingBottom": "6px",
-                  "paddingLeft": "2px",
-                  "paddingRight": "2px",
-                  "paddingTop": "6px",
-                  "position": "static",
-                  "width": "100%"
-                 },
-                 "blockClientScript": "",
-                 "blockDataScript": "",
-                 "blockId": "ivlppn6y0",
-                 "children": [],
-                 "classes": [],
-                 "customAttributes": {},
-                 "dataKey": null,
-                 "dynamicValues": [],
-                 "element": "input",
-                 "mobileStyles": {},
-                 "props": {},
-                 "rawStyles": {
-                  "border": "0"
-                 },
-                 "tabletStyles": {}
-                }
-               ],
-               "classes": [],
-               "customAttributes": {},
-               "dataKey": null,
-               "dynamicValues": [],
-               "element": "section",
-               "innerHTML": "",
-               "mobileStyles": {},
-               "originalElement": "",
-               "props": {},
-               "rawStyles": {
-                "flex": "1 0 0"
-               },
-               "tabletStyles": {}
-              }
-             ],
-             "classes": [],
-             "customAttributes": {},
-             "dataKey": null,
-             "dynamicValues": [],
-             "element": "div",
-             "innerHTML": "",
-             "mobileStyles": {},
-             "originalElement": "",
-             "props": {},
-             "rawStyles": {},
-             "tabletStyles": {}
-            },
-            {
-             "activeState": null,
-             "attributes": {},
-             "baseStyles": {
-              "alignItems": "center",
-              "alignSelf": "stretch",
-              "display": "flex",
-              "gap": "8px",
-              "overflowX": "hidden",
-              "overflowY": "hidden",
-              "width": "100%"
-             },
-             "blockClientScript": "",
-             "blockDataScript": "",
-             "blockId": "a1c9u9eve",
-             "blockName": "Container",
-             "children": [
-              {
-               "activeState": null,
-               "attributes": {},
-               "baseStyles": {
-                "alignItems": "center",
-                "backgroundColor": "rgb(243, 243, 243)",
-                "borderRadius": "8px",
-                "display": "flex",
-                "gap": "4px",
-                "justifyContent": "center",
-                "padding": "6px 8px"
-               },
-               "blockClientScript": "",
-               "blockDataScript": "",
-               "blockId": "xb8u526dq",
-               "blockName": "tag",
-               "children": [
-                {
-                 "activeState": null,
-                 "attributes": {},
-                 "baseStyles": {
-                  "color": "rgb(56, 56, 56)",
-                  "fontSize": "14px",
-                  "fontWeight": "420",
-                  "letterSpacing": "0.28px",
-                  "lineHeight": "115% "
-                 },
-                 "blockClientScript": "",
-                 "blockDataScript": "",
-                 "blockId": "mipjtko65",
-                 "blockName": "Discover",
-                 "children": [],
-                 "classes": [],
-                 "customAttributes": {},
-                 "dataKey": null,
-                 "dynamicValues": [],
-                 "element": "p",
-                 "innerHTML": "<p>Productivity</p>",
-                 "mobileStyles": {},
-                 "originalElement": "",
-                 "props": {},
-                 "rawStyles": {},
-                 "tabletStyles": {}
-                },
-                {
-                 "activeState": null,
-                 "attributes": {},
-                 "baseStyles": {
-                  "alignItems": "flex-start",
-                  "display": "flex",
-                  "gap": "8px"
-                 },
-                 "blockClientScript": "",
-                 "blockDataScript": "",
-                 "blockId": "7htwx1s3r",
-                 "blockName": "suffix",
-                 "children": [
-                  {
-                   "activeState": null,
-                   "attributes": {},
-                   "baseStyles": {
-                    "height": "12px",
-                    "width": "100%"
-                   },
-                   "blockClientScript": "",
-                   "blockDataScript": "",
-                   "blockId": "994g7xf8w",
-                   "blockName": "icon/line/small-close",
-                   "children": [],
-                   "classes": [],
-                   "customAttributes": {},
-                   "dataKey": null,
-                   "dynamicValues": [],
-                   "element": "svg",
-                   "innerHTML": "<svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8.45801 2.83398C8.65322 2.63878 8.96976 2.63888 9.16504 2.83398C9.36018 3.02926 9.36026 3.34579 9.16504 3.54102L6.70703 5.99902L9.16602 8.45801C9.36095 8.6532 9.36092 8.96983 9.16602 9.16504C8.97083 9.36022 8.65427 9.36006 8.45898 9.16504L6 6.70605L3.54102 9.16504C3.34579 9.36026 3.02926 9.36018 2.83398 9.16504C2.63888 8.96976 2.63878 8.65322 2.83398 8.45801L5.29297 5.99902L2.83496 3.54102C2.6397 3.34575 2.6397 3.02925 2.83496 2.83398C3.03025 2.639 3.34682 2.63882 3.54199 2.83398L6 5.29199L8.45801 2.83398Z\" fill=\"#383838\"/>\n</svg>\n",
-                   "mobileStyles": {},
-                   "originalElement": "__raw_html__",
-                   "props": {},
-                   "rawStyles": {},
-                   "tabletStyles": {}
-                  }
-                 ],
-                 "classes": [],
-                 "customAttributes": {},
-                 "dataKey": null,
-                 "dynamicValues": [],
-                 "element": "section",
-                 "innerHTML": "",
-                 "mobileStyles": {},
-                 "originalElement": "",
-                 "props": {},
-                 "rawStyles": {},
-                 "tabletStyles": {}
-                }
-               ],
-               "classes": [],
-               "customAttributes": {},
-               "dataKey": null,
-               "dynamicValues": [],
-               "element": "div",
-               "innerHTML": "",
-               "mobileStyles": {},
-               "originalElement": "",
-               "props": {},
-               "rawStyles": {},
-               "tabletStyles": {}
-              },
-              {
-               "activeState": null,
-               "attributes": {},
-               "baseStyles": {
-                "alignItems": "center",
-                "border": "1px solid  #E2E2E2",
-                "borderColor": "rgb(226, 226, 226)",
-                "borderRadius": "8px",
-                "borderStyle": "solid",
-                "borderWidth": "1px",
-                "boxSizing": "border-box",
-                "display": "flex",
-                "gap": "4px",
-                "justifyContent": "center",
-                "padding": "6px 8px"
-               },
-               "blockClientScript": "",
-               "blockDataScript": "",
-               "blockId": "1ptyzcy7k",
-               "blockName": "tag",
-               "children": [
-                {
-                 "activeState": null,
-                 "attributes": {},
-                 "baseStyles": {
-                  "color": "rgb(56, 56, 56)",
-                  "fontSize": "14px",
-                  "fontWeight": "420",
-                  "letterSpacing": "0.28px",
-                  "lineHeight": "115% "
-                 },
-                 "blockClientScript": "",
-                 "blockDataScript": "",
-                 "blockId": "pc6ylxle2",
-                 "blockName": "Discover",
-                 "children": [],
-                 "classes": [],
-                 "customAttributes": {},
-                 "dataKey": null,
-                 "dynamicValues": [],
-                 "element": "p",
-                 "innerHTML": "<p>Photography</p>",
-                 "mobileStyles": {},
-                 "originalElement": "",
-                 "props": {},
-                 "rawStyles": {},
-                 "tabletStyles": {}
-                }
-               ],
-               "classes": [],
-               "customAttributes": {},
-               "dataKey": null,
-               "dynamicValues": [],
-               "element": "div",
-               "innerHTML": "",
-               "mobileStyles": {},
-               "originalElement": "",
-               "props": {},
-               "rawStyles": {},
-               "tabletStyles": {}
-              }
-             ],
-             "classes": [],
-             "customAttributes": {},
-             "dataKey": null,
-             "dynamicValues": [],
-             "element": "section",
-             "innerHTML": "",
-             "mobileStyles": {},
-             "originalElement": "",
-             "props": {},
-             "rawStyles": {},
-             "tabletStyles": {}
-            }
-           ],
-           "classes": [],
-           "customAttributes": {},
-           "dataKey": null,
-           "dynamicValues": [],
-           "element": "section",
-           "innerHTML": "",
-           "mobileStyles": {},
-           "originalElement": "",
-           "props": {},
-           "rawStyles": {},
-           "tabletStyles": {}
-          },
-          {
-           "activeState": null,
-           "attributes": {},
-           "baseStyles": {
-            "alignItems": "flex-start",
-            "alignSelf": "stretch",
-            "display": "flex",
-            "flexDirection": "column",
+            "flexShrink": 0,
             "gap": "24px",
+            "height": "fit-content",
+            "overflow": "hidden",
             "width": "100%"
            },
            "blockClientScript": "",
            "blockDataScript": "",
-           "blockId": "52hbna2uw",
-           "blockName": "Container",
+           "blockId": "q61wctj6b",
+           "blockName": "container",
            "children": [
             {
              "activeState": null,
@@ -778,184 +375,49 @@
               "alignSelf": "stretch",
               "display": "flex",
               "flexDirection": "column",
-              "gap": "12px",
-              "padding": "8px 0",
+              "gap": "16px",
               "width": "100%"
              },
              "blockClientScript": "",
              "blockDataScript": "",
-             "blockId": "zspcmka7b",
-             "blockName": "Article",
+             "blockId": "9ym34rvj8",
+             "blockName": "Frame 37",
              "children": [
               {
                "activeState": null,
                "attributes": {},
                "baseStyles": {
-                "alignItems": "center",
-                "alignSelf": "stretch",
+                "alignItems": "flex-start",
                 "display": "flex",
-                "gap": "8px",
-                "width": "100%"
+                "flexDirection": "column"
                },
                "blockClientScript": "",
                "blockDataScript": "",
-               "blockId": "pq3wqux71",
-               "blockName": "Container",
+               "blockId": "nxtqfklx1",
+               "blockName": "Heading 1",
                "children": [
                 {
                  "activeState": null,
                  "attributes": {},
                  "baseStyles": {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "gap": "5px",
-                  "height": "20px",
-                  "justifyContent": "center",
-                  "width": "20px"
+                  "color": "rgb(23, 23, 23)",
+                  "fontFamily": "Newsreader",
+                  "fontSize": "32px",
+                  "fontWeight": "500",
+                  "letterSpacing": "0.16px",
+                  "lineHeight": "150% "
                  },
                  "blockClientScript": "",
                  "blockDataScript": "",
-                 "blockId": "vkxwtxhoo",
-                 "blockName": "app logo",
-                 "children": [
-                  {
-                   "activeState": null,
-                   "attributes": {},
-                   "baseStyles": {
-                    "flexShrink": "0",
-                    "height": "20px",
-                    "width": "100%"
-                   },
-                   "blockClientScript": "",
-                   "blockDataScript": "",
-                   "blockId": "2wis5eu0t",
-                   "blockName": "Union",
-                   "children": [
-                    {
-                     "activeState": null,
-                     "attributes": {},
-                     "baseStyles": {
-                      "height": "20px",
-                      "width": "100%"
-                     },
-                     "blockClientScript": "",
-                     "blockDataScript": "",
-                     "blockId": "n5kq82wn7",
-                     "blockName": "Vector",
-                     "children": [],
-                     "classes": [],
-                     "customAttributes": {},
-                     "dataKey": null,
-                     "dynamicValues": [],
-                     "element": "svg",
-                     "innerHTML": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M0 8C0 5.19974 0 3.79961 0.544967 2.73005C1.02433 1.78924 1.78924 1.02433 2.73005 0.544967C3.79961 0 5.19974 0 8 0H12C14.8003 0 16.2004 0 17.27 0.544967C18.2108 1.02433 18.9757 1.78924 19.455 2.73005C20 3.79961 20 5.19974 20 8V12C20 14.8003 20 16.2004 19.455 17.27C18.9757 18.2108 18.2108 18.9757 17.27 19.455C16.2004 20 14.8003 20 12 20H8C5.19974 20 3.79961 20 2.73005 19.455C1.78924 18.9757 1.02433 18.2108 0.544967 17.27C0 16.2004 0 14.8003 0 12V8Z\" fill=\"black\"/>\n</svg>\n",
-                     "mobileStyles": {},
-                     "originalElement": "__raw_html__",
-                     "props": {},
-                     "rawStyles": {
-                      "fill": "#000"
-                     },
-                     "tabletStyles": {}
-                    },
-                    {
-                     "activeState": null,
-                     "attributes": {},
-                     "baseStyles": {
-                      "height": "9.405px",
-                      "width": "6.402px"
-                     },
-                     "blockClientScript": "",
-                     "blockDataScript": "",
-                     "blockId": "v1yipn9hz",
-                     "blockName": "Vector",
-                     "children": [],
-                     "classes": [],
-                     "customAttributes": {},
-                     "dataKey": null,
-                     "dynamicValues": [],
-                     "element": "svg",
-                     "innerHTML": "<svg width=\"7\" height=\"10\" viewBox=\"0 0 7 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6.40195 1.80513H0.00195312V0H6.40195V1.80513Z\" fill=\"white\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0 4.30273H5.90256V6.10786H1.80513V9.4053H0V4.30273Z\" fill=\"white\"/>\n</svg>\n",
-                     "mobileStyles": {},
-                     "originalElement": "__raw_html__",
-                     "props": {},
-                     "rawStyles": {},
-                     "tabletStyles": {}
-                    }
-                   ],
-                   "classes": [],
-                   "customAttributes": {},
-                   "dataKey": null,
-                   "dynamicValues": [],
-                   "element": "section",
-                   "innerHTML": "",
-                   "mobileStyles": {},
-                   "originalElement": "",
-                   "props": {},
-                   "rawStyles": {},
-                   "tabletStyles": {}
-                  }
-                 ],
+                 "blockId": "xmnrz93ze",
+                 "blockName": "Writings from people on Cafe",
+                 "children": [],
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
                  "dynamicValues": [],
-                 "element": "section",
-                 "innerHTML": "",
-                 "mobileStyles": {},
-                 "originalElement": "",
-                 "props": {},
-                 "rawStyles": {
-                  "aspectRatio": "1/1"
-                 },
-                 "tabletStyles": {}
-                },
-                {
-                 "activeState": null,
-                 "attributes": {},
-                 "baseStyles": {
-                  "alignItems": "flex-start",
-                  "display": "flex",
-                  "flexDirection": "column"
-                 },
-                 "blockClientScript": "",
-                 "blockDataScript": "",
-                 "blockId": "j5oqkmfni",
-                 "blockName": "Container",
-                 "children": [
-                  {
-                   "activeState": null,
-                   "attributes": {},
-                   "baseStyles": {
-                    "color": "rgb(23, 23, 23)",
-                    "fontSize": "13px",
-                    "fontWeight": "420",
-                    "letterSpacing": "0.26px",
-                    "lineHeight": "115% "
-                   },
-                   "blockClientScript": "",
-                   "blockDataScript": "",
-                   "blockId": "ckgqn7ycp",
-                   "blockName": "Frappe Thoughts",
-                   "children": [],
-                   "classes": [],
-                   "customAttributes": {},
-                   "dataKey": null,
-                   "dynamicValues": [],
-                   "element": "p",
-                   "innerHTML": "<p>Frappe Thoughts</p>",
-                   "mobileStyles": {},
-                   "originalElement": "",
-                   "props": {},
-                   "rawStyles": {},
-                   "tabletStyles": {}
-                  }
-                 ],
-                 "classes": [],
-                 "customAttributes": {},
-                 "dataKey": null,
-                 "dynamicValues": [],
-                 "element": "section",
-                 "innerHTML": "",
+                 "element": "p",
+                 "innerHTML": "<p>Writings from people on Cafe</p>",
                  "mobileStyles": {},
                  "originalElement": "",
                  "props": {},
@@ -979,177 +441,59 @@
                "activeState": null,
                "attributes": {},
                "baseStyles": {
-                "alignItems": "flex-start",
+                "alignItems": "center",
                 "alignSelf": "stretch",
+                "backgroundColor": "var(--ink-gray-1)",
+                "borderRadius": " 8px",
                 "display": "flex",
-                "gap": "16px",
+                "gap": "14px",
+                "height": "28px",
+                "paddingBottom": "6px",
+                "paddingLeft": "8px",
+                "paddingRight": "0px",
+                "paddingTop": "6px",
                 "width": "100%"
                },
                "blockClientScript": "",
                "blockDataScript": "",
-               "blockId": "9wjr2pmln",
-               "blockName": "Container",
+               "blockId": "ecz8epaq1",
+               "blockName": "input-text",
                "children": [
                 {
                  "activeState": null,
                  "attributes": {},
                  "baseStyles": {
-                  "alignItems": "flex-start",
+                  "alignItems": "center",
                   "display": "flex",
-                  "flexDirection": "column",
                   "gap": "8px",
-                  "width": "456px"
+                  "position": "static",
+                  "width": "100%"
                  },
                  "blockClientScript": "",
                  "blockDataScript": "",
-                 "blockId": "8s6umho1z",
-                 "blockName": "Container",
+                 "blockId": "5nzf66db0",
+                 "blockName": "input-text",
                  "children": [
                   {
                    "activeState": null,
                    "attributes": {},
                    "baseStyles": {
-                    "alignItems": "flex-start",
-                    "alignSelf": "stretch",
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "gap": "4px",
-                    "width": "100%"
+                    "height": "16px",
+                    "width": "16px"
                    },
                    "blockClientScript": "",
                    "blockDataScript": "",
-                   "blockId": "9bmcfk4m2",
-                   "blockName": "Frame 6",
-                   "children": [
-                    {
-                     "activeState": null,
-                     "attributes": {},
-                     "baseStyles": {
-                      "alignItems": "flex-start",
-                      "alignSelf": "stretch",
-                      "display": "flex",
-                      "flexDirection": "column",
-                      "width": "100%"
-                     },
-                     "blockClientScript": "",
-                     "blockDataScript": "",
-                     "blockId": "horyavfca",
-                     "blockName": "Heading 2",
-                     "children": [
-                      {
-                       "activeState": null,
-                       "attributes": {},
-                       "baseStyles": {
-                        "alignSelf": "stretch",
-                        "color": "rgb(23, 23, 23)",
-                        "fontSize": "14px",
-                        "fontWeight": "600",
-                        "letterSpacing": "0.21px",
-                        "lineHeight": "150% "
-                       },
-                       "blockClientScript": "",
-                       "blockDataScript": "",
-                       "blockId": "o36eikkm1",
-                       "blockName": "Digital Minimalism: Reclaiming Your Attention",
-                       "children": [],
-                       "classes": [],
-                       "customAttributes": {},
-                       "dataKey": null,
-                       "dynamicValues": [],
-                       "element": "p",
-                       "innerHTML": "<p>Digital Minimalism: Reclaiming Your Attention</p>",
-                       "mobileStyles": {},
-                       "originalElement": "",
-                       "props": {},
-                       "rawStyles": {},
-                       "tabletStyles": {}
-                      }
-                     ],
-                     "classes": [],
-                     "customAttributes": {},
-                     "dataKey": null,
-                     "dynamicValues": [],
-                     "element": "section",
-                     "innerHTML": "",
-                     "mobileStyles": {},
-                     "originalElement": "",
-                     "props": {},
-                     "rawStyles": {},
-                     "tabletStyles": {}
-                    },
-                    {
-                     "activeState": null,
-                     "attributes": {},
-                     "baseStyles": {
-                      "alignItems": "flex-start",
-                      "alignSelf": "stretch",
-                      "display": "flex",
-                      "flexDirection": "column",
-                      "overflowX": "hidden",
-                      "overflowY": "hidden",
-                      "width": "100%"
-                     },
-                     "blockClientScript": "",
-                     "blockDataScript": "",
-                     "blockId": "nu867stxk",
-                     "blockName": "Container",
-                     "children": [
-                      {
-                       "activeState": null,
-                       "attributes": {},
-                       "baseStyles": {
-                        "alignSelf": "stretch",
-                        "color": "rgb(82, 82, 82)",
-                        "display": "-webkit-box",
-                        "fontSize": "14px",
-                        "fontWeight": "420",
-                        "letterSpacing": "0.28px",
-                        "lineHeight": "150% "
-                       },
-                       "blockClientScript": "",
-                       "blockDataScript": "",
-                       "blockId": "qn7l5lf1u",
-                       "blockName": "In an age of constant notifications and infinite scrolling, the ability to focus has become a rare commodity. I spent 30 days without social media, and the clarity I gained was nothing short of transformative for my mental health and productivity.",
-                       "children": [],
-                       "classes": [],
-                       "customAttributes": {},
-                       "dataKey": null,
-                       "dynamicValues": [],
-                       "element": "p",
-                       "innerHTML": "<p>In an age of constant notifications and infinite scrolling, the ability to focus has become a rare commodity. I spent 30 days without social media, and the clarity I gained was nothing short of transformative for my mental health and productivity.</p>",
-                       "mobileStyles": {},
-                       "originalElement": "",
-                       "props": {},
-                       "rawStyles": {
-                        "WebkitBoxOrient": "vertical",
-                        "WebkitLineClamp": "2",
-                        "overflow": "hidden",
-                        "textOverflow": "ellipsis"
-                       },
-                       "tabletStyles": {}
-                      }
-                     ],
-                     "classes": [],
-                     "customAttributes": {},
-                     "dataKey": null,
-                     "dynamicValues": [],
-                     "element": "section",
-                     "innerHTML": "",
-                     "mobileStyles": {},
-                     "originalElement": "",
-                     "props": {},
-                     "rawStyles": {},
-                     "tabletStyles": {}
-                    }
-                   ],
+                   "blockId": "z97zwg4id",
+                   "blockName": "icon/line/email",
+                   "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
                    "dynamicValues": [],
-                   "element": "section",
-                   "innerHTML": "",
+                   "element": "svg",
+                   "innerHTML": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7.80957 1.25781C10.9804 1.41843 13.502 4.04023 13.502 7.25098L13.4941 7.55957C13.4286 8.85376 12.9516 10.0387 12.1934 10.9893L14.5312 13.3271C14.8239 13.6201 14.8241 14.0949 14.5312 14.3877C14.2384 14.6804 13.7636 14.6803 13.4707 14.3877L11.1191 12.0361C10.113 12.7981 8.86044 13.252 7.50098 13.252L7.19238 13.2441C4.12376 13.0887 1.66325 10.6282 1.50781 7.55957L1.5 7.25098C1.5 3.93673 4.18673 1.25 7.50098 1.25L7.80957 1.25781ZM7.50098 2.75C5.01516 2.75 3 4.76516 3 7.25098C3 9.73679 5.01516 11.752 7.50098 11.752C9.98679 11.752 12.002 9.73679 12.002 7.25098C12.002 4.76516 9.98679 2.75 7.50098 2.75Z\" fill=\"#999999\"/>\n</svg>\n",
                    "mobileStyles": {},
-                   "originalElement": "",
+                   "originalElement": "__raw_html__",
                    "props": {},
                    "rawStyles": {},
                    "tabletStyles": {}
@@ -1158,321 +502,44 @@
                    "activeState": null,
                    "attributes": {},
                    "baseStyles": {
-                    "alignItems": "flex-start",
-                    "alignSelf": "stretch",
+                    "backgroundColor": "var(--ink-gray-1)",
+                    "borderRadius": "0 8px 8px 0",
+                    "color": "var(--ink-gray-7)",
                     "display": "flex",
                     "flexDirection": "column",
-                    "paddingTop": "8px",
+                    "flexShrink": 1,
+                    "fontSize": "14px",
+                    "height": "28px",
+                    "overflow": "hidden",
+                    "overflowX": "hidden",
+                    "overflowY": "hidden",
+                    "paddingBottom": "6px",
+                    "paddingLeft": "2px",
+                    "paddingRight": "2px",
+                    "paddingTop": "6px",
+                    "position": "static",
+                    "transitionDuration": "300ms",
+                    "transitionProperty": "all",
+                    "transitionTimingFunction": "ease",
                     "width": "100%"
                    },
-                   "blockClientScript": "",
+                   "blockClientScript": "const urlParams = new URLSearchParams(window.location.search);\nif (urlParams.has(\"search\")) {\n  this.value = urlParams.get(\"search\");\n}\n\nlet debounceTimer;\nthis.addEventListener(\"input\", (e) => {\n  clearTimeout(debounceTimer);\n  debounceTimer = setTimeout(() => {\n    const url = new URL(window.location.href);\n    if (e.target.value) {\n      url.searchParams.set(\"search\", e.target.value);\n    } else {\n      url.searchParams.delete(\"search\");\n    }\n    window.location.href = url.href;\n  }, 500);\n});\n",
                    "blockDataScript": "",
-                   "blockId": "483yxl8vf",
-                   "blockName": "Margin",
-                   "children": [
-                    {
-                     "activeState": null,
-                     "attributes": {},
-                     "baseStyles": {
-                      "alignItems": "center",
-                      "alignSelf": "stretch",
-                      "display": "flex",
-                      "gap": "12px",
-                      "width": "100%"
-                     },
-                     "blockClientScript": "",
-                     "blockDataScript": "",
-                     "blockId": "59r5b8emo",
-                     "blockName": "Container",
-                     "children": [
-                      {
-                       "activeState": null,
-                       "attributes": {},
-                       "baseStyles": {
-                        "color": "rgb(124, 124, 124)",
-                        "fontSize": "12px",
-                        "fontWeight": "420",
-                        "letterSpacing": "0.24px",
-                        "lineHeight": "115% "
-                       },
-                       "blockClientScript": "",
-                       "blockDataScript": "",
-                       "blockId": "c7eqxo8z7",
-                       "blockName": "Jul 28 2025",
-                       "children": [],
-                       "classes": [],
-                       "customAttributes": {},
-                       "dataKey": null,
-                       "dynamicValues": [],
-                       "element": "p",
-                       "innerHTML": "<p>Jul 28 2025</p>",
-                       "mobileStyles": {},
-                       "originalElement": "",
-                       "props": {},
-                       "rawStyles": {},
-                       "tabletStyles": {}
-                      },
-                      {
-                       "activeState": null,
-                       "attributes": {},
-                       "baseStyles": {
-                        "backgroundColor": "rgb(124, 124, 124)",
-                        "borderRadius": "5px",
-                        "height": "2px",
-                        "width": "2px"
-                       },
-                       "blockClientScript": "",
-                       "blockDataScript": "",
-                       "blockId": "k02bgd83r",
-                       "blockName": "Background",
-                       "children": [],
-                       "classes": [],
-                       "customAttributes": {},
-                       "dataKey": null,
-                       "dynamicValues": [],
-                       "element": "div",
-                       "innerHTML": "",
-                       "mobileStyles": {},
-                       "originalElement": "",
-                       "props": {},
-                       "rawStyles": {},
-                       "tabletStyles": {}
-                      },
-                      {
-                       "activeState": null,
-                       "attributes": {},
-                       "baseStyles": {
-                        "alignItems": "flex-start",
-                        "display": "flex",
-                        "flexDirection": "column"
-                       },
-                       "blockClientScript": "",
-                       "blockDataScript": "",
-                       "blockId": "8x7jizdxj",
-                       "blockName": "Container",
-                       "children": [
-                        {
-                         "activeState": null,
-                         "attributes": {},
-                         "baseStyles": {
-                          "color": "rgb(124, 124, 124)",
-                          "fontSize": "12px",
-                          "fontWeight": "420",
-                          "letterSpacing": "0.24px",
-                          "lineHeight": "115% "
-                         },
-                         "blockClientScript": "",
-                         "blockDataScript": "",
-                         "blockId": "15of6uwnj",
-                         "blockName": "8 min read",
-                         "children": [],
-                         "classes": [],
-                         "customAttributes": {},
-                         "dataKey": null,
-                         "dynamicValues": [],
-                         "element": "p",
-                         "innerHTML": "<p>8 min read</p>",
-                         "mobileStyles": {},
-                         "originalElement": "",
-                         "props": {},
-                         "rawStyles": {},
-                         "tabletStyles": {}
-                        }
-                       ],
-                       "classes": [],
-                       "customAttributes": {},
-                       "dataKey": null,
-                       "dynamicValues": [],
-                       "element": "section",
-                       "innerHTML": "",
-                       "mobileStyles": {},
-                       "originalElement": "",
-                       "props": {},
-                       "rawStyles": {},
-                       "tabletStyles": {}
-                      },
-                      {
-                       "activeState": null,
-                       "attributes": {},
-                       "baseStyles": {
-                        "backgroundColor": "rgb(124, 124, 124)",
-                        "borderRadius": "5px",
-                        "height": "2px",
-                        "width": "2px"
-                       },
-                       "blockClientScript": "",
-                       "blockDataScript": "",
-                       "blockId": "tleqy16np",
-                       "blockName": "Background",
-                       "children": [],
-                       "classes": [],
-                       "customAttributes": {},
-                       "dataKey": null,
-                       "dynamicValues": [],
-                       "element": "div",
-                       "innerHTML": "",
-                       "mobileStyles": {},
-                       "originalElement": "",
-                       "props": {},
-                       "rawStyles": {},
-                       "tabletStyles": {}
-                      },
-                      {
-                       "activeState": null,
-                       "attributes": {},
-                       "baseStyles": {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "gap": "4px"
-                       },
-                       "blockClientScript": "",
-                       "blockDataScript": "",
-                       "blockId": "81yj2riah",
-                       "blockName": "Container",
-                       "children": [
-                        {
-                         "activeState": null,
-                         "attributes": {},
-                         "baseStyles": {
-                          "alignItems": "flex-start",
-                          "display": "flex",
-                          "flexDirection": "column"
-                         },
-                         "blockClientScript": "",
-                         "blockDataScript": "",
-                         "blockId": "h0cdax62s",
-                         "blockName": "Container",
-                         "children": [
-                          {
-                           "activeState": null,
-                           "attributes": {},
-                           "baseStyles": {
-                            "color": "rgb(124, 124, 124)",
-                            "fontSize": "12px",
-                            "fontWeight": "420",
-                            "letterSpacing": "0.24px",
-                            "lineHeight": "115% "
-                           },
-                           "blockClientScript": "",
-                           "blockDataScript": "",
-                           "blockId": "q8pumkbbm",
-                           "blockName": "48",
-                           "children": [],
-                           "classes": [],
-                           "customAttributes": {},
-                           "dataKey": null,
-                           "dynamicValues": [],
-                           "element": "p",
-                           "innerHTML": "<p>48</p>",
-                           "mobileStyles": {},
-                           "originalElement": "",
-                           "props": {},
-                           "rawStyles": {},
-                           "tabletStyles": {}
-                          }
-                         ],
-                         "classes": [],
-                         "customAttributes": {},
-                         "dataKey": null,
-                         "dynamicValues": [],
-                         "element": "section",
-                         "innerHTML": "",
-                         "mobileStyles": {},
-                         "originalElement": "",
-                         "props": {},
-                         "rawStyles": {},
-                         "tabletStyles": {}
-                        },
-                        {
-                         "activeState": null,
-                         "attributes": {},
-                         "baseStyles": {
-                          "alignItems": "flex-start",
-                          "display": "flex",
-                          "flexDirection": "column"
-                         },
-                         "blockClientScript": "",
-                         "blockDataScript": "",
-                         "blockId": "0rontk0is",
-                         "blockName": "Container",
-                         "children": [
-                          {
-                           "activeState": null,
-                           "attributes": {},
-                           "baseStyles": {
-                            "color": "rgb(124, 124, 124)",
-                            "fontSize": "12px",
-                            "fontWeight": "420",
-                            "letterSpacing": "0.24px",
-                            "lineHeight": "115% "
-                           },
-                           "blockClientScript": "",
-                           "blockDataScript": "",
-                           "blockId": "ah56a4fxa",
-                           "blockName": "comments",
-                           "children": [],
-                           "classes": [],
-                           "customAttributes": {},
-                           "dataKey": null,
-                           "dynamicValues": [],
-                           "element": "p",
-                           "innerHTML": "<p>comments</p>",
-                           "mobileStyles": {},
-                           "originalElement": "",
-                           "props": {},
-                           "rawStyles": {},
-                           "tabletStyles": {}
-                          }
-                         ],
-                         "classes": [],
-                         "customAttributes": {},
-                         "dataKey": null,
-                         "dynamicValues": [],
-                         "element": "section",
-                         "innerHTML": "",
-                         "mobileStyles": {},
-                         "originalElement": "",
-                         "props": {},
-                         "rawStyles": {},
-                         "tabletStyles": {}
-                        }
-                       ],
-                       "classes": [],
-                       "customAttributes": {},
-                       "dataKey": null,
-                       "dynamicValues": [],
-                       "element": "section",
-                       "innerHTML": "",
-                       "mobileStyles": {},
-                       "originalElement": "",
-                       "props": {},
-                       "rawStyles": {},
-                       "tabletStyles": {}
-                      }
-                     ],
-                     "classes": [],
-                     "customAttributes": {},
-                     "dataKey": null,
-                     "dynamicValues": [],
-                     "element": "section",
-                     "innerHTML": "",
-                     "mobileStyles": {},
-                     "originalElement": "",
-                     "props": {},
-                     "rawStyles": {},
-                     "tabletStyles": {}
-                    }
+                   "blockId": "ivlppn6y0",
+                   "blockName": "Search Input",
+                   "children": [],
+                   "classes": [
+                    ""
                    ],
-                   "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
                    "dynamicValues": [],
-                   "element": "section",
-                   "innerHTML": "",
+                   "element": "input",
                    "mobileStyles": {},
-                   "originalElement": "",
                    "props": {},
-                   "rawStyles": {},
+                   "rawStyles": {
+                    "border": "0"
+                   },
                    "tabletStyles": {}
                   }
                  ],
@@ -1489,77 +556,173 @@
                   "flex": "1 0 0"
                  },
                  "tabletStyles": {}
-                },
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "dataKey": null,
+               "dynamicValues": [],
+               "element": "div",
+               "innerHTML": "",
+               "mobileStyles": {},
+               "originalElement": "",
+               "props": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "activeState": null,
+               "attributes": {},
+               "baseStyles": {
+                "alignItems": "center",
+                "alignSelf": "stretch",
+                "display": "flex",
+                "gap": "8px",
+                "overflowX": "hidden",
+                "overflowY": "hidden",
+                "width": "100%"
+               },
+               "blockClientScript": "",
+               "blockDataScript": "",
+               "blockId": "a1c9u9eve",
+               "blockName": "Container",
+               "children": [
                 {
                  "activeState": null,
                  "attributes": {},
                  "baseStyles": {
-                  "alignItems": "flex-start",
+                  "alignItems": "center",
                   "display": "flex",
-                  "flexDirection": "column",
-                  "height": "100px",
-                  "paddingTop": "4px",
-                  "width": "128px"
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "gap": "8px",
+                  "justifyContent": "flex-start",
+                  "overflow": "hidden",
+                  "overflowX": "auto",
+                  "width": "100%"
                  },
                  "blockClientScript": "",
                  "blockDataScript": "",
-                 "blockId": "d5izacdlp",
-                 "blockName": "Margin",
+                 "blockId": "ijgx9kllx",
+                 "blockName": "Tags repeater",
                  "children": [
                   {
                    "activeState": null,
                    "attributes": {},
                    "baseStyles": {
-                    "alignItems": "flex-start",
-                    "backgroundColor": "rgb(243, 243, 243)",
+                    "alignItems": "center",
+                    "border": "1px solid  #E2E2E2",
+                    "borderColor": "rgb(226, 226, 226)",
                     "borderRadius": "8px",
+                    "borderStyle": "solid",
+                    "borderWidth": "1px",
+                    "boxSizing": "border-box",
                     "display": "flex",
-                    "flexDirection": "column",
-                    "flexShrink": "0",
-                    "height": "96px",
+                    "flexShrink": 0,
+                    "gap": "4px",
                     "justifyContent": "center",
-                    "overflowX": "hidden",
-                    "overflowY": "hidden",
-                    "width": "100%"
+                    "padding": "6px 8px"
                    },
                    "blockClientScript": "",
                    "blockDataScript": "",
-                   "blockId": "vmlzq4s9d",
-                   "blockName": "Background",
+                   "blockId": "rxfumvluz",
+                   "blockName": "tag",
                    "children": [
                     {
                      "activeState": null,
-                     "attributes": {
-                      "src": ""
-                     },
+                     "attributes": {},
                      "baseStyles": {
-                      "alignSelf": "stretch"
+                      "color": "var(--ink-gray-7)",
+                      "fontSize": "13px",
+                      "letterSpacing": "0.28px",
+                      "lineHeight": "115% ",
+                      "width": "fit-content"
                      },
                      "blockClientScript": "",
                      "blockDataScript": "",
-                     "blockId": "mpihic3fi",
-                     "blockName": "Image",
+                     "blockId": "31x270t1u",
+                     "blockName": "Discover",
                      "children": [],
                      "classes": [],
                      "customAttributes": {},
                      "dataKey": null,
+                     "dynamicValues": [
+                      {
+                       "comesFrom": "dataScript",
+                       "key": "name",
+                       "property": "innerHTML",
+                       "type": "key"
+                      }
+                     ],
+                     "element": "p",
+                     "innerHTML": "<p>Photography</p>",
+                     "mobileStyles": {},
+                     "originalElement": "",
+                     "props": {},
+                     "rawStyles": {},
+                     "tabletStyles": {}
+                    },
+                    {
+                     "activeState": null,
+                     "attributes": {},
+                     "baseStyles": {
+                      "alignItems": "flex-start",
+                      "display": "flex",
+                      "gap": "8px"
+                     },
+                     "blockClientScript": "",
+                     "blockDataScript": "",
+                     "blockId": "7htwx1s3r",
+                     "blockName": "Tag X button",
+                     "children": [
+                      {
+                       "activeState": null,
+                       "attributes": {},
+                       "baseStyles": {
+                        "height": "12px",
+                        "width": "100%"
+                       },
+                       "blockClientScript": "",
+                       "blockDataScript": "",
+                       "blockId": "994g7xf8w",
+                       "blockName": "icon/line/small-close",
+                       "children": [],
+                       "classes": [],
+                       "customAttributes": {},
+                       "dataKey": null,
+                       "dynamicValues": [],
+                       "element": "svg",
+                       "innerHTML": "<svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8.45801 2.83398C8.65322 2.63878 8.96976 2.63888 9.16504 2.83398C9.36018 3.02926 9.36026 3.34579 9.16504 3.54102L6.70703 5.99902L9.16602 8.45801C9.36095 8.6532 9.36092 8.96983 9.16602 9.16504C8.97083 9.36022 8.65427 9.36006 8.45898 9.16504L6 6.70605L3.54102 9.16504C3.34579 9.36026 3.02926 9.36018 2.83398 9.16504C2.63888 8.96976 2.63878 8.65322 2.83398 8.45801L5.29297 5.99902L2.83496 3.54102C2.6397 3.34575 2.6397 3.02925 2.83496 2.83398C3.03025 2.639 3.34682 2.63882 3.54199 2.83398L6 5.29199L8.45801 2.83398Z\" fill=\"var(--ink-gray-7)\" />\n</svg>\n",
+                       "mobileStyles": {},
+                       "originalElement": "__raw_html__",
+                       "props": {},
+                       "rawStyles": {},
+                       "tabletStyles": {}
+                      }
+                     ],
+                     "classes": [
+                      "tag-x-btn"
+                     ],
+                     "customAttributes": {},
+                     "dataKey": null,
                      "dynamicValues": [],
-                     "element": "img",
+                     "element": "button",
                      "innerHTML": "",
                      "mobileStyles": {},
                      "originalElement": "",
                      "props": {},
-                     "rawStyles": {
-                      "flex": "1 0 0"
-                     },
+                     "rawStyles": {},
                      "tabletStyles": {}
                     }
                    ],
-                   "classes": [],
+                   "classes": [
+                    "tag-item"
+                   ],
                    "customAttributes": {},
                    "dataKey": null,
                    "dynamicValues": [],
-                   "element": "section",
+                   "element": "button",
                    "innerHTML": "",
                    "mobileStyles": {},
                    "originalElement": "",
@@ -1568,14 +731,20 @@
                    "tabletStyles": {}
                   }
                  ],
-                 "classes": [],
+                 "classes": [
+                  "tags-container"
+                 ],
                  "customAttributes": {},
-                 "dataKey": null,
+                 "dataKey": {
+                  "comesFrom": "dataScript",
+                  "key": "tags",
+                  "property": "innerHTML",
+                  "type": "key"
+                 },
                  "dynamicValues": [],
-                 "element": "section",
-                 "innerHTML": "",
+                 "element": "div",
+                 "isRepeaterBlock": true,
                  "mobileStyles": {},
-                 "originalElement": "",
                  "props": {},
                  "rawStyles": {},
                  "tabletStyles": {}
@@ -1614,37 +783,530 @@
               "alignSelf": "stretch",
               "display": "flex",
               "flexDirection": "column",
-              "gap": "8px",
+              "gap": "24px",
               "width": "100%"
              },
              "blockClientScript": "",
              "blockDataScript": "",
-             "blockId": "7zcdxaxn1",
-             "blockName": "divider",
+             "blockId": "52hbna2uw",
+             "blockName": "Container",
              "children": [
               {
                "activeState": null,
                "attributes": {},
                "baseStyles": {
-                "alignSelf": "stretch",
-                "height": "1px",
-                "overflowX": "hidden",
-                "overflowY": "hidden",
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "gap": "10px",
+                "overflow": "hidden",
                 "width": "100%"
                },
                "blockClientScript": "",
                "blockDataScript": "",
-               "blockId": "uqr7mxsex",
-               "blockName": "value",
-               "children": [],
+               "blockId": "gwjd4f9jb",
+               "blockName": "repeater",
+               "children": [
+                {
+                 "activeState": null,
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "flex-start",
+                  "alignSelf": "stretch",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": "12px",
+                  "padding": "8px 0",
+                  "position": "static",
+                  "width": "100%"
+                 },
+                 "blockClientScript": "",
+                 "blockDataScript": "",
+                 "blockId": "g3ai83p32",
+                 "blockName": "Article",
+                 "children": [
+                  {
+                   "activeState": null,
+                   "attributes": {},
+                   "baseStyles": {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "display": "flex",
+                    "gap": "8px",
+                    "position": "relative",
+                    "width": "100%"
+                   },
+                   "blockClientScript": "",
+                   "blockDataScript": "",
+                   "blockId": "vvydysfbg",
+                   "blockName": "Container",
+                   "children": [
+                    {
+                     "activeState": null,
+                     "attributes": {},
+                     "baseStyles": {
+                      "backgroundColor": "#d4d4d4",
+                      "borderRadius": "100%",
+                      "flexShrink": 1,
+                      "height": "26px",
+                      "objectFit": "cover",
+                      "overflowX": "hidden",
+                      "overflowY": "hidden",
+                      "position": "static",
+                      "width": "26px"
+                     },
+                     "blockClientScript": "",
+                     "blockDataScript": "",
+                     "blockId": "30bono3ep",
+                     "children": [],
+                     "classes": [],
+                     "customAttributes": {},
+                     "dataKey": null,
+                     "dynamicValues": [
+                      {
+                       "comesFrom": "dataScript",
+                       "key": "user_image",
+                       "property": "src",
+                       "type": "attribute"
+                      }
+                     ],
+                     "element": "img",
+                     "mobileStyles": {},
+                     "props": {},
+                     "rawStyles": {},
+                     "tabletStyles": {}
+                    },
+                    {
+                     "activeState": null,
+                     "attributes": {},
+                     "baseStyles": {
+                      "alignItems": "flex-start",
+                      "display": "flex",
+                      "flexDirection": "column"
+                     },
+                     "blockClientScript": "",
+                     "blockDataScript": "",
+                     "blockId": "oz4jdjb62",
+                     "blockName": "Container",
+                     "children": [
+                      {
+                       "activeState": null,
+                       "attributes": {},
+                       "baseStyles": {
+                        "color": "rgb(23, 23, 23)",
+                        "fontSize": "13px",
+                        "fontWeight": "420",
+                        "letterSpacing": "0.26px",
+                        "lineHeight": "115% "
+                       },
+                       "blockClientScript": "",
+                       "blockDataScript": "",
+                       "blockId": "xrk28ai9x",
+                       "blockName": "Frappe Thoughts",
+                       "children": [],
+                       "classes": [],
+                       "customAttributes": {},
+                       "dataKey": null,
+                       "dynamicValues": [
+                        {
+                         "comesFrom": "dataScript",
+                         "key": "full_name",
+                         "property": "innerHTML",
+                         "type": "key"
+                        }
+                       ],
+                       "element": "p",
+                       "innerHTML": "<p>Frappe Thoughts</p>",
+                       "mobileStyles": {},
+                       "originalElement": "",
+                       "props": {},
+                       "rawStyles": {},
+                       "tabletStyles": {}
+                      }
+                     ],
+                     "classes": [],
+                     "customAttributes": {},
+                     "dataKey": null,
+                     "dynamicValues": [],
+                     "element": "section",
+                     "innerHTML": "",
+                     "mobileStyles": {},
+                     "originalElement": "",
+                     "props": {},
+                     "rawStyles": {},
+                     "tabletStyles": {}
+                    }
+                   ],
+                   "classes": [],
+                   "customAttributes": {},
+                   "dataKey": null,
+                   "dynamicValues": [
+                    {
+                     "comesFrom": "dataScript",
+                     "key": "author_url",
+                     "property": "href",
+                     "type": "attribute"
+                    }
+                   ],
+                   "element": "a",
+                   "innerHTML": "",
+                   "mobileStyles": {},
+                   "originalElement": "",
+                   "props": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "activeState": null,
+                   "attributes": {},
+                   "baseStyles": {},
+                   "blockClientScript": "",
+                   "blockDataScript": "",
+                   "blockId": "64zntg56x",
+                   "blockName": "Post list item",
+                   "children": [
+                    {
+                     "activeState": null,
+                     "attributes": {},
+                     "baseStyles": {},
+                     "blockClientScript": "",
+                     "blockDataScript": "",
+                     "blockId": "8c0qjqeao",
+                     "blockName": "Post content",
+                     "children": [
+                      {
+                       "activeState": null,
+                       "attributes": {},
+                       "baseStyles": {},
+                       "blockClientScript": "",
+                       "blockDataScript": "",
+                       "blockId": "qhgfgbq85",
+                       "blockName": "container",
+                       "children": [
+                        {
+                         "activeState": null,
+                         "attributes": {},
+                         "baseStyles": {},
+                         "blockClientScript": "",
+                         "blockDataScript": "",
+                         "blockId": "qlsrotfir",
+                         "blockName": "Post title",
+                         "children": [],
+                         "classes": [],
+                         "customAttributes": {},
+                         "dataKey": null,
+                         "dynamicValues": [
+                          {
+                           "comesFrom": "dataScript",
+                           "key": "title",
+                           "property": "innerHTML",
+                           "type": "key"
+                          }
+                         ],
+                         "isChildOfComponent": "522c5307dc9df141",
+                         "mobileStyles": {},
+                         "props": {},
+                         "rawStyles": {},
+                         "referenceBlockId": "r7hrfsy5y",
+                         "tabletStyles": {}
+                        },
+                        {
+                         "activeState": null,
+                         "attributes": {},
+                         "baseStyles": {},
+                         "blockClientScript": "",
+                         "blockDataScript": "",
+                         "blockId": "qe6dg3xr7",
+                         "blockName": "Post description",
+                         "children": [],
+                         "classes": [],
+                         "customAttributes": {},
+                         "dataKey": null,
+                         "dynamicValues": [
+                          {
+                           "comesFrom": "dataScript",
+                           "key": "description",
+                           "property": "innerHTML",
+                           "type": "key"
+                          }
+                         ],
+                         "isChildOfComponent": "522c5307dc9df141",
+                         "mobileStyles": {},
+                         "props": {},
+                         "rawStyles": {},
+                         "referenceBlockId": "j4f1xritg",
+                         "tabletStyles": {}
+                        }
+                       ],
+                       "classes": [],
+                       "customAttributes": {},
+                       "dataKey": null,
+                       "dynamicValues": [],
+                       "isChildOfComponent": "522c5307dc9df141",
+                       "mobileStyles": {},
+                       "props": {},
+                       "rawStyles": {},
+                       "referenceBlockId": "y0c5etnda",
+                       "tabletStyles": {}
+                      },
+                      {
+                       "activeState": null,
+                       "attributes": {},
+                       "baseStyles": {},
+                       "blockClientScript": "",
+                       "blockDataScript": "",
+                       "blockId": "8k3stgt2e",
+                       "blockName": "Post item footer",
+                       "children": [
+                        {
+                         "activeState": null,
+                         "attributes": {},
+                         "baseStyles": {},
+                         "blockClientScript": "",
+                         "blockDataScript": "",
+                         "blockId": "4hr4pxt74",
+                         "children": [],
+                         "classes": [],
+                         "customAttributes": {},
+                         "dataKey": null,
+                         "dynamicValues": [
+                          {
+                           "comesFrom": "dataScript",
+                           "key": "formatted_date",
+                           "property": "innerHTML",
+                           "type": "key"
+                          }
+                         ],
+                         "isChildOfComponent": "522c5307dc9df141",
+                         "mobileStyles": {},
+                         "props": {},
+                         "rawStyles": {},
+                         "referenceBlockId": "zy3swtvhd",
+                         "tabletStyles": {}
+                        },
+                        {
+                         "activeState": null,
+                         "attributes": {},
+                         "baseStyles": {},
+                         "blockClientScript": "",
+                         "blockDataScript": "",
+                         "blockId": "n7xa55ddx",
+                         "blockName": "Separator",
+                         "children": [],
+                         "classes": [],
+                         "customAttributes": {},
+                         "dataKey": null,
+                         "dynamicValues": [],
+                         "isChildOfComponent": "522c5307dc9df141",
+                         "mobileStyles": {},
+                         "props": {},
+                         "rawStyles": {},
+                         "referenceBlockId": "h753ncmpp",
+                         "tabletStyles": {}
+                        },
+                        {
+                         "activeState": null,
+                         "attributes": {},
+                         "baseStyles": {},
+                         "blockClientScript": "",
+                         "blockDataScript": "",
+                         "blockId": "ydtqbr3xp",
+                         "blockName": "p | Text",
+                         "children": [],
+                         "classes": [],
+                         "customAttributes": {},
+                         "dataKey": null,
+                         "dynamicValues": [
+                          {
+                           "comesFrom": "dataScript",
+                           "key": "reading_time",
+                           "property": "innerHTML",
+                           "type": "key"
+                          }
+                         ],
+                         "isChildOfComponent": "522c5307dc9df141",
+                         "mobileStyles": {},
+                         "props": {},
+                         "rawStyles": {},
+                         "referenceBlockId": "rx8g5pmox",
+                         "tabletStyles": {}
+                        },
+                        {
+                         "activeState": null,
+                         "attributes": {},
+                         "baseStyles": {},
+                         "blockClientScript": "",
+                         "blockDataScript": "",
+                         "blockId": "v9mlvr0b4",
+                         "blockName": "Separator",
+                         "children": [],
+                         "classes": [],
+                         "customAttributes": {},
+                         "dataKey": null,
+                         "dynamicValues": [],
+                         "isChildOfComponent": "522c5307dc9df141",
+                         "mobileStyles": {},
+                         "props": {},
+                         "rawStyles": {},
+                         "referenceBlockId": "jgsmy7yjh",
+                         "tabletStyles": {}
+                        },
+                        {
+                         "activeState": null,
+                         "attributes": {},
+                         "baseStyles": {},
+                         "blockClientScript": "",
+                         "blockDataScript": "",
+                         "blockId": "3mu2np5kp",
+                         "children": [],
+                         "classes": [],
+                         "customAttributes": {},
+                         "dataKey": null,
+                         "dynamicValues": [
+                          {
+                           "comesFrom": "dataScript",
+                           "key": "comments_count",
+                           "property": "innerHTML",
+                           "type": "key"
+                          }
+                         ],
+                         "isChildOfComponent": "522c5307dc9df141",
+                         "mobileStyles": {},
+                         "props": {},
+                         "rawStyles": {},
+                         "referenceBlockId": "v23ogo1pd",
+                         "tabletStyles": {}
+                        }
+                       ],
+                       "classes": [],
+                       "customAttributes": {},
+                       "dataKey": null,
+                       "dynamicValues": [],
+                       "isChildOfComponent": "522c5307dc9df141",
+                       "mobileStyles": {},
+                       "props": {},
+                       "rawStyles": {},
+                       "referenceBlockId": "si5lvhzql",
+                       "tabletStyles": {}
+                      }
+                     ],
+                     "classes": [],
+                     "customAttributes": {},
+                     "dataKey": null,
+                     "dynamicValues": [],
+                     "isChildOfComponent": "522c5307dc9df141",
+                     "mobileStyles": {},
+                     "props": {},
+                     "rawStyles": {},
+                     "referenceBlockId": "8ho39okv6",
+                     "tabletStyles": {}
+                    },
+                    {
+                     "activeState": null,
+                     "attributes": {},
+                     "baseStyles": {},
+                     "blockClientScript": "",
+                     "blockDataScript": "",
+                     "blockId": "rjh0qt3h6",
+                     "children": [],
+                     "classes": [],
+                     "customAttributes": {},
+                     "dataKey": null,
+                     "dynamicValues": [
+                      {
+                       "comesFrom": "dataScript",
+                       "key": "cover_image",
+                       "property": "src",
+                       "type": "attribute"
+                      }
+                     ],
+                     "isChildOfComponent": "522c5307dc9df141",
+                     "mobileStyles": {},
+                     "props": {},
+                     "rawStyles": {},
+                     "referenceBlockId": "awwurlg43",
+                     "tabletStyles": {},
+                     "visibilityCondition": {
+                      "comesFrom": "dataScript",
+                      "key": "cover_image"
+                     }
+                    }
+                   ],
+                   "classes": [],
+                   "customAttributes": {},
+                   "dataKey": null,
+                   "dynamicValues": [
+                    {
+                     "comesFrom": "dataScript",
+                     "key": "url",
+                     "property": "href",
+                     "type": "attribute"
+                    }
+                   ],
+                   "element": "a",
+                   "extendedFromComponent": "522c5307dc9df141",
+                   "mobileStyles": {},
+                   "props": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "activeState": null,
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "#ededed",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "flexShrink": 0,
+                    "height": "1px",
+                    "marginTop": "14px",
+                    "overflow": "hidden",
+                    "position": "static",
+                    "width": "100%"
+                   },
+                   "blockClientScript": "",
+                   "blockDataScript": "",
+                   "blockId": "3jxwh1c50",
+                   "blockName": "container",
+                   "children": [],
+                   "classes": [
+                    "{{ \"hide\" if loop.last else \"\"}}"
+                   ],
+                   "customAttributes": {},
+                   "dataKey": null,
+                   "dynamicValues": [],
+                   "element": "div",
+                   "mobileStyles": {},
+                   "props": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "dataKey": null,
+                 "dynamicValues": [],
+                 "element": "section",
+                 "innerHTML": "",
+                 "mobileStyles": {},
+                 "originalElement": "",
+                 "props": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
                "classes": [],
                "customAttributes": {},
-               "dataKey": null,
+               "dataKey": {
+                "comesFrom": "dataScript",
+                "key": "posts",
+                "property": "innerHTML",
+                "type": "key"
+               },
                "dynamicValues": [],
-               "element": "svg",
-               "innerHTML": "<svg width=\"600\" height=\"1\" viewBox=\"0 0 600 1\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect width=\"600\" height=\"1\" fill=\"#EDEDED\"/>\n</svg>\n",
+               "element": "div",
+               "isRepeaterBlock": true,
                "mobileStyles": {},
-               "originalElement": "__raw_html__",
                "props": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -1654,12 +1316,71 @@
              "customAttributes": {},
              "dataKey": null,
              "dynamicValues": [],
-             "element": "div",
+             "element": "section",
              "innerHTML": "",
              "mobileStyles": {},
              "originalElement": "",
              "props": {},
              "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "activeState": null,
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "marginTop": "30px",
+              "overflow": "hidden",
+              "position": "static",
+              "width": "100%"
+             },
+             "blockClientScript": "",
+             "blockDataScript": "",
+             "blockId": "avshlhlji",
+             "blockName": "container",
+             "children": [
+              {
+               "activeState": null,
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--ink-gray-7)",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "10px",
+                "position": "static",
+                "textAlign": "center",
+                "width": "auto"
+               },
+               "blockClientScript": "",
+               "blockDataScript": "",
+               "blockId": "lc6fgkwhr",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "dataKey": null,
+               "dynamicValues": [],
+               "element": "p",
+               "innerHTML": "<p>Posts not found, change your search query.</p>",
+               "mobileStyles": {},
+               "props": {},
+               "rawStyles": {},
+               "tabletStyles": {},
+               "visibilityCondition": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "dataKey": null,
+             "dynamicValues": [],
+             "element": "div",
+             "mobileStyles": {},
+             "props": {},
+             "rawStyles": {
+              "display": "{{ \"flex\" if page_data.posts_count == 0 else \"none\"}}"
+             },
              "tabletStyles": {}
             }
            ],
@@ -1667,10 +1388,8 @@
            "customAttributes": {},
            "dataKey": null,
            "dynamicValues": [],
-           "element": "section",
-           "innerHTML": "",
+           "element": "div",
            "mobileStyles": {},
-           "originalElement": "",
            "props": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1685,6 +1404,8 @@
             "gap": "16px",
             "justifyContent": "center",
             "padding": "16px 0",
+            "paddingBottom": "70px",
+            "position": "static",
             "width": "100%"
            },
            "blockClientScript": "",
@@ -1696,25 +1417,174 @@
              "activeState": null,
              "attributes": {},
              "baseStyles": {
-              "color": "rgb(124, 124, 124)",
-              "fontSize": "12px",
-              "fontWeight": "420",
-              "letterSpacing": "0.24px",
-              "lineHeight": "115% "
+              "alignItems": "center",
+              "borderRadius": "9999px",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "padding": "6px 8px"
              },
              "blockClientScript": "",
              "blockDataScript": "",
-             "blockId": "2mcs5voer",
-             "blockName": "Previous",
-             "children": [],
+             "blockId": "g8lgdw3ic",
+             "blockName": "Previous button",
+             "children": [
+              {
+               "activeState": null,
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--ink-gray-7)",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "10px",
+                "position": "static",
+                "width": "fit-content"
+               },
+               "blockClientScript": "",
+               "blockDataScript": "",
+               "blockId": "1uu99i35y",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "dataKey": null,
+               "dynamicValues": [],
+               "element": "p",
+               "innerHTML": "<p>Previous</p>",
+               "mobileStyles": {},
+               "props": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
              "classes": [],
-             "customAttributes": {},
+             "customAttributes": {
+              "id": "previous-btn"
+             },
              "dataKey": null,
              "dynamicValues": [],
-             "element": "p",
-             "innerHTML": "<p>Previous</p>",
+             "element": "button",
+             "extendedFromComponent": null,
+             "innerHTML": "",
+             "isChildOfComponent": null,
+             "isRepeaterBlock": false,
              "mobileStyles": {},
              "originalElement": "",
+             "props": {},
+             "rawStyles": {},
+             "referenceBlockId": null,
+             "tabletStyles": {},
+             "visibilityCondition": null
+            },
+            {
+             "activeState": null,
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "8px",
+              "height": "fit-content",
+              "justifyContent": "flex-start",
+              "overflow": "hidden",
+              "width": "fit-content"
+             },
+             "blockClientScript": "",
+             "blockDataScript": "",
+             "blockId": "hwrm9invk",
+             "blockName": "Pagination Container",
+             "children": [
+              {
+               "activeState": null,
+               "attributes": {},
+               "baseStyles": {
+                "color": "rgb(23, 23, 23)",
+                "fontSize": "12px",
+                "fontWeight": "500",
+                "letterSpacing": "0.24px",
+                "lineHeight": "115% "
+               },
+               "blockClientScript": "",
+               "blockDataScript": "",
+               "blockId": "l78rh33yt",
+               "blockName": "1",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "dataKey": null,
+               "dynamicValues": [],
+               "element": "p",
+               "innerHTML": "<p>1</p>",
+               "mobileStyles": {},
+               "originalElement": "",
+               "props": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "activeState": null,
+               "attributes": {},
+               "baseStyles": {
+                "color": "rgb(124, 124, 124)",
+                "fontSize": "12px",
+                "fontWeight": "420",
+                "letterSpacing": "0.24px",
+                "lineHeight": "115% "
+               },
+               "blockClientScript": "",
+               "blockDataScript": "",
+               "blockId": "6zrhcfv02",
+               "blockName": "2",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "dataKey": null,
+               "dynamicValues": [],
+               "element": "p",
+               "innerHTML": "<p>2</p>",
+               "mobileStyles": {},
+               "originalElement": "",
+               "props": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "activeState": null,
+               "attributes": {},
+               "baseStyles": {
+                "color": "rgb(124, 124, 124)",
+                "fontSize": "12px",
+                "fontWeight": "420",
+                "letterSpacing": "0.24px",
+                "lineHeight": "115% "
+               },
+               "blockClientScript": "",
+               "blockDataScript": "",
+               "blockId": "cy7g0mc7e",
+               "blockName": "3",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "dataKey": null,
+               "dynamicValues": [],
+               "element": "p",
+               "innerHTML": "<p>3</p>",
+               "mobileStyles": {},
+               "originalElement": "",
+               "props": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {
+              "id": "pagination-container"
+             },
+             "dataKey": null,
+             "dynamicValues": [],
+             "element": "div",
+             "mobileStyles": {},
              "props": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1723,112 +1593,71 @@
              "activeState": null,
              "attributes": {},
              "baseStyles": {
-              "color": "rgb(23, 23, 23)",
-              "fontSize": "12px",
-              "fontWeight": "500",
-              "letterSpacing": "0.24px",
-              "lineHeight": "115% "
+              "alignItems": "center",
+              "borderRadius": "9999px",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "padding": "6px 8px"
              },
              "blockClientScript": "",
              "blockDataScript": "",
-             "blockId": "l78rh33yt",
-             "blockName": "1",
-             "children": [],
+             "blockId": "c34umvqpt",
+             "blockName": "Next button",
+             "children": [
+              {
+               "activeState": null,
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--ink-gray-7)",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "10px",
+                "position": "static",
+                "width": "fit-content"
+               },
+               "blockClientScript": "",
+               "blockDataScript": "",
+               "blockId": "6qt1mf0kh",
+               "children": [],
+               "classes": [],
+               "customAttributes": {
+                "id": "previous-btn"
+               },
+               "dataKey": null,
+               "dynamicValues": [],
+               "element": "p",
+               "innerHTML": "<p>Next</p>",
+               "mobileStyles": {},
+               "props": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
              "classes": [],
-             "customAttributes": {},
+             "customAttributes": {
+              "id": "next-btn"
+             },
              "dataKey": null,
              "dynamicValues": [],
-             "element": "p",
-             "innerHTML": "<p>1</p>",
+             "element": "button",
+             "extendedFromComponent": null,
+             "innerHTML": "",
+             "isChildOfComponent": null,
+             "isRepeaterBlock": false,
              "mobileStyles": {},
              "originalElement": "",
              "props": {},
              "rawStyles": {},
-             "tabletStyles": {}
-            },
-            {
-             "activeState": null,
-             "attributes": {},
-             "baseStyles": {
-              "color": "rgb(124, 124, 124)",
-              "fontSize": "12px",
-              "fontWeight": "420",
-              "letterSpacing": "0.24px",
-              "lineHeight": "115% "
-             },
-             "blockClientScript": "",
-             "blockDataScript": "",
-             "blockId": "6zrhcfv02",
-             "blockName": "2",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "dataKey": null,
-             "dynamicValues": [],
-             "element": "p",
-             "innerHTML": "2",
-             "mobileStyles": {},
-             "originalElement": "",
-             "props": {},
-             "rawStyles": {},
-             "tabletStyles": {}
-            },
-            {
-             "activeState": null,
-             "attributes": {},
-             "baseStyles": {
-              "color": "rgb(124, 124, 124)",
-              "fontSize": "12px",
-              "fontWeight": "420",
-              "letterSpacing": "0.24px",
-              "lineHeight": "115% "
-             },
-             "blockClientScript": "",
-             "blockDataScript": "",
-             "blockId": "cy7g0mc7e",
-             "blockName": "3",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "dataKey": null,
-             "dynamicValues": [],
-             "element": "p",
-             "innerHTML": "<p>3</p>",
-             "mobileStyles": {},
-             "originalElement": "",
-             "props": {},
-             "rawStyles": {},
-             "tabletStyles": {}
-            },
-            {
-             "activeState": null,
-             "attributes": {},
-             "baseStyles": {
-              "color": "rgb(124, 124, 124)",
-              "fontSize": "12px",
-              "fontWeight": "420",
-              "letterSpacing": "0.24px",
-              "lineHeight": "115% "
-             },
-             "blockClientScript": "",
-             "blockDataScript": "",
-             "blockId": "ovilaokle",
-             "blockName": "Next",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "dataKey": null,
-             "dynamicValues": [],
-             "element": "p",
-             "innerHTML": "<p>Next</p>",
-             "mobileStyles": {},
-             "originalElement": "",
-             "props": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "referenceBlockId": null,
+             "tabletStyles": {},
+             "visibilityCondition": null
             }
            ],
-           "classes": [],
+           "classes": [
+            "pagination-section"
+           ],
            "customAttributes": {},
            "dataKey": null,
            "dynamicValues": [],
@@ -1911,23 +1740,29 @@
    "tabletStyles": {}
   }
  ],
- "client_scripts": [],
+ "client_scripts": [
+  {
+   "builder_script": "Explore page script"
+  }
+ ],
  "creation": "2026-05-14 11:19:05.955960",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
  "draft_blocks": null,
  "dynamic_route": 0,
+ "head_html": "<style>\n  input {\n    box-shadow: none !important;\n    transition: none !important;\n  }\n  .tags-container {\n    -ms-overflow-style: none;\n    scrollbar-width: none;\n  }\n  .tags-container::-webkit-scrollbar {\n    display: none;\n  }\n\n  .hide {\n    display: none !important;\n  }\n</style>\n",
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-14 15:24:53.692980",
+ "modified": "2026-05-18 16:03:14.534004",
  "modified_by": "Administrator",
  "name": "page-680affaf",
  "owner": "Administrator",
+ "page_data_script": "Post = frappe.qb.DocType(\"Cafe Post\")\nUser = frappe.qb.DocType(\"User\")\nCafeUser = frappe.qb.DocType(\"Cafe User\")\nPublication = frappe.qb.DocType(\"Cafe Publication\")\n\n\npost_query = (\n    frappe.qb.from_(Post)\n    .left_join(User)\n    .on(Post.owner == User.name)\n    .left_join(Publication)\n    .on(Post.publication == Publication.name)\n    .left_join(CafeUser)\n    .on(CafeUser.user == Post.owner)\n    .select(\n        Post.name,\n        Post.title,\n        Post.description,\n        Post.cover_image,\n        Post.reading_time,\n        Post.slug,\n        Post.creation,\n        Post.publication,\n        User.full_name,\n        User.user_image,\n        CafeUser.handle.as_(\"user_handle\"),\n        Publication.handle.as_(\"publication_handle\"),\n        Publication.title.as_(\"publication_title\"),\n        Publication.image.as_(\"publication_image\"),\n    )\n)\n\nsearch_query = frappe.form_dict.get(\"search\")\nif search_query:\n    post_query = post_query.where(\n        (Post.title.like(f\"%{search_query}%\"))\n        | (Post.description.like(f\"%{search_query}%\"))\n    )\n\ntag_query = frappe.form_dict.get(\"tag\")\nif tag_query:\n    PostTagItem = frappe.qb.DocType(\"Cafe Post Tag Item\")\n    post_query = post_query.where(\n        Post.name.isin(\n            frappe.qb.from_(PostTagItem)\n            .select(PostTagItem.parent)\n            .where(PostTagItem.tag == tag_query)\n        )\n    )\n\ncurrent_page = int(frappe.form_dict.get(\"page\", 1))\npage_size = 10\noffset = (current_page - 1) * page_size\n\n\npost_query = (\n    post_query.orderby(Post.creation, order=frappe.qb.desc)\n    .limit(page_size)\n    .offset(offset)\n)\nposts = post_query.run(as_dict=True)\n\nif posts:\n    post_names = [p.name for p in posts]\n    Comment = frappe.qb.DocType(\"Cafe Post Comment\")\n    comments_query = (\n        frappe.qb.from_(Comment)\n        .select(Comment.post, frappe.qb.functions(\"Count\", Comment.name).as_(\"count\"))\n        .where(Comment.post.isin(post_names))\n        .groupby(Comment.post)\n    )\n    comments_result = comments_query.run(as_dict=True)\n    comments_map = {row.post: row.count for row in comments_result}\n\n    for post in posts:\n        if post.publication:\n            post.full_name = post.publication_title\n            post.user_image = post.publication_image\n            post.author_url = f\"/cafe/publication/{post.publication_handle}\"\n        else:\n            post.author_url = f\"/cafe/profile/{post.user_handle}\"\n\n        if not post.user_image:\n            initial = post.full_name[0] if post.full_name else \"U\"\n            post.user_image = (\n                f\"https://ui-avatars.com/api/?name={initial}&color=#F3F3F3\"\n            )\n\n        count = comments_map.get(post.name, 0)\n\n        if count == 0:\n            post.comments_count = None\n        elif count == 1:\n            post.comments_count = f\"{count} comment\"\n        else:\n            post.comments_count = f\"{count} comments\"\n\n        if post.creation:\n            dt = frappe.utils.getdate(post.creation)\n            months = [\n                \"Jan\",\n                \"Feb\",\n                \"Mar\",\n                \"Apr\",\n                \"May\",\n                \"Jun\",\n                \"Jul\",\n                \"Aug\",\n                \"Sep\",\n                \"Oct\",\n                \"Nov\",\n                \"Dec\",\n            ]\n            post.formatted_date = f\"{months[dt.month - 1]} {dt.day} {dt.year}\"\n\n        post.url = f\"/cafe/posts/{post.slug}\"\n\ndata.posts = posts\n\nif search_query or tag_query:\n    count_query = frappe.qb.from_(Post).select(\n        frappe.qb.functions(\"Count\", Post.name).as_(\"count\")\n    )\n    if search_query:\n        count_query = count_query.where(\n            (Post.title.like(f\"%{search_query}%\"))\n            | (Post.description.like(f\"%{search_query}%\"))\n        )\n    if tag_query:\n        PostTagItem = frappe.qb.DocType(\"Cafe Post Tag Item\")\n        count_query = count_query.where(\n            Post.name.isin(\n                frappe.qb.from_(PostTagItem)\n                .select(PostTagItem.parent)\n                .where(PostTagItem.tag == tag_query)\n            )\n        )\n    data.posts_count = count_query.run(as_dict=True)[0].count\nelse:\n    data.posts_count = frappe.db.count(\"Cafe Post\")\n\ndata.tags = frappe.get_all(\"Cafe Post Tag\", fields=[\"name\"], filters={\"is_standard\": 1})\n\n\ndata.page_data = {\n    \"posts_count\": data.posts_count,\n    \"tags\": data.tags,\n    \"current_page\": current_page,\n    \"page_size\": page_size,\n    \"search\": search_query,\n    \"tag\": tag_query,\n}\n",
  "page_name": "page-680affaf",
  "page_title": "Explore",
- "preview": "/files/page-680affaf-preview.webp?v=1f554",
+ "preview": "/files/page-680affaf-preview.webp?v=6b5b6",
  "project_folder": "cafe",
  "published": 1,
  "route": "cafe/explore"

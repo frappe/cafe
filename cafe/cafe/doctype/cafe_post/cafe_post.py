@@ -16,16 +16,14 @@ class CafePost(Document):
 	from typing import TYPE_CHECKING
 
 	if TYPE_CHECKING:
+		from cafe.cafe.doctype.cafe_post_tag_item.cafe_post_tag_item import CafePostTagItem
 		from frappe.types import DF
-
-		from cafe.cafe.doctype.cafe_post_tag_item.cafe_post_tag_item import (
-			CafePostTagItem,
-		)
 
 		content: DF.TextEditor
 		cover_image: DF.AttachImage | None
 		description: DF.SmallText
 		publication: DF.Link | None
+		published: DF.Check
 		reading_time: DF.Data | None
 		slug: DF.Data | None
 		tags: DF.TableMultiSelect[CafePostTagItem]

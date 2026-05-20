@@ -381,25 +381,54 @@
              "children": [
               {
                "activeState": null,
-               "attributes": {},
-               "baseStyles": {},
-               "blockClientScript": "",
+               "attributes": {
+                "href": ""
+               },
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "height": "fit-content",
+                "overflow": "hidden",
+                "width": "fit-content"
+               },
+               "blockClientScript": "this.addEventListener(\"click\", () => {\n  let url = window.location.href;\n  url = url.replace(\"/posts\", \"\");\n  window.location.href = url;\n});\n",
                "blockDataScript": "",
-               "blockId": "us9es969s",
-               "blockName": "icon/line/arrow-left",
-               "children": [],
+               "blockId": "z30crs7mm",
+               "blockName": "Back Button",
+               "children": [
+                {
+                 "activeState": null,
+                 "attributes": {},
+                 "baseStyles": {},
+                 "blockClientScript": "",
+                 "blockDataScript": "",
+                 "blockId": "us9es969s",
+                 "blockName": "icon/line/arrow-left",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "dataKey": null,
+                 "dynamicValues": [],
+                 "element": "svg",
+                 "innerHTML": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2.98439 12.5313C2.95282 12.4997 2.9249 12.4658 2.90014 12.4304C2.89674 12.4256 2.89308 12.4209 2.88979 12.4159C2.88223 12.4046 2.87732 12.3917 2.87045 12.38C2.853 12.3505 2.83544 12.3209 2.82211 12.2889C2.81404 12.2694 2.80983 12.2487 2.80347 12.2288C2.78034 12.1566 2.7648 12.0808 2.7648 12.0009C2.7648 11.8418 2.81492 11.6949 2.89945 11.5735C2.9245 11.5375 2.95232 11.5027 2.98439 11.4706L10.4843 3.97071C10.7771 3.67787 11.252 3.67797 11.5449 3.97071C11.8378 4.26361 11.8378 4.73848 11.5449 5.03137L5.3253 11.251H20.4853C20.8994 11.2511 21.2352 11.5868 21.2352 12.0009C21.2352 12.4151 20.8994 12.7508 20.4853 12.7509H5.3253L11.5449 18.9705C11.8378 19.2634 11.8378 19.7383 11.5449 20.0312C11.252 20.324 10.7772 20.324 10.4843 20.0312L2.98439 12.5313Z\" fill=\"#171717\"/>\n</svg>\n",
+                 "mobileStyles": {},
+                 "originalElement": "__raw_html__",
+                 "props": {},
+                 "rawStyles": {
+                  "aspectRatio": "1/1"
+                 },
+                 "tabletStyles": {}
+                }
+               ],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
                "dynamicValues": [],
-               "element": "svg",
-               "innerHTML": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2.98439 12.5313C2.95282 12.4997 2.9249 12.4658 2.90014 12.4304C2.89674 12.4256 2.89308 12.4209 2.88979 12.4159C2.88223 12.4046 2.87732 12.3917 2.87045 12.38C2.853 12.3505 2.83544 12.3209 2.82211 12.2889C2.81404 12.2694 2.80983 12.2487 2.80347 12.2288C2.78034 12.1566 2.7648 12.0808 2.7648 12.0009C2.7648 11.8418 2.81492 11.6949 2.89945 11.5735C2.9245 11.5375 2.95232 11.5027 2.98439 11.4706L10.4843 3.97071C10.7771 3.67787 11.252 3.67797 11.5449 3.97071C11.8378 4.26361 11.8378 4.73848 11.5449 5.03137L5.3253 11.251H20.4853C20.8994 11.2511 21.2352 11.5868 21.2352 12.0009C21.2352 12.4151 20.8994 12.7508 20.4853 12.7509H5.3253L11.5449 18.9705C11.8378 19.2634 11.8378 19.7383 11.5449 20.0312C11.252 20.324 10.7772 20.324 10.4843 20.0312L2.98439 12.5313Z\" fill=\"#171717\"/>\n</svg>\n",
+               "element": "button",
                "mobileStyles": {},
-               "originalElement": "__raw_html__",
                "props": {},
-               "rawStyles": {
-                "aspectRatio": "1/1"
-               },
+               "rawStyles": {},
                "tabletStyles": {}
               },
               {
@@ -472,11 +501,18 @@
             {
              "activeState": null,
              "attributes": {},
-             "baseStyles": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "gap": "40px",
+              "overflow": "hidden",
+              "width": "100%"
+             },
              "blockClientScript": "",
              "blockDataScript": "",
-             "blockId": "pwccpy2na",
-             "blockName": "Post list item",
+             "blockId": "y3pri9yls",
+             "blockName": "repeater",
              "children": [
               {
                "activeState": null,
@@ -484,8 +520,8 @@
                "baseStyles": {},
                "blockClientScript": "",
                "blockDataScript": "",
-               "blockId": "l74c2pdoi",
-               "blockName": "Post content",
+               "blockId": "fqs0zm9xh",
+               "blockName": "Post list item",
                "children": [
                 {
                  "activeState": null,
@@ -493,8 +529,8 @@
                  "baseStyles": {},
                  "blockClientScript": "",
                  "blockDataScript": "",
-                 "blockId": "xirbysl9q",
-                 "blockName": "container",
+                 "blockId": "2zjs8mrgu",
+                 "blockName": "Post content",
                  "children": [
                   {
                    "activeState": null,
@@ -502,9 +538,70 @@
                    "baseStyles": {},
                    "blockClientScript": "",
                    "blockDataScript": "",
-                   "blockId": "cbb3so79m",
-                   "blockName": "Post title",
-                   "children": [],
+                   "blockId": "b3kaziesg",
+                   "blockName": "container",
+                   "children": [
+                    {
+                     "activeState": null,
+                     "attributes": {},
+                     "baseStyles": {},
+                     "blockClientScript": "",
+                     "blockDataScript": "",
+                     "blockId": "wnitxmoyd",
+                     "blockName": "Post title",
+                     "children": [],
+                     "classes": [],
+                     "customAttributes": {},
+                     "dataKey": null,
+                     "dynamicValues": [
+                      {
+                       "comesFrom": "dataScript",
+                       "key": "title",
+                       "property": "innerHTML",
+                       "type": "key"
+                      }
+                     ],
+                     "isChildOfComponent": "522c5307dc9df141",
+                     "mobileStyles": {},
+                     "props": {},
+                     "rawStyles": {},
+                     "referenceBlockId": "r7hrfsy5y",
+                     "tabletStyles": {}
+                    },
+                    {
+                     "activeState": null,
+                     "attributes": {},
+                     "baseStyles": {},
+                     "blockClientScript": "",
+                     "blockDataScript": "",
+                     "blockId": "x86erd2dy",
+                     "blockName": "Post description",
+                     "children": [],
+                     "classes": [],
+                     "customAttributes": {},
+                     "dataKey": null,
+                     "dynamicValues": [
+                      {
+                       "comesFrom": "dataScript",
+                       "key": "description",
+                       "property": "src",
+                       "type": "attribute"
+                      },
+                      {
+                       "comesFrom": "dataScript",
+                       "key": "description",
+                       "property": "innerHTML",
+                       "type": "key"
+                      }
+                     ],
+                     "isChildOfComponent": "522c5307dc9df141",
+                     "mobileStyles": {},
+                     "props": {},
+                     "rawStyles": {},
+                     "referenceBlockId": "j4f1xritg",
+                     "tabletStyles": {}
+                    }
+                   ],
                    "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
@@ -513,7 +610,7 @@
                    "mobileStyles": {},
                    "props": {},
                    "rawStyles": {},
-                   "referenceBlockId": "r7hrfsy5y",
+                   "referenceBlockId": "y0c5etnda",
                    "tabletStyles": {}
                   },
                   {
@@ -522,9 +619,129 @@
                    "baseStyles": {},
                    "blockClientScript": "",
                    "blockDataScript": "",
-                   "blockId": "it5v1z7yb",
-                   "blockName": "Post description",
-                   "children": [],
+                   "blockId": "ywn7gox36",
+                   "blockName": "Post item footer",
+                   "children": [
+                    {
+                     "activeState": null,
+                     "attributes": {},
+                     "baseStyles": {},
+                     "blockClientScript": "",
+                     "blockDataScript": "",
+                     "blockId": "y0beuoho5",
+                     "children": [],
+                     "classes": [],
+                     "customAttributes": {},
+                     "dataKey": null,
+                     "dynamicValues": [
+                      {
+                       "comesFrom": "dataScript",
+                       "key": "formatted_date",
+                       "property": "innerHTML",
+                       "type": "key"
+                      }
+                     ],
+                     "isChildOfComponent": "522c5307dc9df141",
+                     "mobileStyles": {},
+                     "props": {},
+                     "rawStyles": {},
+                     "referenceBlockId": "zy3swtvhd",
+                     "tabletStyles": {}
+                    },
+                    {
+                     "activeState": null,
+                     "attributes": {},
+                     "baseStyles": {},
+                     "blockClientScript": "",
+                     "blockDataScript": "",
+                     "blockId": "00xszncz7",
+                     "blockName": "Separator",
+                     "children": [],
+                     "classes": [],
+                     "customAttributes": {},
+                     "dataKey": null,
+                     "dynamicValues": [],
+                     "isChildOfComponent": "522c5307dc9df141",
+                     "mobileStyles": {},
+                     "props": {},
+                     "rawStyles": {},
+                     "referenceBlockId": "h753ncmpp",
+                     "tabletStyles": {}
+                    },
+                    {
+                     "activeState": null,
+                     "attributes": {},
+                     "baseStyles": {},
+                     "blockClientScript": "",
+                     "blockDataScript": "",
+                     "blockId": "ny2164xx5",
+                     "blockName": "p | Text",
+                     "children": [],
+                     "classes": [],
+                     "customAttributes": {},
+                     "dataKey": null,
+                     "dynamicValues": [
+                      {
+                       "comesFrom": "dataScript",
+                       "key": "reading_time",
+                       "property": "innerHTML",
+                       "type": "key"
+                      }
+                     ],
+                     "isChildOfComponent": "522c5307dc9df141",
+                     "mobileStyles": {},
+                     "props": {},
+                     "rawStyles": {},
+                     "referenceBlockId": "rx8g5pmox",
+                     "tabletStyles": {}
+                    },
+                    {
+                     "activeState": null,
+                     "attributes": {},
+                     "baseStyles": {},
+                     "blockClientScript": "",
+                     "blockDataScript": "",
+                     "blockId": "34tal4w9i",
+                     "blockName": "Separator",
+                     "children": [],
+                     "classes": [],
+                     "customAttributes": {},
+                     "dataKey": null,
+                     "dynamicValues": [],
+                     "isChildOfComponent": "522c5307dc9df141",
+                     "mobileStyles": {},
+                     "props": {},
+                     "rawStyles": {},
+                     "referenceBlockId": "jgsmy7yjh",
+                     "tabletStyles": {}
+                    },
+                    {
+                     "activeState": null,
+                     "attributes": {},
+                     "baseStyles": {},
+                     "blockClientScript": "",
+                     "blockDataScript": "",
+                     "blockId": "j06736j7b",
+                     "children": [],
+                     "classes": [],
+                     "customAttributes": {},
+                     "dataKey": null,
+                     "dynamicValues": [
+                      {
+                       "comesFrom": "dataScript",
+                       "key": "comments_count",
+                       "property": "innerHTML",
+                       "type": "key"
+                      }
+                     ],
+                     "isChildOfComponent": "522c5307dc9df141",
+                     "mobileStyles": {},
+                     "props": {},
+                     "rawStyles": {},
+                     "referenceBlockId": "v23ogo1pd",
+                     "tabletStyles": {}
+                    }
+                   ],
                    "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
@@ -533,7 +750,7 @@
                    "mobileStyles": {},
                    "props": {},
                    "rawStyles": {},
-                   "referenceBlockId": "j4f1xritg",
+                   "referenceBlockId": "si5lvhzql",
                    "tabletStyles": {}
                   }
                  ],
@@ -545,7 +762,7 @@
                  "mobileStyles": {},
                  "props": {},
                  "rawStyles": {},
-                 "referenceBlockId": "y0c5etnda",
+                 "referenceBlockId": "8ho39okv6",
                  "tabletStyles": {}
                 },
                 {
@@ -554,117 +771,24 @@
                  "baseStyles": {},
                  "blockClientScript": "",
                  "blockDataScript": "",
-                 "blockId": "7gnt477cx",
-                 "blockName": "Post item footer",
-                 "children": [
-                  {
-                   "activeState": null,
-                   "attributes": {},
-                   "baseStyles": {},
-                   "blockClientScript": "",
-                   "blockDataScript": "",
-                   "blockId": "gr3ghsehl",
-                   "children": [],
-                   "classes": [],
-                   "customAttributes": {},
-                   "dataKey": null,
-                   "dynamicValues": [],
-                   "isChildOfComponent": "522c5307dc9df141",
-                   "mobileStyles": {},
-                   "props": {},
-                   "rawStyles": {},
-                   "referenceBlockId": "zy3swtvhd",
-                   "tabletStyles": {}
-                  },
-                  {
-                   "activeState": null,
-                   "attributes": {},
-                   "baseStyles": {},
-                   "blockClientScript": "",
-                   "blockDataScript": "",
-                   "blockId": "84jv0wjsy",
-                   "blockName": "Separator",
-                   "children": [],
-                   "classes": [],
-                   "customAttributes": {},
-                   "dataKey": null,
-                   "dynamicValues": [],
-                   "isChildOfComponent": "522c5307dc9df141",
-                   "mobileStyles": {},
-                   "props": {},
-                   "rawStyles": {},
-                   "referenceBlockId": "h753ncmpp",
-                   "tabletStyles": {}
-                  },
-                  {
-                   "activeState": null,
-                   "attributes": {},
-                   "baseStyles": {},
-                   "blockClientScript": "",
-                   "blockDataScript": "",
-                   "blockId": "iw3euzcw9",
-                   "blockName": "p | Text",
-                   "children": [],
-                   "classes": [],
-                   "customAttributes": {},
-                   "dataKey": null,
-                   "dynamicValues": [],
-                   "isChildOfComponent": "522c5307dc9df141",
-                   "mobileStyles": {},
-                   "props": {},
-                   "rawStyles": {},
-                   "referenceBlockId": "rx8g5pmox",
-                   "tabletStyles": {}
-                  },
-                  {
-                   "activeState": null,
-                   "attributes": {},
-                   "baseStyles": {},
-                   "blockClientScript": "",
-                   "blockDataScript": "",
-                   "blockId": "o0it7y4v3",
-                   "blockName": "Separator",
-                   "children": [],
-                   "classes": [],
-                   "customAttributes": {},
-                   "dataKey": null,
-                   "dynamicValues": [],
-                   "isChildOfComponent": "522c5307dc9df141",
-                   "mobileStyles": {},
-                   "props": {},
-                   "rawStyles": {},
-                   "referenceBlockId": "jgsmy7yjh",
-                   "tabletStyles": {}
-                  },
-                  {
-                   "activeState": null,
-                   "attributes": {},
-                   "baseStyles": {},
-                   "blockClientScript": "",
-                   "blockDataScript": "",
-                   "blockId": "rp5k71083",
-                   "children": [],
-                   "classes": [],
-                   "customAttributes": {},
-                   "dataKey": null,
-                   "dynamicValues": [],
-                   "isChildOfComponent": "522c5307dc9df141",
-                   "mobileStyles": {},
-                   "props": {},
-                   "rawStyles": {},
-                   "referenceBlockId": "v23ogo1pd",
-                   "tabletStyles": {}
-                  }
-                 ],
+                 "blockId": "hi3r8sju5",
+                 "children": [],
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "dynamicValues": [],
+                 "dynamicValues": [
+                  {
+                   "comesFrom": "dataScript",
+                   "key": "cover_image",
+                   "property": "src",
+                   "type": "attribute"
+                  }
+                 ],
                  "isChildOfComponent": "522c5307dc9df141",
                  "mobileStyles": {},
                  "props": {},
                  "rawStyles": {},
-                 "referenceBlockId": "si5lvhzql",
+                 "referenceBlockId": "awwurlg43",
                  "tabletStyles": {}
                 }
                ],
@@ -672,38 +796,24 @@
                "customAttributes": {},
                "dataKey": null,
                "dynamicValues": [],
-               "isChildOfComponent": "522c5307dc9df141",
+               "extendedFromComponent": "522c5307dc9df141",
                "mobileStyles": {},
                "props": {},
                "rawStyles": {},
-               "referenceBlockId": "8ho39okv6",
-               "tabletStyles": {}
-              },
-              {
-               "activeState": null,
-               "attributes": {},
-               "baseStyles": {},
-               "blockClientScript": "",
-               "blockDataScript": "",
-               "blockId": "xvvk2g21b",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
-               "dataKey": null,
-               "dynamicValues": [],
-               "isChildOfComponent": "522c5307dc9df141",
-               "mobileStyles": {},
-               "props": {},
-               "rawStyles": {},
-               "referenceBlockId": "awwurlg43",
                "tabletStyles": {}
               }
              ],
              "classes": [],
              "customAttributes": {},
-             "dataKey": null,
+             "dataKey": {
+              "comesFrom": "dataScript",
+              "key": "posts",
+              "property": "innerHTML",
+              "type": "key"
+             },
              "dynamicValues": [],
-             "extendedFromComponent": "522c5307dc9df141",
+             "element": "div",
+             "isRepeaterBlock": true,
              "mobileStyles": {},
              "props": {},
              "rawStyles": {},
@@ -800,14 +910,15 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-14 15:24:47.419637",
+ "modified": "2026-05-17 19:09:33.994813",
  "modified_by": "Administrator",
  "name": "page-67ba4dda",
  "owner": "Administrator",
+ "page_data_script": "user = frappe.db.get_value(\n    \"Cafe User\",\n    {\"handle\": frappe.form_dict.handle},\n    [\"handle\", \"company\", \"designation\", \"bio\", \"introduction\", \"user\"],\n    as_dict=1,\n)\n\nif not user:\n    raise frappe.PageDoesNotExistError\n\nposts = frappe.db.get_all(\n    \"Cafe Post\",\n    fields=[\n        \"name\",\n        \"title\",\n        \"description\",\n        \"cover_image\",\n        \"reading_time\",\n        \"slug\",\n        \"creation\",\n    ],\n    # limit=3,\n    filters={\n        \"owner\": user.user,\n    },\n    order_by=\"creation desc\",\n)\n\n\nfor post in posts:\n    count = frappe.db.count(\"Cafe Post Comment\", filters={\"post\": post[\"name\"]})\n\n    if count == 0:\n        post[\"comments_count\"] = None\n    elif count == 1:\n        post[\"comments_count\"] = f\"{count} comment\"\n    else:\n        post[\"comments_count\"] = f\"{count} comments\"\n\n    if post.get(\"creation\"):\n        dt = frappe.utils.getdate(post[\"creation\"])\n        months = [\n            \"Jan\",\n            \"Feb\",\n            \"Mar\",\n            \"Apr\",\n            \"May\",\n            \"Jun\",\n            \"Jul\",\n            \"Aug\",\n            \"Sep\",\n            \"Oct\",\n            \"Nov\",\n            \"Dec\",\n        ]\n        post[\"formatted_date\"] = f\"{months[dt.month - 1]} {dt.day} {dt.year}\"\n\n    post.url = f\"/cafe/posts/{post.slug}\"\n\ndata.posts = posts\n",
  "page_name": "page-67ba4dda",
  "page_title": "User Posts",
- "preview": "/files/page-67ba4dda-preview.webp?v=7b68b",
+ "preview": "/files/page-67ba4dda-preview.webp?v=560f7",
  "project_folder": "cafe",
  "published": 1,
- "route": "cafe/:handle/posts"
+ "route": "cafe/profile/:handle/posts"
 }

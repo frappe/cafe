@@ -1,12 +1,14 @@
 {
  "actions": [],
+ "allow_bulk_edit": 1,
  "allow_rename": 1,
  "autoname": "field:title",
  "creation": "2026-04-17 16:00:04.737486",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "title"
+  "title",
+  "is_standard"
  ],
  "fields": [
   {
@@ -16,12 +18,18 @@
    "label": "Title",
    "reqd": 1,
    "unique": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_standard",
+   "fieldtype": "Check",
+   "label": "Is Standard"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-17 16:12:25.650283",
+ "modified": "2026-05-18 11:37:01.417773",
  "modified_by": "Administrator",
  "module": "Cafe",
  "name": "Cafe Post Tag",

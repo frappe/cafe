@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_bulk_edit": 1,
  "allow_rename": 1,
  "autoname": "field:user",
  "creation": "2026-04-17 15:17:25.449358",
@@ -88,7 +89,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-24 18:29:35.135895",
+ "modified": "2026-05-16 18:06:04.784049",
  "modified_by": "Administrator",
  "module": "Cafe",
  "name": "Cafe User",
@@ -112,7 +113,6 @@
    "delete": 1,
    "email": 1,
    "export": 1,
-   "if_owner": 1,
    "print": 1,
    "read": 1,
    "report": 1,

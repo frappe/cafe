@@ -1,7 +1,8 @@
 # Copyright (c) 2026, Frappe and contributors
 # For license information, please see license.txt
 
-# import frappe
+import frappe
+from frappe import _
 from frappe.model.document import Document
 
 
@@ -14,7 +15,26 @@ class CafePostTag(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
+		is_standard: DF.Check
 		title: DF.Data
 	# end: auto-generated types
 
-	pass
+	def validate(self):
+		self.check_standard()
+
+	def on_trash(self):
+		self.check_standard()
+
+	def check_standard(self):
+		if frappe.conf.developer_mode:
+			return
+
+		if self.is_standard:
+			frappe.throw(
+				_("Standard tags can only be created or modified in Developer Mode.")
+			)
+
+		if not self.is_new():
+			old_doc = self.get_doc_before_save()
+			if old_doc and old_doc.is_standard:
+				frappe.throw(_("Standard tags cannot be edited or deleted."))
