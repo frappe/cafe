@@ -529,7 +529,7 @@
                    "blockName": "Search Input",
                    "children": [],
                    "classes": [
-                    ""
+                    "search-input"
                    ],
                    "customAttributes": {},
                    "dataKey": null,
@@ -1149,7 +1149,11 @@
                          "props": {},
                          "rawStyles": {},
                          "referenceBlockId": "jgsmy7yjh",
-                         "tabletStyles": {}
+                         "tabletStyles": {},
+                         "visibilityCondition": {
+                          "comesFrom": "dataScript",
+                          "key": "comments_count"
+                         }
                         },
                         {
                          "activeState": null,
@@ -1175,7 +1179,11 @@
                          "props": {},
                          "rawStyles": {},
                          "referenceBlockId": "v23ogo1pd",
-                         "tabletStyles": {}
+                         "tabletStyles": {},
+                         "visibilityCondition": {
+                          "comesFrom": "dataScript",
+                          "key": "comments_count"
+                         }
                         }
                        ],
                        "classes": [],
@@ -1404,7 +1412,7 @@
             "gap": "16px",
             "justifyContent": "center",
             "padding": "16px 0",
-            "paddingBottom": "70px",
+            "paddingBottom": "40px",
             "position": "static",
             "width": "100%"
            },
@@ -1668,6 +1676,36 @@
            "props": {},
            "rawStyles": {},
            "tabletStyles": {}
+          },
+          {
+           "activeState": null,
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "overflow": "hidden",
+            "paddingBottom": "30px",
+            "paddingLeft": "0px",
+            "paddingRight": "0px",
+            "paddingTop": "30px",
+            "position": "static",
+            "width": "100%"
+           },
+           "blockClientScript": "",
+           "blockDataScript": "",
+           "blockId": "l0qh6ov9a",
+           "blockName": "Bottom space",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "dataKey": null,
+           "dynamicValues": [],
+           "element": "div",
+           "mobileStyles": {},
+           "props": {},
+           "rawStyles": {},
+           "tabletStyles": {}
           }
          ],
          "classes": [],
@@ -1755,14 +1793,14 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-21 12:42:33.186762",
+ "modified": "2026-05-21 18:29:40.633390",
  "modified_by": "Administrator",
  "name": "page-680affaf",
  "owner": "Administrator",
  "page_data_script": "Post = frappe.qb.DocType(\"Cafe Post\")\nUser = frappe.qb.DocType(\"User\")\nCafeUser = frappe.qb.DocType(\"Cafe User\")\nPublication = frappe.qb.DocType(\"Cafe Publication\")\n\n\npost_query = (\n    frappe.qb.from_(Post)\n    .left_join(User)\n    .on(Post.owner == User.name)\n    .left_join(Publication)\n    .on(Post.publication == Publication.name)\n    .left_join(CafeUser)\n    .on(CafeUser.user == Post.owner)\n    .select(\n        Post.name,\n        Post.title,\n        Post.description,\n        Post.cover_image,\n        Post.reading_time,\n        Post.slug,\n        Post.creation,\n        Post.publication,\n        User.full_name,\n        User.user_image,\n        CafeUser.handle.as_(\"user_handle\"),\n        Publication.handle.as_(\"publication_handle\"),\n        Publication.title.as_(\"publication_title\"),\n        Publication.image.as_(\"publication_image\"),\n    )\n)\n\nsearch_query = frappe.form_dict.get(\"search\")\nif search_query:\n    post_query = post_query.where(\n        (Post.title.like(f\"%{search_query}%\"))\n        | (Post.description.like(f\"%{search_query}%\"))\n    )\n\ntag_query = frappe.form_dict.get(\"tag\")\nif tag_query:\n    PostTagItem = frappe.qb.DocType(\"Cafe Post Tag Item\")\n    post_query = post_query.where(\n        Post.name.isin(\n            frappe.qb.from_(PostTagItem)\n            .select(PostTagItem.parent)\n            .where(PostTagItem.tag == tag_query)\n        )\n    )\n\ncurrent_page = int(frappe.form_dict.get(\"page\", 1))\npage_size = 10\noffset = (current_page - 1) * page_size\n\n\npost_query = (\n    post_query.orderby(Post.creation, order=frappe.qb.desc)\n    .limit(page_size)\n    .offset(offset)\n)\nposts = post_query.run(as_dict=True)\n\nif posts:\n    post_names = [p.name for p in posts]\n    Comment = frappe.qb.DocType(\"Cafe Post Comment\")\n    comments_query = (\n        frappe.qb.from_(Comment)\n        .select(Comment.post, frappe.qb.functions(\"Count\", Comment.name).as_(\"count\"))\n        .where(Comment.post.isin(post_names))\n        .groupby(Comment.post)\n    )\n    comments_result = comments_query.run(as_dict=True)\n    comments_map = {row.post: row.count for row in comments_result}\n\n    for post in posts:\n        if post.publication:\n            post.full_name = post.publication_title\n            post.user_image = post.publication_image\n            post.author_url = f\"/cafe/publication/{post.publication_handle}\"\n        else:\n            post.author_url = f\"/cafe/profile/{post.user_handle}\"\n\n        if not post.user_image:\n            initial = post.full_name[0] if post.full_name else \"U\"\n            post.user_image = (\n                f\"https://ui-avatars.com/api/?name={initial}&color=#F3F3F3\"\n            )\n\n        count = comments_map.get(post.name, 0)\n\n        if count == 0:\n            post.comments_count = None\n        elif count == 1:\n            post.comments_count = f\"{count} comment\"\n        else:\n            post.comments_count = f\"{count} comments\"\n\n        if post.creation:\n            dt = frappe.utils.getdate(post.creation)\n            months = [\n                \"Jan\",\n                \"Feb\",\n                \"Mar\",\n                \"Apr\",\n                \"May\",\n                \"Jun\",\n                \"Jul\",\n                \"Aug\",\n                \"Sep\",\n                \"Oct\",\n                \"Nov\",\n                \"Dec\",\n            ]\n            post.formatted_date = f\"{months[dt.month - 1]} {dt.day} {dt.year}\"\n\n        post.url = f\"/cafe/posts/{post.slug}\"\n\ndata.posts = posts\n\nif search_query or tag_query:\n    count_query = frappe.qb.from_(Post).select(\n        frappe.qb.functions(\"Count\", Post.name).as_(\"count\")\n    )\n    if search_query:\n        count_query = count_query.where(\n            (Post.title.like(f\"%{search_query}%\"))\n            | (Post.description.like(f\"%{search_query}%\"))\n        )\n    if tag_query:\n        PostTagItem = frappe.qb.DocType(\"Cafe Post Tag Item\")\n        count_query = count_query.where(\n            Post.name.isin(\n                frappe.qb.from_(PostTagItem)\n                .select(PostTagItem.parent)\n                .where(PostTagItem.tag == tag_query)\n            )\n        )\n    data.posts_count = count_query.run(as_dict=True)[0].count\nelse:\n    data.posts_count = frappe.db.count(\"Cafe Post\")\n\ndata.tags = frappe.get_all(\"Cafe Post Tag\", fields=[\"name\"], filters={\"is_standard\": 1})\n\n\ndata.page_data = {\n    \"posts_count\": data.posts_count,\n    \"tags\": data.tags,\n    \"current_page\": current_page,\n    \"page_size\": page_size,\n    \"search\": search_query,\n    \"tag\": tag_query,\n}\n",
  "page_name": "page-680affaf",
  "page_title": "Explore",
- "preview": "/files/page-680affaf-preview.webp?v=343de",
+ "preview": "/files/page-680affaf-preview.webp?v=fc8dc",
  "project_folder": "cafe",
  "published": 1,
  "route": "cafe/explore"
