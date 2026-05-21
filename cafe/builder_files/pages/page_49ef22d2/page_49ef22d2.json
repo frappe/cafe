@@ -337,7 +337,7 @@
           "gap": "40px",
           "height": "100vh",
           "marginBottom": "0px",
-          "marginTop": "60px",
+          "marginTop": "24px",
           "maxWidth": "600px",
           "paddingBottom": "0px",
           "paddingTop": "0px",
@@ -1193,7 +1193,7 @@
                         {
                          "activeState": null,
                          "attributes": {
-                          "src": "/assets/cafe/builder_assets/image8da88d.webp"
+                          "src": ""
                          },
                          "baseStyles": {
                           "backgroundColor": "rgb(121, 234, 52)",
@@ -1259,7 +1259,7 @@
                         {
                          "activeState": null,
                          "attributes": {
-                          "src": "/assets/cafe/builder_assets/image8da88d.webp"
+                          "src": ""
                          },
                          "baseStyles": {
                           "backgroundColor": "rgb(244, 178, 48)",
@@ -2020,13 +2020,13 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-14 15:24:26.092010",
+ "modified": "2026-05-21 12:45:31.446779",
  "modified_by": "Administrator",
  "name": "page-49ef22d2",
  "owner": "Administrator",
  "page_name": "page-49ef22d2",
  "page_title": "Publication",
- "preview": "/files/page-49ef22d2-preview.webp?v=b51d3",
+ "preview": "/files/page-49ef22d2-preview.webp?v=ab7cf",
  "project_folder": "cafe",
  "published": 1,
  "route": "cafe/publication/:handle"
