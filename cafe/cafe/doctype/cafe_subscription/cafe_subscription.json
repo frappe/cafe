@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_bulk_edit": 1,
  "allow_rename": 1,
  "creation": "2026-04-17 15:54:33.257223",
  "doctype": "DocType",
@@ -30,7 +31,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-17 15:58:05.943616",
+ "modified": "2026-05-22 13:24:21.419389",
  "modified_by": "Administrator",
  "module": "Cafe",
  "name": "Cafe Subscription",
@@ -45,6 +46,19 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
    "share": 1,
    "write": 1
   }
