@@ -19,6 +19,13 @@ class CafePostComment(Document):
 		post: DF.Link | None
 	# end: auto-generated types
 
+	def validate(self):
+		word_count = len(self.content.split())
+		if word_count > 200:
+			frappe.throw(
+				f"Comment cannot exceed 200 words (currently {word_count} words)."
+			)
+
 	def on_trash(self):
 		likes = frappe.get_all(
 			"Cafe Social Like", filters={"comment": self.name}, pluck="name"
