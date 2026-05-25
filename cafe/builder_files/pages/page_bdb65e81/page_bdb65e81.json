@@ -100,7 +100,10 @@
         {
          "activeState": null,
          "attributes": {},
-         "baseStyles": {},
+         "baseStyles": {
+          "flexGrow": 1,
+          "flexShrink": 1
+         },
          "blockClientScript": "",
          "blockDataScript": "",
          "blockId": "5a151619",
@@ -531,6 +534,8 @@
           "marginTop": "24px",
           "maxWidth": "600px",
           "paddingBottom": "0px",
+          "paddingLeft": "8px",
+          "paddingRight": "8px",
           "paddingTop": "0px",
           "width": "100%"
          },
@@ -578,7 +583,7 @@
                "activeState": null,
                "attributes": {},
                "baseStyles": {
-                "color": "rgb(23, 23, 23)",
+                "color": "var(--ink-gray-7)",
                 "fontSize": "13px",
                 "fontWeight": "500",
                 "letterSpacing": "0.21px",
@@ -683,7 +688,7 @@
                "activeState": null,
                "attributes": {},
                "baseStyles": {
-                "color": "rgb(23, 23, 23)",
+                "color": "var(--ink-gray-7)",
                 "fontSize": "13px",
                 "letterSpacing": "0.21px",
                 "lineHeight": "115% "
@@ -745,7 +750,7 @@
                    "activeState": null,
                    "attributes": {},
                    "baseStyles": {
-                    "color": "rgb(124, 124, 124)",
+                    "color": "var(--ink-gray-5)",
                     "fontSize": "13px",
                     "letterSpacing": "0.28px",
                     "lineHeight": "115% "
@@ -865,7 +870,7 @@
                "activeState": null,
                "attributes": {},
                "baseStyles": {
-                "color": "rgb(23, 23, 23)",
+                "color": "var(--ink-gray-7)",
                 "fontSize": "13px",
                 "letterSpacing": "0.21px",
                 "lineHeight": "115% "
@@ -1104,14 +1109,14 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-25 17:02:23.024190",
+ "modified": "2026-05-25 17:17:41.817999",
  "modified_by": "Administrator",
  "name": "page-bdb65e81",
  "owner": "Administrator",
  "page_data_script": "user = frappe.db.get_value(\n    \"Cafe User\",\n    {\"handle\": frappe.form_dict.handle},\n    [\"handle\", \"company\", \"designation\", \"bio\", \"introduction\", \"user\"],\n    as_dict=1,\n)\n\nif not user:\n    raise frappe.PageDoesNotExistError\n\nfrappe_user = frappe.db.get_value(\"User\", user.user, [\"full_name\", \"email\"], as_dict=1)\n\nbreadcrumbs = [\n    {\"label\": \"Café\", \"url\": \"/cafe/explore\"},\n    {\"label\": frappe_user.full_name, \"url\": f\"/cafe/profile/{user.handle}\"},\n    {\"label\": \"Settings\", \"url\": \"#\"},\n]\n\ndata.page_data = {\"breadcrumbs\": breadcrumbs, \"user\": {**user, **frappe_user}}\n",
  "page_name": "page-bdb65e81",
  "page_title": "Settings",
- "preview": "/files/page-bdb65e81-preview.webp?v=b06ab",
+ "preview": "/files/page-bdb65e81-preview.webp?v=6d6e1",
  "project_folder": "cafe",
  "published": 1,
  "route": "cafe/profile/:handle/settings"

@@ -2690,7 +2690,7 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-25 14:57:42.434735",
+ "modified": "2026-05-25 17:29:41.403405",
  "modified_by": "Administrator",
  "name": "page-49ef22d2",
  "owner": "Administrator",
@@ -2698,6 +2698,6 @@
  "page_title": "Publication",
  "preview": "/files/page-49ef22d2-preview.webp?v=3f72a",
  "project_folder": "cafe",
- "published": 1,
+ "published": 0,
  "route": "cafe/publication/:handle"
 }
