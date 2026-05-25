@@ -19,14 +19,30 @@ class CafeSubscription(Document):
 	# end: auto-generated types
 
 	def insert(self, *args, **kwargs):
-		existing = frappe.db.get_value(
-			"Cafe Subscription",
-			{"publication": self.publication, "user": frappe.session.user},
-			"name",
-		)
+		filters = {"owner": frappe.session.user}
+		count_filters = {}
+
+		if self.publication:
+			filters["publication"] = self.publication
+			count_filters["publication"] = self.publication
+		elif self.user:
+			filters["user"] = self.user
+			count_filters["user"] = self.user
+		else:
+			frappe.throw("Either a publication or user is required to subscribe")
+
+		existing = frappe.db.get_value("Cafe Subscription", filters, "name")
 
 		if existing:
 			frappe.delete_doc("Cafe Subscription", existing, ignore_permissions=True)
-			return {"subscribed_by_me": False}
+			subscriber_count = frappe.db.count("Cafe Subscription", count_filters)
+			return {"subscribed_by_me": False, "subscriber_count": subscriber_count}
 
-		return {**super().insert(*args, **kwargs).as_dict(), "subscribed_by_me": True}
+		self.owner = frappe.session.user
+		doc = super().insert(*args, **kwargs)
+		subscriber_count = frappe.db.count("Cafe Subscription", count_filters)
+		return {
+			**doc.as_dict(),
+			"subscribed_by_me": True,
+			"subscriber_count": subscriber_count,
+		}
