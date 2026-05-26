@@ -3,6 +3,7 @@
  "authenticated_access": 0,
  "blocks": [
   {
+   "activeState": null,
    "attributes": {},
    "baseStyles": {
     "alignItems": "flex-start",
@@ -20,6 +21,7 @@
    "blockName": null,
    "children": [
     {
+     "activeState": null,
      "attributes": {},
      "baseStyles": {
       "display": "flex",
@@ -36,6 +38,7 @@
      "blockName": "App layout",
      "children": [
       {
+       "activeState": null,
        "attributes": {},
        "baseStyles": {},
        "blockClientScript": "",
@@ -44,6 +47,7 @@
        "blockName": "Sidebar",
        "children": [
         {
+         "activeState": null,
          "attributes": {},
          "baseStyles": {},
          "blockClientScript": "",
@@ -52,23 +56,21 @@
          "blockName": "Logo",
          "children": [
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {},
            "blockClientScript": "",
            "blockDataScript": "",
            "blockId": "lxks1zwy8",
            "blockName": null,
-           "children": null,
+           "children": [],
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": null,
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": null,
-           "innerText": null,
            "isChildOfComponent": "a74edf7ebda043de",
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -83,13 +85,10 @@
          "classes": [],
          "customAttributes": {},
          "dataKey": null,
-         "draggable": false,
          "dynamicValues": [],
          "element": null,
-         "elementBeforeConversion": null,
          "extendedFromComponent": null,
          "innerHTML": null,
-         "innerText": null,
          "isChildOfComponent": "a74edf7ebda043de",
          "isRepeaterBlock": false,
          "mobileStyles": {},
@@ -101,6 +100,7 @@
          "visibilityCondition": null
         },
         {
+         "activeState": null,
          "attributes": {},
          "baseStyles": {},
          "blockClientScript": "",
@@ -109,6 +109,7 @@
          "blockName": "container",
          "children": [
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {},
            "blockClientScript": "",
@@ -117,23 +118,21 @@
            "blockName": "Home icon",
            "children": [
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "d75573de",
              "blockName": "icon/line/home",
-             "children": null,
+             "children": [],
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [],
              "element": null,
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": null,
-             "innerText": null,
              "isChildOfComponent": "a74edf7ebda043de",
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -148,13 +147,10 @@
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": null,
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": null,
-           "innerText": null,
            "isChildOfComponent": "a74edf7ebda043de",
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -166,6 +162,7 @@
            "visibilityCondition": null
           },
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {},
            "blockClientScript": "",
@@ -174,23 +171,21 @@
            "blockName": "Profile icon",
            "children": [
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "dc9eca51",
              "blockName": "icon/line/user",
-             "children": null,
+             "children": [],
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [],
              "element": null,
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": null,
-             "innerText": null,
              "isChildOfComponent": "a74edf7ebda043de",
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -205,13 +200,10 @@
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": null,
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": null,
-           "innerText": null,
            "isChildOfComponent": "a74edf7ebda043de",
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -223,6 +215,7 @@
            "visibilityCondition": null
           },
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {},
            "blockClientScript": "",
@@ -231,23 +224,21 @@
            "blockName": "Settings icon",
            "children": [
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "484a509d",
              "blockName": "icon/line/settings",
-             "children": null,
+             "children": [],
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [],
              "element": null,
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": null,
-             "innerText": null,
              "isChildOfComponent": "a74edf7ebda043de",
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -262,13 +253,10 @@
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": null,
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": null,
-           "innerText": null,
            "isChildOfComponent": "a74edf7ebda043de",
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -283,13 +271,10 @@
          "classes": [],
          "customAttributes": {},
          "dataKey": null,
-         "draggable": false,
          "dynamicValues": [],
          "element": null,
-         "elementBeforeConversion": null,
          "extendedFromComponent": null,
          "innerHTML": null,
-         "innerText": null,
          "isChildOfComponent": "a74edf7ebda043de",
          "isRepeaterBlock": false,
          "mobileStyles": {},
@@ -304,13 +289,10 @@
        "classes": [],
        "customAttributes": {},
        "dataKey": null,
-       "draggable": false,
        "dynamicValues": [],
        "element": null,
-       "elementBeforeConversion": null,
        "extendedFromComponent": "a74edf7ebda043de",
        "innerHTML": null,
-       "innerText": null,
        "isChildOfComponent": null,
        "isRepeaterBlock": false,
        "mobileStyles": {},
@@ -322,6 +304,7 @@
        "visibilityCondition": null
       },
       {
+       "activeState": null,
        "attributes": {},
        "baseStyles": {
         "alignItems": "center",
@@ -342,6 +325,7 @@
        "blockName": "Main body",
        "children": [
         {
+         "activeState": null,
          "attributes": {},
          "baseStyles": {},
          "blockClientScript": "",
@@ -350,6 +334,7 @@
          "blockName": "Navbar",
          "children": [
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {},
            "blockClientScript": "",
@@ -358,6 +343,7 @@
            "blockName": "repeater",
            "children": [
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {},
              "blockClientScript": "",
@@ -366,17 +352,17 @@
              "blockName": "Breadcrumb",
              "children": [
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {},
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "lezzzoups",
                "blockName": null,
-               "children": null,
+               "children": [],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [
                 {
                  "comesFrom": "dataScript",
@@ -392,10 +378,8 @@
                 }
                ],
                "element": null,
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": null,
-               "innerText": null,
                "isChildOfComponent": "9735c922f3a19e17",
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -407,23 +391,21 @@
                "visibilityCondition": null
               },
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {},
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "zwtwqfvjt",
                "blockName": "icon/line/small-right-chevron",
-               "children": null,
+               "children": [],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": null,
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": null,
-               "innerText": null,
                "isChildOfComponent": "9735c922f3a19e17",
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -438,13 +420,10 @@
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [],
              "element": null,
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": null,
-             "innerText": null,
              "isChildOfComponent": "9735c922f3a19e17",
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -459,13 +438,10 @@
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": null,
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": null,
-           "innerText": null,
            "isChildOfComponent": "9735c922f3a19e17",
            "isRepeaterBlock": true,
            "mobileStyles": {},
@@ -477,6 +453,7 @@
            "visibilityCondition": null
           },
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {},
            "blockClientScript": "",
@@ -485,6 +462,7 @@
            "blockName": "Action Button",
            "children": [
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {},
              "blockClientScript": "",
@@ -493,23 +471,21 @@
              "blockName": "button-link",
              "children": [
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {},
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "nq9a6sy1i",
                "blockName": null,
-               "children": null,
+               "children": [],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": null,
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": null,
-               "innerText": null,
                "isChildOfComponent": "9735c922f3a19e17",
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -521,23 +497,21 @@
                "visibilityCondition": null
               },
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {},
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "lrlt30gaw",
                "blockName": null,
-               "children": null,
+               "children": [],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": null,
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": null,
-               "innerText": null,
                "isChildOfComponent": "9735c922f3a19e17",
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -552,13 +526,10 @@
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [],
              "element": null,
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": null,
-             "innerText": null,
              "isChildOfComponent": "9735c922f3a19e17",
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -573,13 +544,10 @@
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": null,
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": null,
-           "innerText": null,
            "isChildOfComponent": "9735c922f3a19e17",
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -594,13 +562,10 @@
          "classes": [],
          "customAttributes": {},
          "dataKey": null,
-         "draggable": false,
          "dynamicValues": [],
          "element": null,
-         "elementBeforeConversion": null,
          "extendedFromComponent": "9735c922f3a19e17",
          "innerHTML": null,
-         "innerText": null,
          "isChildOfComponent": null,
          "isRepeaterBlock": false,
          "mobileStyles": {},
@@ -612,6 +577,7 @@
          "visibilityCondition": null
         },
         {
+         "activeState": null,
          "attributes": {},
          "baseStyles": {
           "alignItems": "flex-start",
@@ -632,6 +598,7 @@
          "blockName": "Container",
          "children": [
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {
             "alignItems": "flex-start",
@@ -646,6 +613,7 @@
            "blockName": "Frame 3",
            "children": [
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "alignItems": "flex-start",
@@ -660,6 +628,7 @@
              "blockName": "Heading 1",
              "children": [
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "alignSelf": "stretch",
@@ -673,11 +642,10 @@
                "blockDataScript": "",
                "blockId": "o3vzb94na",
                "blockName": "The Future of Minimalist Design",
-               "children": null,
+               "children": [],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [
                 {
                  "comesFrom": "dataScript",
@@ -687,10 +655,8 @@
                 }
                ],
                "element": "p",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "<p>The Future of Minimalist Design</p>",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -705,13 +671,10 @@
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [],
              "element": "section",
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": "",
-             "innerText": null,
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -723,6 +686,7 @@
              "visibilityCondition": null
             },
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "alignItems": "center",
@@ -737,6 +701,7 @@
              "blockName": "HorizontalBorder",
              "children": [
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "alignItems": "center",
@@ -749,6 +714,7 @@
                "blockName": "Container",
                "children": [
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "alignItems": "center",
@@ -764,24 +730,24 @@
                  "blockName": "avatar",
                  "children": [
                   {
+                   "activeState": null,
                    "attributes": {
                     "src": ""
                    },
                    "baseStyles": {
                     "borderRadius": "100px",
-                    "height": "50px",
+                    "height": "45px",
                     "objectFit": "cover",
-                    "width": "50px"
+                    "width": "45px"
                    },
                    "blockClientScript": "",
                    "blockDataScript": "",
                    "blockId": "niag6esko",
                    "blockName": "avatar-image",
-                   "children": null,
+                   "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
-                   "draggable": false,
                    "dynamicValues": [
                     {
                      "comesFrom": "dataScript",
@@ -791,10 +757,8 @@
                     }
                    ],
                    "element": "img",
-                   "elementBeforeConversion": null,
                    "extendedFromComponent": null,
                    "innerHTML": "",
-                   "innerText": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -809,13 +773,10 @@
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "div",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -827,6 +788,7 @@
                  "visibilityCondition": null
                 },
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "alignItems": "flex-start",
@@ -841,6 +803,7 @@
                  "blockName": "Container",
                  "children": [
                   {
+                   "activeState": null,
                    "attributes": {},
                    "baseStyles": {
                     "alignItems": "center",
@@ -855,6 +818,7 @@
                    "blockName": "Container",
                    "children": [
                     {
+                     "activeState": null,
                      "attributes": {},
                      "baseStyles": {
                       "alignItems": "flex-start",
@@ -867,10 +831,11 @@
                      "blockName": "Container",
                      "children": [
                       {
+                       "activeState": null,
                        "attributes": {},
                        "baseStyles": {
                         "color": "var(--ink-gray-8)",
-                        "fontSize": "16px",
+                        "fontSize": "14px",
                         "fontWeight": "500",
                         "letterSpacing": "0.24px",
                         "lineHeight": "115% "
@@ -879,11 +844,10 @@
                        "blockDataScript": "",
                        "blockId": "4qaq3yfu2",
                        "blockName": "Jane Doe",
-                       "children": null,
+                       "children": [],
                        "classes": [],
                        "customAttributes": {},
                        "dataKey": null,
-                       "draggable": false,
                        "dynamicValues": [
                         {
                          "comesFrom": "dataScript",
@@ -893,10 +857,8 @@
                         }
                        ],
                        "element": "p",
-                       "elementBeforeConversion": null,
                        "extendedFromComponent": null,
                        "innerHTML": "<p>Jane Doe</p>",
-                       "innerText": null,
                        "isChildOfComponent": null,
                        "isRepeaterBlock": false,
                        "mobileStyles": {},
@@ -911,13 +873,10 @@
                      "classes": [],
                      "customAttributes": {},
                      "dataKey": null,
-                     "draggable": false,
                      "dynamicValues": [],
                      "element": "section",
-                     "elementBeforeConversion": null,
                      "extendedFromComponent": null,
                      "innerHTML": "",
-                     "innerText": null,
                      "isChildOfComponent": null,
                      "isRepeaterBlock": false,
                      "mobileStyles": {},
@@ -929,6 +888,7 @@
                      "visibilityCondition": null
                     },
                     {
+                     "activeState": null,
                      "attributes": {},
                      "baseStyles": {
                       "alignItems": "flex-start",
@@ -941,17 +901,14 @@
                      "blockDataScript": "",
                      "blockId": "y5ipmr8ki",
                      "blockName": "Container",
-                     "children": null,
+                     "children": [],
                      "classes": [],
                      "customAttributes": {},
                      "dataKey": null,
-                     "draggable": false,
                      "dynamicValues": [],
                      "element": "svg",
-                     "elementBeforeConversion": null,
                      "extendedFromComponent": null,
                      "innerHTML": "",
-                     "innerText": null,
                      "isChildOfComponent": null,
                      "isRepeaterBlock": false,
                      "mobileStyles": {},
@@ -968,13 +925,10 @@
                    "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
-                   "draggable": false,
                    "dynamicValues": [],
                    "element": "section",
-                   "elementBeforeConversion": null,
                    "extendedFromComponent": null,
                    "innerHTML": "",
-                   "innerText": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -986,6 +940,7 @@
                    "visibilityCondition": null
                   },
                   {
+                   "activeState": null,
                    "attributes": {},
                    "baseStyles": {
                     "alignItems": "center",
@@ -1004,10 +959,11 @@
                    "blockName": "container",
                    "children": [
                     {
+                     "activeState": null,
                      "attributes": {},
                      "baseStyles": {
                       "color": "var(--ink-gray-6)",
-                      "fontSize": "14px",
+                      "fontSize": "13px",
                       "fontWeight": "400",
                       "letterSpacing": "0.28px",
                       "lineHeight": "115% "
@@ -1016,11 +972,10 @@
                      "blockDataScript": "",
                      "blockId": "slbcdxd8q",
                      "blockName": "Oct 12, 2023 • 5 min read",
-                     "children": null,
+                     "children": [],
                      "classes": [],
                      "customAttributes": {},
                      "dataKey": null,
-                     "draggable": false,
                      "dynamicValues": [
                       {
                        "comesFrom": "dataScript",
@@ -1030,10 +985,8 @@
                       }
                      ],
                      "element": "p",
-                     "elementBeforeConversion": null,
                      "extendedFromComponent": null,
                      "innerHTML": "<p>date</p>",
-                     "innerText": null,
                      "isChildOfComponent": null,
                      "isRepeaterBlock": false,
                      "mobileStyles": {},
@@ -1045,6 +998,7 @@
                      "visibilityCondition": null
                     },
                     {
+                     "activeState": null,
                      "attributes": {},
                      "baseStyles": {
                       "color": "rgb(82, 82, 82)",
@@ -1057,17 +1011,14 @@
                      "blockDataScript": "",
                      "blockId": "9j19wn8vq",
                      "blockName": "Oct 12, 2023 • 5 min read",
-                     "children": null,
+                     "children": [],
                      "classes": [],
                      "customAttributes": {},
                      "dataKey": null,
-                     "draggable": false,
                      "dynamicValues": [],
                      "element": "p",
-                     "elementBeforeConversion": null,
                      "extendedFromComponent": null,
                      "innerHTML": "<p>•</p>",
-                     "innerText": null,
                      "isChildOfComponent": null,
                      "isRepeaterBlock": false,
                      "mobileStyles": {},
@@ -1079,10 +1030,11 @@
                      "visibilityCondition": null
                     },
                     {
+                     "activeState": null,
                      "attributes": {},
                      "baseStyles": {
                       "color": "var(--ink-gray-6)",
-                      "fontSize": "14px",
+                      "fontSize": "13px",
                       "fontWeight": "400",
                       "letterSpacing": "0.28px",
                       "lineHeight": "115% "
@@ -1091,11 +1043,10 @@
                      "blockDataScript": "",
                      "blockId": "plep9hk2r",
                      "blockName": "Oct 12, 2023 • 5 min read",
-                     "children": null,
+                     "children": [],
                      "classes": [],
                      "customAttributes": {},
                      "dataKey": null,
-                     "draggable": false,
                      "dynamicValues": [
                       {
                        "comesFrom": "dataScript",
@@ -1105,10 +1056,8 @@
                       }
                      ],
                      "element": "p",
-                     "elementBeforeConversion": null,
                      "extendedFromComponent": null,
                      "innerHTML": "<p>time to read</p>",
-                     "innerText": null,
                      "isChildOfComponent": null,
                      "isRepeaterBlock": false,
                      "mobileStyles": {},
@@ -1123,13 +1072,10 @@
                    "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
-                   "draggable": false,
                    "dynamicValues": [],
                    "element": "div",
-                   "elementBeforeConversion": null,
                    "extendedFromComponent": null,
                    "innerHTML": null,
-                   "innerText": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -1144,13 +1090,10 @@
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "section",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -1165,7 +1108,6 @@
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [
                 {
                  "comesFrom": "dataScript",
@@ -1175,10 +1117,8 @@
                 }
                ],
                "element": "a",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -1190,6 +1130,7 @@
                "visibilityCondition": null
               },
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "alignItems": "center",
@@ -1203,6 +1144,7 @@
                "blockName": "Frame 92",
                "children": [
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "alignItems": "center",
@@ -1223,6 +1165,7 @@
                  "blockName": "button",
                  "children": [
                   {
+                   "activeState": null,
                    "attributes": {},
                    "baseStyles": {
                     "color": "rgb(56, 56, 56)",
@@ -1235,17 +1178,14 @@
                    "blockDataScript": "",
                    "blockId": "93u7nhn93",
                    "blockName": "Discover",
-                   "children": null,
+                   "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
-                   "draggable": false,
                    "dynamicValues": [],
                    "element": "p",
-                   "elementBeforeConversion": null,
                    "extendedFromComponent": null,
                    "innerHTML": "<p>Subscribe</p>",
-                   "innerText": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -1262,13 +1202,10 @@
                  ],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "button",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -1282,6 +1219,7 @@
                  "visibilityCondition": null
                 },
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "alignItems": "flex-start",
@@ -1294,6 +1232,7 @@
                  "blockName": "Container",
                  "children": [
                   {
+                   "activeState": null,
                    "attributes": {},
                    "baseStyles": {
                     "alignItems": "center",
@@ -1309,6 +1248,7 @@
                    "blockName": "Bookmark button",
                    "children": [
                     {
+                     "activeState": null,
                      "attributes": {},
                      "baseStyles": {
                       "height": "16px",
@@ -1318,17 +1258,14 @@
                      "blockDataScript": "",
                      "blockId": "4zqiykgyu",
                      "blockName": "icon/line/bookmark",
-                     "children": null,
+                     "children": [],
                      "classes": [],
                      "customAttributes": {},
                      "dataKey": null,
-                     "draggable": false,
                      "dynamicValues": [],
                      "element": "svg",
-                     "elementBeforeConversion": null,
                      "extendedFromComponent": null,
                      "innerHTML": "<svg class=\"icon-bookmark\" viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\">\n  {% if post.bookmarked_by_me %}\n  <path class=\"fill-path\" d=\"M12.5 0.833984C13.0523 0.833984 13.5 1.2817 13.5 1.83398V14.667C13.5 14.8638 13.3845 15.0423 13.2051 15.123C13.0255 15.2037 12.8151 15.1718 12.668 15.041L8 10.8916L3.33203 15.041C3.18487 15.1718 2.97451 15.2037 2.79492 15.123C2.61551 15.0423 2.5 14.8638 2.5 14.667V1.83398C2.5 1.2817 2.94772 0.833984 3.5 0.833984H12.5Z\" fill=\"#525252\" />\n  {% else %}\n  <path class=\"line-path\" d=\"M12.5 0.833984C13.0523 0.833984 13.5 1.2817 13.5 1.83398V14.667C13.5 14.8638 13.3845 15.0423 13.2051 15.123C13.0255 15.2037 12.8151 15.1718 12.668 15.041L8 10.8916L3.33203 15.041C3.18487 15.1718 2.97451 15.2037 2.79492 15.123C2.61551 15.0423 2.5 14.8638 2.5 14.667V1.83398C2.5 1.2817 2.94772 0.833984 3.5 0.833984H12.5ZM3.5 13.5537L7.66797 9.84961L7.74316 9.79395C7.92729 9.68352 8.1663 9.7023 8.33203 9.84961L12.5 13.5537V1.83398H3.5V13.5537Z\" fill=\"#525252\" />\n  {% endif %}\n</svg>",
-                     "innerText": null,
                      "isChildOfComponent": null,
                      "isRepeaterBlock": false,
                      "mobileStyles": {},
@@ -1346,13 +1283,10 @@
                     "post-id": "{{ post.name }}"
                    },
                    "dataKey": null,
-                   "draggable": false,
                    "dynamicValues": [],
                    "element": "button",
-                   "elementBeforeConversion": null,
                    "extendedFromComponent": null,
                    "innerHTML": "",
-                   "innerText": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -1366,6 +1300,7 @@
                    "visibilityCondition": null
                   },
                   {
+                   "activeState": null,
                    "attributes": {},
                    "baseStyles": {
                     "alignItems": "center",
@@ -1379,6 +1314,7 @@
                    "blockName": "Post options button",
                    "children": [
                     {
+                     "activeState": null,
                      "attributes": {},
                      "baseStyles": {
                       "height": "16px",
@@ -1388,17 +1324,14 @@
                      "blockDataScript": "",
                      "blockId": "8ijxbv6ib",
                      "blockName": "icon/line/dot-horizontal",
-                     "children": null,
+                     "children": [],
                      "classes": [],
                      "customAttributes": {},
                      "dataKey": null,
-                     "draggable": false,
                      "dynamicValues": [],
                      "element": "svg",
-                     "elementBeforeConversion": null,
                      "extendedFromComponent": null,
                      "innerHTML": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M3 6.5C3.82843 6.5 4.5 7.17157 4.5 8C4.5 8.82843 3.82843 9.5 3 9.5C2.17157 9.5 1.5 8.82843 1.5 8C1.5 7.17157 2.17157 6.5 3 6.5ZM8 6.5C8.82843 6.5 9.5 7.17157 9.5 8C9.5 8.82843 8.82843 9.5 8 9.5C7.17157 9.5 6.5 8.82843 6.5 8C6.5 7.17157 7.17157 6.5 8 6.5ZM13 6.5C13.8284 6.5 14.5 7.17157 14.5 8C14.5 8.82843 13.8284 9.5 13 9.5C12.1716 9.5 11.5 8.82843 11.5 8C11.5 7.17157 12.1716 6.5 13 6.5Z\" fill=\"#525252\"/>\n</svg>\n",
-                     "innerText": null,
                      "isChildOfComponent": null,
                      "isRepeaterBlock": false,
                      "mobileStyles": {},
@@ -1417,13 +1350,10 @@
                     "id": "more-post-options"
                    },
                    "dataKey": null,
-                   "draggable": false,
                    "dynamicValues": [],
                    "element": "button",
-                   "elementBeforeConversion": null,
                    "extendedFromComponent": null,
                    "innerHTML": "",
-                   "innerText": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -1440,13 +1370,10 @@
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "section",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -1461,13 +1388,10 @@
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": "section",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -1482,13 +1406,10 @@
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [],
              "element": "section",
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": "",
-             "innerText": null,
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -1503,13 +1424,10 @@
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": "section",
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": "",
-           "innerText": null,
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -1521,6 +1439,7 @@
            "visibilityCondition": null
           },
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {
             "alignItems": "flex-start",
@@ -1536,17 +1455,14 @@
            "blockDataScript": "",
            "blockId": "dkak4yhfk",
            "blockName": "divider",
-           "children": null,
+           "children": [],
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": "div",
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": "",
-           "innerText": null,
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -1558,6 +1474,7 @@
            "visibilityCondition": null
           },
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {
             "alignItems": "flex-start",
@@ -1572,6 +1489,7 @@
            "blockName": "Article",
            "children": [
             {
+             "activeState": null,
              "attributes": {
               "src": ""
              },
@@ -1584,11 +1502,10 @@
              "blockDataScript": "",
              "blockId": "6ccm1hy9j",
              "blockName": "Image+Shadow",
-             "children": null,
+             "children": [],
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [
               {
                "comesFrom": "dataScript",
@@ -1598,10 +1515,8 @@
               }
              ],
              "element": "img",
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": "",
-             "innerText": null,
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -1618,6 +1533,7 @@
              }
             },
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "alignSelf": "stretch",
@@ -1631,11 +1547,10 @@
              "blockDataScript": "",
              "blockId": "eq26qsd9q",
              "blockName": "Minimalism is not just about having less; it is about making room for more of what matters. In this essay, we explore the principles of reduction and clarity, and how they shape our digital and physical environments. When we strip away the non-essential, we are left with the core of the message. In UI design, this means removing decorative elements that do not serve a functional purpose. It forces the designer to prioritize content and hierarchy. \"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.\"",
-             "children": null,
+             "children": [],
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [
               {
                "comesFrom": "dataScript",
@@ -1645,10 +1560,8 @@
               }
              ],
              "element": "p",
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": "<p>Article content</p>",
-             "innerText": null,
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -1663,13 +1576,10 @@
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": "section",
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": "",
-           "innerText": null,
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -1681,6 +1591,7 @@
            "visibilityCondition": null
           },
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {
             "display": "flex",
@@ -1697,15 +1608,20 @@
            "blockName": "Tags",
            "children": [
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "alignItems": "center",
-              "backgroundColor": "rgb(243, 243, 243)",
+              "backgroundColor": "var(--ink-gray-1)",
               "borderRadius": "8px",
               "display": "flex",
               "gap": "4px",
+              "hover:backgroundColor": "var(--ink-gray-2)",
               "justifyContent": "center",
-              "padding": "6px 8px"
+              "padding": "6px 8px",
+              "transitionDuration": "300ms",
+              "transitionProperty": "all",
+              "transitionTimingFunction": "ease"
              },
              "blockClientScript": "",
              "blockDataScript": "",
@@ -1713,10 +1629,11 @@
              "blockName": "tag",
              "children": [
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
-                "color": "rgb(56, 56, 56)",
-                "fontSize": "14px",
+                "color": "var(--ink-gray-8)",
+                "fontSize": "13px",
                 "fontWeight": "420",
                 "letterSpacing": "0.28px",
                 "lineHeight": "115% "
@@ -1725,11 +1642,10 @@
                "blockDataScript": "",
                "blockId": "u8pc97ak2",
                "blockName": "Discover",
-               "children": null,
+               "children": [],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [
                 {
                  "comesFrom": "dataScript",
@@ -1739,10 +1655,8 @@
                 }
                ],
                "element": "p",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "<p>Design</p>",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -1759,7 +1673,6 @@
               "target": "_blank"
              },
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [
               {
                "comesFrom": "dataScript",
@@ -1769,10 +1682,8 @@
               }
              ],
              "element": "a",
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": "",
-             "innerText": null,
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -1792,13 +1703,10 @@
             "property": "innerHTML",
             "type": "key"
            },
-           "draggable": false,
            "dynamicValues": [],
            "element": "div",
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": null,
-           "innerText": null,
            "isChildOfComponent": null,
            "isRepeaterBlock": true,
            "mobileStyles": {},
@@ -1810,6 +1718,7 @@
            "visibilityCondition": null
           },
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {
             "alignItems": "flex-start",
@@ -1825,17 +1734,14 @@
            "blockDataScript": "",
            "blockId": "ghn1e0z1a",
            "blockName": "divider",
-           "children": null,
+           "children": [],
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": "div",
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": "",
-           "innerText": null,
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -1847,6 +1753,7 @@
            "visibilityCondition": null
           },
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {
             "alignItems": "center",
@@ -1867,6 +1774,7 @@
            "blockName": "Background",
            "children": [
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "alignItems": "center",
@@ -1882,6 +1790,7 @@
              "blockName": "avatar",
              "children": [
               {
+               "activeState": null,
                "attributes": {
                 "src": ""
                },
@@ -1895,11 +1804,10 @@
                "blockDataScript": "",
                "blockId": "9jh31b6i1",
                "blockName": "avatar-image",
-               "children": null,
+               "children": [],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [
                 {
                  "comesFrom": "dataScript",
@@ -1909,10 +1817,8 @@
                 }
                ],
                "element": "img",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -1927,13 +1833,10 @@
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [],
              "element": "div",
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": "",
-             "innerText": null,
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -1945,6 +1848,7 @@
              "visibilityCondition": null
             },
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "alignItems": "center",
@@ -1958,6 +1862,7 @@
              "blockName": "Container",
              "children": [
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "alignItems": "flex-start",
@@ -1972,6 +1877,7 @@
                "blockName": "Frame 24",
                "children": [
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "alignItems": "flex-start",
@@ -1986,6 +1892,7 @@
                  "blockName": "Heading 3",
                  "children": [
                   {
+                   "activeState": null,
                    "attributes": {},
                    "baseStyles": {
                     "alignSelf": "stretch",
@@ -1999,17 +1906,14 @@
                    "blockDataScript": "",
                    "blockId": "y9p2mq86i",
                    "blockName": "Written by Jane Doe",
-                   "children": null,
+                   "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
-                   "draggable": false,
                    "dynamicValues": [],
                    "element": "p",
-                   "elementBeforeConversion": null,
                    "extendedFromComponent": null,
                    "innerHTML": "<p>Written by Jane Doe</p>",
-                   "innerText": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -2024,13 +1928,10 @@
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "section",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -2042,6 +1943,7 @@
                  "visibilityCondition": null
                 },
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "alignItems": "flex-start",
@@ -2056,6 +1958,7 @@
                  "blockName": "Container",
                  "children": [
                   {
+                   "activeState": null,
                    "attributes": {},
                    "baseStyles": {
                     "alignSelf": "stretch",
@@ -2070,11 +1973,10 @@
                    "blockDataScript": "",
                    "blockId": "pyhm3vvd0",
                    "blockName": "Lead Designer at Frappe Tech. Passionate about minimalism, typography, and sustainable design systems.",
-                   "children": null,
+                   "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
-                   "draggable": false,
                    "dynamicValues": [
                     {
                      "comesFrom": "dataScript",
@@ -2084,10 +1986,8 @@
                     }
                    ],
                    "element": "p",
-                   "elementBeforeConversion": null,
                    "extendedFromComponent": null,
                    "innerHTML": "<p>Lead Designer at Frappe Tech. Passionate about minimalism, typography, and sustainable design systems.</p>",
-                   "innerText": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -2107,13 +2007,10 @@
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "section",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -2128,13 +2025,10 @@
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": "section",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -2144,10 +2038,13 @@
                 "flex": "1 0 0"
                },
                "referenceBlockId": null,
-               "tabletStyles": {},
+               "tabletStyles": {
+                "width": "100%"
+               },
                "visibilityCondition": null
               },
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "alignItems": "center",
@@ -2164,6 +2061,7 @@
                "blockName": "button",
                "children": [
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "color": "rgb(56, 56, 56)",
@@ -2176,17 +2074,14 @@
                  "blockDataScript": "",
                  "blockId": "qjvw4cnlg",
                  "blockName": "Discover",
-                 "children": null,
+                 "children": [],
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "p",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "<p>Subscribe</p>",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -2203,13 +2098,10 @@
                ],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": "button",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -2224,13 +2116,10 @@
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [],
              "element": "section",
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": "",
-             "innerText": null,
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -2240,20 +2129,19 @@
               "flex": "1 0 0"
              },
              "referenceBlockId": null,
-             "tabletStyles": {},
+             "tabletStyles": {
+              "width": "100%"
+             },
              "visibilityCondition": null
             }
            ],
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": "section",
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": "",
-           "innerText": null,
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -2263,10 +2151,13 @@
             "display": "{{ \"none\" if page_data.is_user_author else \"flex\" }}"
            },
            "referenceBlockId": null,
-           "tabletStyles": {},
+           "tabletStyles": {
+            "flexDirection": "column"
+           },
            "visibilityCondition": null
           },
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {
             "alignItems": "center",
@@ -2280,6 +2171,7 @@
            "blockName": "Border",
            "children": [
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "alignItems": "flex-start",
@@ -2292,6 +2184,7 @@
              "blockName": "Container",
              "children": [
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "alignItems": "center",
@@ -2304,6 +2197,7 @@
                "blockName": "Like Button",
                "children": [
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "height": "16px",
@@ -2313,20 +2207,17 @@
                  "blockDataScript": "",
                  "blockId": "4ejtho5fp",
                  "blockName": "icon/line/heart",
-                 "children": null,
+                 "children": [],
                  "classes": [],
                  "customAttributes": {
                   "id": "like-icon",
                   "is-liked": "{{ post.liked_by_me }}"
                  },
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "svg",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n{% if post.liked_by_me %}\n<path d=\"M1.99217 2.89857C3.57858 1.31233 6.15168 1.31258 7.73826 2.89857L7.94529 3.12514C7.95867 3.14117 7.97039 3.15878 7.98338 3.17494C8.05864 3.08141 8.13883 2.98824 8.22752 2.89955C9.81399 1.31333 12.3871 1.31342 13.9736 2.89955L14.1181 3.05092C15.5637 4.63446 15.5803 6.92361 13.9853 8.63295C13.9801 8.63853 13.9742 8.64422 13.9687 8.64955L8.33299 14.1466C8.13879 14.336 7.82895 14.336 7.63474 14.1466L1.99705 8.64955C1.99037 8.64303 1.98382 8.63592 1.97752 8.62904C0.431349 6.93934 0.396498 4.49424 1.99217 2.89857Z\" fill=\"#ef4444\"/>\n{% else %}\n<path d=\"M1.99217 2.89857C3.57858 1.31233 6.15168 1.31258 7.73826 2.89857L7.94529 3.12514C7.95867 3.14117 7.97039 3.15878 7.98338 3.17494C8.05864 3.08141 8.13883 2.98824 8.22752 2.89955C9.81399 1.31333 12.3871 1.31342 13.9736 2.89955L14.1181 3.05092C15.5637 4.63446 15.5803 6.92361 13.9853 8.63295C13.9801 8.63853 13.9742 8.64422 13.9687 8.64955L8.33299 14.1466C8.13879 14.336 7.82895 14.336 7.63474 14.1466L1.99705 8.64955C1.99037 8.64303 1.98382 8.63592 1.97752 8.62904C0.431349 6.93934 0.396498 4.49424 1.99217 2.89857ZM13.2666 3.60658C12.0706 2.41098 10.1305 2.41088 8.93455 3.60658C8.73051 3.81062 8.56934 4.05013 8.42283 4.31947C8.33531 4.48041 8.16658 4.58119 7.98338 4.58119C7.80026 4.58111 7.63141 4.48035 7.54392 4.31947C7.39716 4.04969 7.23635 3.81 7.0322 3.60658H7.03123C5.83519 2.41072 3.89521 2.41068 2.6992 3.60658C1.51517 4.79105 1.50085 6.61874 2.70799 7.94545L7.98338 13.09L13.2617 7.94154C14.5412 6.56294 14.4611 4.80145 13.2666 3.60756V3.60658Z\" fill=\"#525252\"/> -->\n{% endif %}\n</svg>\n",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -2338,6 +2229,7 @@
                  "visibilityCondition": null
                 },
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "alignItems": "center",
@@ -2350,6 +2242,7 @@
                  "blockName": "Container",
                  "children": [
                   {
+                   "activeState": null,
                    "attributes": {},
                    "baseStyles": {
                     "color": "var(--ink-gray-6)",
@@ -2363,13 +2256,12 @@
                    "blockDataScript": "",
                    "blockId": "p03w2dyx9",
                    "blockName": "2.4K",
-                   "children": null,
+                   "children": [],
                    "classes": [],
                    "customAttributes": {
                     "id": "post-likes-count"
                    },
                    "dataKey": null,
-                   "draggable": false,
                    "dynamicValues": [
                     {
                      "comesFrom": "dataScript",
@@ -2379,10 +2271,8 @@
                     }
                    ],
                    "element": "p",
-                   "elementBeforeConversion": null,
                    "extendedFromComponent": null,
                    "innerHTML": "<p>2.4K</p>",
-                   "innerText": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -2397,13 +2287,10 @@
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "section",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -2420,13 +2307,10 @@
                 "post-id": "{{  post.name }}"
                },
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": "button",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -2438,6 +2322,7 @@
                "visibilityCondition": null
               },
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "alignItems": "center",
@@ -2450,6 +2335,7 @@
                "blockName": "Button",
                "children": [
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "height": "16px",
@@ -2459,17 +2345,14 @@
                  "blockDataScript": "",
                  "blockId": "9kofrafqm",
                  "blockName": "icon/line/comment1",
-                 "children": null,
+                 "children": [],
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "svg",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7.99805 1.5C11.5864 1.5002 14.4951 4.40965 14.4951 7.99805C14.4949 11.5863 11.5863 14.4949 7.99805 14.4951C7.69102 14.4951 7.38795 14.4735 7.0918 14.4316L6.79785 14.3828C6.04932 14.2412 5.44817 13.9869 5.01465 13.7617C4.67831 13.9399 4.25056 14.1115 3.80176 14.2422C3.2253 14.4101 2.56613 14.5274 1.97266 14.4951C1.77577 14.4843 1.60374 14.358 1.5332 14.1738C1.46282 13.9897 1.50717 13.7811 1.64648 13.6416C1.9468 13.3408 2.20258 12.8447 2.33789 12.3301C2.40435 12.0772 2.43706 11.837 2.43652 11.6348C2.43595 11.4262 2.40028 11.2934 2.36426 11.2256H2.36328C1.81788 10.2756 1.50007 9.17494 1.5 7.99805C1.5 4.40953 4.40953 1.50001 7.99805 1.5ZM7.99805 2.5C4.96182 2.50001 2.5 4.96182 2.5 7.99805C2.50006 8.87225 2.70766 9.69658 3.07227 10.4307L3.23828 10.7402L3.24609 10.7549C3.38774 11.0205 3.43573 11.3351 3.43652 11.6328C3.43728 11.9374 3.38874 12.2642 3.30469 12.584C3.23282 12.8574 3.12876 13.1377 2.99902 13.4062C3.1728 13.3717 3.34941 13.3317 3.52246 13.2812C4.03861 13.1309 4.4832 12.9329 4.73438 12.7705L4.79492 12.7373C4.94106 12.6694 5.11275 12.6751 5.25488 12.7568C5.62683 12.9713 6.21481 13.2549 6.9834 13.4004C7.31107 13.4624 7.65135 13.4951 7.99805 13.4951C11.034 13.4949 13.4949 11.034 13.4951 7.99805C13.4951 4.96193 11.0341 2.5002 7.99805 2.5ZM5.5 7C5.91421 7 6.25 7.33579 6.25 7.75C6.25 8.16421 5.91421 8.5 5.5 8.5C5.08579 8.5 4.75 8.16421 4.75 7.75C4.75 7.33579 5.08579 7 5.5 7ZM8 7C8.41421 7 8.75 7.33579 8.75 7.75C8.75 8.16421 8.41421 8.5 8 8.5C7.58579 8.5 7.25 8.16421 7.25 7.75C7.25 7.33579 7.58579 7 8 7ZM10.5 7C10.9142 7 11.25 7.33579 11.25 7.75C11.25 8.16421 10.9142 8.5 10.5 8.5C10.0858 8.5 9.75 8.16421 9.75 7.75C9.75 7.33579 10.0858 7 10.5 7Z\" fill=\"#525252\"/>\n</svg>\n",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -2481,6 +2364,7 @@
                  "visibilityCondition": null
                 },
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "alignItems": "center",
@@ -2493,6 +2377,7 @@
                  "blockName": "Container",
                  "children": [
                   {
+                   "activeState": null,
                    "attributes": {},
                    "baseStyles": {
                     "color": "var(--ink-gray-6)",
@@ -2506,13 +2391,12 @@
                    "blockDataScript": "",
                    "blockId": "v94m2yrpt",
                    "blockName": "48",
-                   "children": null,
+                   "children": [],
                    "classes": [],
                    "customAttributes": {
                     "id": "comment-count"
                    },
                    "dataKey": null,
-                   "draggable": false,
                    "dynamicValues": [
                     {
                      "comesFrom": "dataScript",
@@ -2522,10 +2406,8 @@
                     }
                    ],
                    "element": "p",
-                   "elementBeforeConversion": null,
                    "extendedFromComponent": null,
                    "innerHTML": "<p>48</p>",
-                   "innerText": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -2540,13 +2422,10 @@
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "section",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -2561,13 +2440,10 @@
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": "section",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -2584,13 +2460,10 @@
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [],
              "element": "section",
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": "",
-             "innerText": null,
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -2602,6 +2475,7 @@
              "visibilityCondition": null
             },
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "alignItems": "flex-start",
@@ -2614,6 +2488,7 @@
              "blockName": "Container",
              "children": [
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "alignItems": "center",
@@ -2628,6 +2503,7 @@
                "blockName": "Share Button",
                "children": [
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "height": "16px",
@@ -2637,17 +2513,14 @@
                  "blockDataScript": "",
                  "blockId": "hhqfoc2iw",
                  "blockName": "icon/line/share",
-                 "children": null,
+                 "children": [],
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "svg",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7.89746 2.75098C7.89776 2.1472 8.56404 1.80702 9.04688 2.11621L9.14062 2.18652L14.6494 7.00684C15.1044 7.40525 15.1045 8.11337 14.6494 8.51172L9.14063 13.3311C8.65569 13.7553 7.89746 13.411 7.89746 12.7666V10.208C6.0648 10.2702 4.86194 10.6777 3.95313 11.2656C3.03109 11.8622 2.37099 12.6694 1.64844 13.6201C1.51867 13.7909 1.29409 13.8602 1.09082 13.792C0.887463 13.7235 0.75 13.532 0.75 13.3174C0.750116 10.4265 1.46311 8.40938 2.76758 7.10156C4.06958 5.79635 5.87655 5.28186 7.87793 5.20898C7.88525 5.20872 7.8917 5.20599 7.89551 5.20215C7.89681 5.20072 7.89746 5.19922 7.89746 5.19922V2.75098ZM8.89746 5.2002C8.89746 5.75794 8.44685 6.18942 7.91504 6.20898C6.0463 6.27698 4.52911 6.75244 3.47559 7.80859C2.63227 8.65425 2.03264 9.92748 1.82813 11.8125C2.28577 11.3015 2.79367 10.8257 3.41016 10.4268C4.43538 9.76342 5.72299 9.33083 7.51367 9.22559L7.87891 9.20898C8.44612 9.19034 8.89733 9.65055 8.89746 10.2002V12.2158L13.9902 7.75879L8.89746 3.30176V5.2002Z\" fill=\"#525252\"/>\n</svg>\n",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -2662,13 +2535,10 @@
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": "button",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -2680,6 +2550,7 @@
                "visibilityCondition": null
               },
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "alignItems": "center",
@@ -2694,6 +2565,7 @@
                "blockName": "Post Button",
                "children": [
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "height": "16px",
@@ -2703,17 +2575,14 @@
                  "blockDataScript": "",
                  "blockId": "4al42pmvi",
                  "blockName": "icon/line/link",
-                 "children": null,
+                 "children": [],
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "svg",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6.52539 3.98438C6.80136 3.98446 7.02524 4.20842 7.02539 4.48438C7.02539 4.76046 6.80146 4.98429 6.52539 4.98438H4.51758C2.85335 4.98441 1.50406 6.33385 1.50391 7.99805C1.50396 9.66232 2.8533 11.0117 4.51758 11.0117H6.52539C6.80136 11.0118 7.02524 11.2358 7.02539 11.5117C7.02528 11.7877 6.80139 12.0116 6.52539 12.0117H4.51758C2.30101 12.0117 0.503963 10.2146 0.503906 7.99805C0.504055 5.78156 2.30107 3.98441 4.51758 3.98438H6.52539ZM11.4834 3.98438C13.7 3.98441 15.497 5.78148 15.4971 7.99805C15.4969 10.2145 13.6999 12.0117 11.4834 12.0117H9.47559C9.19952 12.0117 8.97572 11.7877 8.97559 11.5117C8.97559 11.2356 9.19944 11.0117 9.47559 11.0117H11.4834C13.1476 11.0117 14.4969 9.66226 14.4971 7.99805C14.497 6.33377 13.1477 4.98441 11.4834 4.98438H9.47559C9.19952 4.98437 8.97572 4.76041 8.97559 4.48438C8.9757 4.20833 9.19951 3.98438 9.47559 3.98438H11.4834ZM10.0078 7.49805C10.284 7.49805 10.5078 7.7219 10.5078 7.99805C10.5078 8.27419 10.284 8.49805 10.0078 8.49805H5.99219C5.7163 8.49775 5.49219 8.27401 5.49219 7.99805C5.49219 7.72209 5.7163 7.49834 5.99219 7.49805H10.0078Z\" fill=\"#525252\"/>\n</svg>\n",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -2728,13 +2597,10 @@
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": "button",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -2749,13 +2615,10 @@
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [],
              "element": "section",
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": "",
-             "innerText": null,
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -2770,13 +2633,10 @@
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": "section",
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": "",
-           "innerText": null,
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -2788,6 +2648,7 @@
            "visibilityCondition": null
           },
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {
             "alignItems": "flex-start",
@@ -2803,17 +2664,14 @@
            "blockDataScript": "",
            "blockId": "fz201toie",
            "blockName": "divider",
-           "children": null,
+           "children": [],
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": "div",
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": "",
-           "innerText": null,
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -2825,6 +2683,7 @@
            "visibilityCondition": null
           },
           {
+           "activeState": null,
            "attributes": {},
            "baseStyles": {
             "alignItems": "flex-start",
@@ -2839,6 +2698,7 @@
            "blockName": "Section:margin",
            "children": [
             {
+             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "alignItems": "flex-start",
@@ -2854,6 +2714,7 @@
              "blockName": "Section",
              "children": [
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "alignItems": "flex-start",
@@ -2868,6 +2729,7 @@
                "blockName": "Heading 3",
                "children": [
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "color": "var(--ink-gray-8)",
@@ -2880,11 +2742,10 @@
                  "blockDataScript": "",
                  "blockId": "4ffk6mq6w",
                  "blockName": "Responses count",
-                 "children": null,
+                 "children": [],
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [
                   {
                    "comesFrom": "dataScript",
@@ -2894,10 +2755,8 @@
                   }
                  ],
                  "element": "p",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "<p>Responses (48)</p>",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -2909,6 +2768,7 @@
                  "visibilityCondition": null
                 },
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "color": "var(--ink-gray-8)",
@@ -2921,17 +2781,14 @@
                  "blockDataScript": "",
                  "blockId": "oqr0qblwl",
                  "blockName": "Responses",
-                 "children": null,
+                 "children": [],
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "p",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "<p>Responses</p>",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -2946,13 +2803,10 @@
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": "section",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -2964,6 +2818,7 @@
                "visibilityCondition": null
               },
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "alignItems": "flex-start",
@@ -2980,6 +2835,7 @@
                "blockName": "Add comment section",
                "children": [
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "borderColor": "var(--ink-gray-1)",
@@ -3003,19 +2859,16 @@
                  "blockDataScript": "",
                  "blockId": "1o7lv4vl8",
                  "blockName": "Comment input",
-                 "children": null,
+                 "children": [],
                  "classes": [],
                  "customAttributes": {
                   "id": "comment-input"
                  },
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "textarea",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": null,
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -3027,10 +2880,10 @@
                  "visibilityCondition": null
                 },
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "alignItems": "center",
-                  "backgroundColor": "var(--ink-gray-1)",
                   "border": "1px solid  #E2E2E2",
                   "borderRadius": " 8px",
                   "boxSizing": "border-box",
@@ -3045,6 +2898,7 @@
                  "blockName": "button",
                  "children": [
                   {
+                   "activeState": null,
                    "attributes": {},
                    "baseStyles": {
                     "color": "var(--ink-gray-8)",
@@ -3057,17 +2911,14 @@
                    "blockDataScript": "",
                    "blockId": "n3muwen3o",
                    "blockName": "Discover",
-                   "children": null,
+                   "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
-                   "draggable": false,
                    "dynamicValues": [],
                    "element": "p",
-                   "elementBeforeConversion": null,
                    "extendedFromComponent": null,
                    "innerHTML": "<p>Submit</p>",
-                   "innerText": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -3086,13 +2937,10 @@
                   "id": "comment-submit-btn"
                  },
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "button",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -3109,13 +2957,10 @@
                 "post-id": "{{ post.name }}"
                },
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": "section",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -3129,6 +2974,7 @@
                "visibilityCondition": null
               },
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "alignItems": "flex-start",
@@ -3144,6 +2990,7 @@
                "blockName": "Container",
                "children": [
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "display": "flex",
@@ -3160,6 +3007,7 @@
                  "blockName": "repeater",
                  "children": [
                   {
+                   "activeState": null,
                    "attributes": {},
                    "baseStyles": {},
                    "blockClientScript": "",
@@ -3168,6 +3016,7 @@
                    "blockName": "Post Comment",
                    "children": [
                     {
+                     "activeState": null,
                      "attributes": {},
                      "baseStyles": {},
                      "blockClientScript": "",
@@ -3176,6 +3025,7 @@
                      "blockName": "container",
                      "children": [
                       {
+                       "activeState": null,
                        "attributes": {},
                        "baseStyles": {},
                        "blockClientScript": "",
@@ -3184,6 +3034,7 @@
                        "blockName": "Margin",
                        "children": [
                         {
+                         "activeState": null,
                          "attributes": {},
                          "baseStyles": {},
                          "blockClientScript": "",
@@ -3192,17 +3043,17 @@
                          "blockName": "avatar",
                          "children": [
                           {
+                           "activeState": null,
                            "attributes": {},
                            "baseStyles": {},
                            "blockClientScript": "",
                            "blockDataScript": "",
                            "blockId": "i9kqundmn",
                            "blockName": "avatar-image",
-                           "children": null,
+                           "children": [],
                            "classes": [],
                            "customAttributes": {},
                            "dataKey": null,
-                           "draggable": false,
                            "dynamicValues": [
                             {
                              "comesFrom": "dataScript",
@@ -3212,10 +3063,8 @@
                             }
                            ],
                            "element": null,
-                           "elementBeforeConversion": null,
                            "extendedFromComponent": null,
                            "innerHTML": null,
-                           "innerText": null,
                            "isChildOfComponent": "c59d99b6ba6f1027",
                            "isRepeaterBlock": false,
                            "mobileStyles": {},
@@ -3230,13 +3079,10 @@
                          "classes": [],
                          "customAttributes": {},
                          "dataKey": null,
-                         "draggable": false,
                          "dynamicValues": [],
                          "element": null,
-                         "elementBeforeConversion": null,
                          "extendedFromComponent": null,
                          "innerHTML": null,
-                         "innerText": null,
                          "isChildOfComponent": "c59d99b6ba6f1027",
                          "isRepeaterBlock": false,
                          "mobileStyles": {},
@@ -3251,13 +3097,10 @@
                        "classes": [],
                        "customAttributes": {},
                        "dataKey": null,
-                       "draggable": false,
                        "dynamicValues": [],
                        "element": null,
-                       "elementBeforeConversion": null,
                        "extendedFromComponent": null,
                        "innerHTML": null,
-                       "innerText": null,
                        "isChildOfComponent": "c59d99b6ba6f1027",
                        "isRepeaterBlock": false,
                        "mobileStyles": {},
@@ -3269,6 +3112,7 @@
                        "visibilityCondition": null
                       },
                       {
+                       "activeState": null,
                        "attributes": {},
                        "baseStyles": {},
                        "blockClientScript": "",
@@ -3277,6 +3121,7 @@
                        "blockName": "Container",
                        "children": [
                         {
+                         "activeState": null,
                          "attributes": {},
                          "baseStyles": {},
                          "blockClientScript": "",
@@ -3285,6 +3130,7 @@
                          "blockName": "Container",
                          "children": [
                           {
+                           "activeState": null,
                            "attributes": {},
                            "baseStyles": {},
                            "blockClientScript": "",
@@ -3293,6 +3139,7 @@
                            "blockName": "container",
                            "children": [
                             {
+                             "activeState": null,
                              "attributes": {},
                              "baseStyles": {},
                              "blockClientScript": "",
@@ -3301,17 +3148,17 @@
                              "blockName": "Container",
                              "children": [
                               {
+                               "activeState": null,
                                "attributes": {},
                                "baseStyles": {},
                                "blockClientScript": "",
                                "blockDataScript": "",
                                "blockId": "v2l0yb2tj",
                                "blockName": "John Smith",
-                               "children": null,
+                               "children": [],
                                "classes": [],
                                "customAttributes": {},
                                "dataKey": null,
-                               "draggable": false,
                                "dynamicValues": [
                                 {
                                  "comesFrom": "dataScript",
@@ -3321,10 +3168,8 @@
                                 }
                                ],
                                "element": null,
-                               "elementBeforeConversion": null,
                                "extendedFromComponent": null,
                                "innerHTML": null,
-                               "innerText": null,
                                "isChildOfComponent": "c59d99b6ba6f1027",
                                "isRepeaterBlock": false,
                                "mobileStyles": {},
@@ -3339,13 +3184,10 @@
                              "classes": [],
                              "customAttributes": {},
                              "dataKey": null,
-                             "draggable": false,
                              "dynamicValues": [],
                              "element": null,
-                             "elementBeforeConversion": null,
                              "extendedFromComponent": null,
                              "innerHTML": null,
-                             "innerText": null,
                              "isChildOfComponent": "c59d99b6ba6f1027",
                              "isRepeaterBlock": false,
                              "mobileStyles": {},
@@ -3357,6 +3199,7 @@
                              "visibilityCondition": null
                             },
                             {
+                             "activeState": null,
                              "attributes": {},
                              "baseStyles": {},
                              "blockClientScript": "",
@@ -3365,17 +3208,17 @@
                              "blockName": "Container",
                              "children": [
                               {
+                               "activeState": null,
                                "attributes": {},
                                "baseStyles": {},
                                "blockClientScript": "",
                                "blockDataScript": "",
                                "blockId": "s5so0kylo",
                                "blockName": "2 hours ago",
-                               "children": null,
+                               "children": [],
                                "classes": [],
                                "customAttributes": {},
                                "dataKey": null,
-                               "draggable": false,
                                "dynamicValues": [
                                 {
                                  "comesFrom": "dataScript",
@@ -3385,10 +3228,8 @@
                                 }
                                ],
                                "element": null,
-                               "elementBeforeConversion": null,
                                "extendedFromComponent": null,
                                "innerHTML": null,
-                               "innerText": null,
                                "isChildOfComponent": "c59d99b6ba6f1027",
                                "isRepeaterBlock": false,
                                "mobileStyles": {},
@@ -3403,13 +3244,10 @@
                              "classes": [],
                              "customAttributes": {},
                              "dataKey": null,
-                             "draggable": false,
                              "dynamicValues": [],
                              "element": null,
-                             "elementBeforeConversion": null,
                              "extendedFromComponent": null,
                              "innerHTML": null,
-                             "innerText": null,
                              "isChildOfComponent": "c59d99b6ba6f1027",
                              "isRepeaterBlock": false,
                              "mobileStyles": {},
@@ -3424,13 +3262,10 @@
                            "classes": [],
                            "customAttributes": {},
                            "dataKey": null,
-                           "draggable": false,
                            "dynamicValues": [],
                            "element": null,
-                           "elementBeforeConversion": null,
                            "extendedFromComponent": null,
                            "innerHTML": null,
-                           "innerText": null,
                            "isChildOfComponent": "c59d99b6ba6f1027",
                            "isRepeaterBlock": false,
                            "mobileStyles": {},
@@ -3442,6 +3277,7 @@
                            "visibilityCondition": null
                           },
                           {
+                           "activeState": null,
                            "attributes": {},
                            "baseStyles": {},
                            "blockClientScript": "this.addEventListener(\"click\", () => {\n  cafePost.deleteComment(this.getAttribute(\"comment-id\"), this);\n});\n",
@@ -3450,23 +3286,21 @@
                            "blockName": "Comment delete button",
                            "children": [
                             {
+                             "activeState": null,
                              "attributes": {},
                              "baseStyles": {},
                              "blockClientScript": "",
                              "blockDataScript": "",
                              "blockId": "pvm0eblld",
                              "blockName": null,
-                             "children": null,
+                             "children": [],
                              "classes": [],
                              "customAttributes": {},
                              "dataKey": null,
-                             "draggable": false,
                              "dynamicValues": [],
                              "element": null,
-                             "elementBeforeConversion": null,
                              "extendedFromComponent": null,
                              "innerHTML": null,
-                             "innerText": null,
                              "isChildOfComponent": "c59d99b6ba6f1027",
                              "isRepeaterBlock": false,
                              "mobileStyles": {},
@@ -3481,13 +3315,10 @@
                            "classes": [],
                            "customAttributes": {},
                            "dataKey": null,
-                           "draggable": false,
                            "dynamicValues": [],
                            "element": null,
-                           "elementBeforeConversion": null,
                            "extendedFromComponent": null,
                            "innerHTML": null,
-                           "innerText": null,
                            "isChildOfComponent": "c59d99b6ba6f1027",
                            "isRepeaterBlock": false,
                            "mobileStyles": {},
@@ -3505,13 +3336,10 @@
                          "classes": [],
                          "customAttributes": {},
                          "dataKey": null,
-                         "draggable": false,
                          "dynamicValues": [],
                          "element": null,
-                         "elementBeforeConversion": null,
                          "extendedFromComponent": null,
                          "innerHTML": null,
-                         "innerText": null,
                          "isChildOfComponent": "c59d99b6ba6f1027",
                          "isRepeaterBlock": false,
                          "mobileStyles": {},
@@ -3523,6 +3351,7 @@
                          "visibilityCondition": null
                         },
                         {
+                         "activeState": null,
                          "attributes": {},
                          "baseStyles": {},
                          "blockClientScript": "",
@@ -3531,17 +3360,17 @@
                          "blockName": "Container",
                          "children": [
                           {
+                           "activeState": null,
                            "attributes": {},
                            "baseStyles": {},
                            "blockClientScript": "",
                            "blockDataScript": "",
                            "blockId": "ixue0iij2",
                            "blockName": "This is exactly what I needed to read today. The point about white space being an \"active element\" really resonated with me. Great article!",
-                           "children": null,
+                           "children": [],
                            "classes": [],
                            "customAttributes": {},
                            "dataKey": null,
-                           "draggable": false,
                            "dynamicValues": [
                             {
                              "comesFrom": "dataScript",
@@ -3551,10 +3380,8 @@
                             }
                            ],
                            "element": null,
-                           "elementBeforeConversion": null,
                            "extendedFromComponent": null,
                            "innerHTML": null,
-                           "innerText": null,
                            "isChildOfComponent": "c59d99b6ba6f1027",
                            "isRepeaterBlock": false,
                            "mobileStyles": {},
@@ -3569,13 +3396,10 @@
                          "classes": [],
                          "customAttributes": {},
                          "dataKey": null,
-                         "draggable": false,
                          "dynamicValues": [],
                          "element": null,
-                         "elementBeforeConversion": null,
                          "extendedFromComponent": null,
                          "innerHTML": null,
-                         "innerText": null,
                          "isChildOfComponent": "c59d99b6ba6f1027",
                          "isRepeaterBlock": false,
                          "mobileStyles": {},
@@ -3587,6 +3411,7 @@
                          "visibilityCondition": null
                         },
                         {
+                         "activeState": null,
                          "attributes": {},
                          "baseStyles": {},
                          "blockClientScript": "",
@@ -3595,6 +3420,7 @@
                          "blockName": "Container",
                          "children": [
                           {
+                           "activeState": null,
                            "attributes": {},
                            "baseStyles": {},
                            "blockClientScript": "",
@@ -3603,23 +3429,21 @@
                            "blockName": "Like Comment Button",
                            "children": [
                             {
+                             "activeState": null,
                              "attributes": {},
                              "baseStyles": {},
                              "blockClientScript": "",
                              "blockDataScript": "",
                              "blockId": "w1h49zuyz",
                              "blockName": "icon/line/like",
-                             "children": null,
+                             "children": [],
                              "classes": [],
                              "customAttributes": {},
                              "dataKey": null,
-                             "draggable": false,
                              "dynamicValues": [],
                              "element": null,
-                             "elementBeforeConversion": null,
                              "extendedFromComponent": null,
                              "innerHTML": "<svg fill=\"none\" height=\"15\" viewBox=\"0 0 15 15\" width=\"15\" xmlns=\"http://www.w3.org/2000/svg\">\n    <g clip-path=\"url(#clip0_296_2879)\">\n      {% if post.comments[loop.index0].liked_by_me %}\n      <path id=\"thumb-path\" d=\"M4.96992 14.1709C3.96134 14.0686 3.17406 13.2172 3.17402 12.1816V7.14746L3.18183 7.02344C3.1973 6.89987 3.23624 6.77996 3.29609 6.66992L6.19355 1.3418L6.2668 1.22656C6.42693 1.009 6.66906 0.865705 6.93672 0.829102L7.07246 0.819336H7.1916L7.3957 0.830078C8.33714 0.925533 9.08527 1.67384 9.18086 2.61523L9.1916 2.81934V5.07129H11.7375L11.8693 5.0752C13.2176 5.16063 14.1101 6.55259 13.59 7.82715L11.5051 12.9375C11.2171 13.643 10.5552 14.1191 9.8039 14.1758L9.65254 14.1816H5.17402L4.96992 14.1709Z M1.66719 14.0869C1.39118 14.0868 1.16719 13.863 1.16719 13.5869V7.50781C1.16734 7.2319 1.39128 7.00797 1.66719 7.00781C1.94323 7.00781 2.16703 7.2318 2.16719 7.50781V13.5869C2.16719 13.8631 1.94333 14.0869 1.66719 14.0869Z\" fill=\"#525252\"></path>\n      {% else %}\n      <path id=\"thumb-path\" d=\"M4.96992 14.1709C3.96134 14.0686 3.17406 13.2172 3.17402 12.1816V7.14746L3.18183 7.02344C3.1973 6.89987 3.23624 6.77996 3.29609 6.66992L6.19355 1.3418L6.2668 1.22656C6.42693 1.009 6.66906 0.865705 6.93672 0.829102L7.07246 0.819336H7.1916L7.3957 0.830078C8.33714 0.925533 9.08527 1.67384 9.18086 2.61523L9.1916 2.81934V5.07129H11.7375L11.8693 5.0752C13.2176 5.16063 14.1101 6.55259 13.59 7.82715L11.5051 12.9375C11.2171 13.643 10.5552 14.1191 9.8039 14.1758L9.65254 14.1816H5.17402L4.96992 14.1709ZM9.65254 13.1816C10.0588 13.1816 10.4247 12.9356 10.5783 12.5596L12.6643 7.44922C12.9326 6.79147 12.4479 6.07132 11.7375 6.07129H9.1916C8.63938 6.07129 8.19169 5.62349 8.1916 5.07129V2.81934C8.19143 2.26721 7.74375 1.81936 7.1916 1.81934H7.07246L4.17402 7.14746V12.1816C4.17406 12.7338 4.62183 13.1816 5.17402 13.1816H9.65254ZM1.66719 14.0869C1.39118 14.0868 1.16719 13.863 1.16719 13.5869V7.50781C1.16734 7.2319 1.39128 7.00797 1.66719 7.00781C1.94323 7.00781 2.16703 7.2318 2.16719 7.50781V13.5869C2.16719 13.8631 1.94333 14.0869 1.66719 14.0869Z\" fill=\"#525252\"></path>\n      {% endif %}\n    </g>\n    <defs>\n      <clipPath id=\"clip0_296_2879\">\n        <rect fill=\"white\" height=\"15\" width=\"15\"></rect>\n      </clipPath>\n    </defs>\n  </svg>\n<!-- <svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_296_2879)\">\n<path d=\"M4.96992 14.1709C3.96134 14.0686 3.17406 13.2172 3.17402 12.1816V7.14746L3.18183 7.02344C3.1973 6.89987 3.23624 6.77996 3.29609 6.66992L6.19355 1.3418L6.2668 1.22656C6.42693 1.009 6.66906 0.865705 6.93672 0.829102L7.07246 0.819336H7.1916L7.3957 0.830078C8.33714 0.925533 9.08527 1.67384 9.18086 2.61523L9.1916 2.81934V5.07129H11.7375L11.8693 5.0752C13.2176 5.16063 14.1101 6.55259 13.59 7.82715L11.5051 12.9375C11.2171 13.643 10.5552 14.1191 9.8039 14.1758L9.65254 14.1816H5.17402L4.96992 14.1709ZM9.65254 13.1816C10.0588 13.1816 10.4247 12.9356 10.5783 12.5596L12.6643 7.44922C12.9326 6.79147 12.4479 6.07132 11.7375 6.07129H9.1916C8.63938 6.07129 8.19169 5.62349 8.1916 5.07129V2.81934C8.19143 2.26721 7.74375 1.81936 7.1916 1.81934H7.07246L4.17402 7.14746V12.1816C4.17406 12.7338 4.62183 13.1816 5.17402 13.1816H9.65254ZM1.66719 14.0869C1.39118 14.0868 1.16719 13.863 1.16719 13.5869V7.50781C1.16734 7.2319 1.39128 7.00797 1.66719 7.00781C1.94323 7.00781 2.16703 7.2318 2.16719 7.50781V13.5869C2.16719 13.8631 1.94333 14.0869 1.66719 14.0869Z\" fill=\"#525252\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_296_2879\">\n<rect width=\"15\" height=\"15\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg> -->\n",
-                             "innerText": null,
                              "isChildOfComponent": "c59d99b6ba6f1027",
                              "isRepeaterBlock": false,
                              "mobileStyles": {},
@@ -3631,17 +3455,17 @@
                              "visibilityCondition": null
                             },
                             {
+                             "activeState": null,
                              "attributes": {},
                              "baseStyles": {},
                              "blockClientScript": "",
                              "blockDataScript": "",
                              "blockId": "dvgu2omxp",
                              "blockName": "12",
-                             "children": null,
+                             "children": [],
                              "classes": [],
                              "customAttributes": {},
                              "dataKey": null,
-                             "draggable": false,
                              "dynamicValues": [
                               {
                                "comesFrom": "dataScript",
@@ -3651,10 +3475,8 @@
                               }
                              ],
                              "element": null,
-                             "elementBeforeConversion": null,
                              "extendedFromComponent": null,
                              "innerHTML": null,
-                             "innerText": null,
                              "isChildOfComponent": "c59d99b6ba6f1027",
                              "isRepeaterBlock": false,
                              "mobileStyles": {},
@@ -3669,13 +3491,10 @@
                            "classes": [],
                            "customAttributes": {},
                            "dataKey": null,
-                           "draggable": false,
                            "dynamicValues": [],
                            "element": null,
-                           "elementBeforeConversion": null,
                            "extendedFromComponent": null,
                            "innerHTML": null,
-                           "innerText": null,
                            "isChildOfComponent": "c59d99b6ba6f1027",
                            "isRepeaterBlock": false,
                            "mobileStyles": {},
@@ -3687,6 +3506,7 @@
                            "visibilityCondition": null
                           },
                           {
+                           "activeState": null,
                            "attributes": {},
                            "baseStyles": {},
                            "blockClientScript": "",
@@ -3695,23 +3515,21 @@
                            "blockName": "Button",
                            "children": [
                             {
+                             "activeState": null,
                              "attributes": {},
                              "baseStyles": {},
                              "blockClientScript": "",
                              "blockDataScript": "",
                              "blockId": "u0o3xajyp",
                              "blockName": "Reply",
-                             "children": null,
+                             "children": [],
                              "classes": [],
                              "customAttributes": {},
                              "dataKey": null,
-                             "draggable": false,
                              "dynamicValues": [],
                              "element": null,
-                             "elementBeforeConversion": null,
                              "extendedFromComponent": null,
                              "innerHTML": null,
-                             "innerText": null,
                              "isChildOfComponent": "c59d99b6ba6f1027",
                              "isRepeaterBlock": false,
                              "mobileStyles": {},
@@ -3726,13 +3544,10 @@
                            "classes": [],
                            "customAttributes": {},
                            "dataKey": null,
-                           "draggable": false,
                            "dynamicValues": [],
                            "element": null,
-                           "elementBeforeConversion": null,
                            "extendedFromComponent": null,
                            "innerHTML": null,
-                           "innerText": null,
                            "isChildOfComponent": "c59d99b6ba6f1027",
                            "isRepeaterBlock": false,
                            "mobileStyles": {},
@@ -3747,13 +3562,10 @@
                          "classes": [],
                          "customAttributes": {},
                          "dataKey": null,
-                         "draggable": false,
                          "dynamicValues": [],
                          "element": null,
-                         "elementBeforeConversion": null,
                          "extendedFromComponent": null,
                          "innerHTML": null,
-                         "innerText": null,
                          "isChildOfComponent": "c59d99b6ba6f1027",
                          "isRepeaterBlock": false,
                          "mobileStyles": {},
@@ -3768,13 +3580,10 @@
                        "classes": [],
                        "customAttributes": {},
                        "dataKey": null,
-                       "draggable": false,
                        "dynamicValues": [],
                        "element": null,
-                       "elementBeforeConversion": null,
                        "extendedFromComponent": null,
                        "innerHTML": null,
-                       "innerText": null,
                        "isChildOfComponent": "c59d99b6ba6f1027",
                        "isRepeaterBlock": false,
                        "mobileStyles": {},
@@ -3789,13 +3598,10 @@
                      "classes": [],
                      "customAttributes": {},
                      "dataKey": null,
-                     "draggable": false,
                      "dynamicValues": [],
                      "element": null,
-                     "elementBeforeConversion": null,
                      "extendedFromComponent": null,
                      "innerHTML": null,
-                     "innerText": null,
                      "isChildOfComponent": "c59d99b6ba6f1027",
                      "isRepeaterBlock": false,
                      "mobileStyles": {},
@@ -3807,6 +3613,7 @@
                      "visibilityCondition": null
                     },
                     {
+                     "activeState": null,
                      "attributes": {},
                      "baseStyles": {
                       "__last_display": "none",
@@ -3816,17 +3623,14 @@
                      "blockDataScript": "",
                      "blockId": "75fbn1x0g",
                      "blockName": "container",
-                     "children": null,
+                     "children": [],
                      "classes": [],
                      "customAttributes": {},
                      "dataKey": null,
-                     "draggable": false,
                      "dynamicValues": [],
                      "element": null,
-                     "elementBeforeConversion": null,
                      "extendedFromComponent": null,
                      "innerHTML": null,
-                     "innerText": null,
                      "isChildOfComponent": "c59d99b6ba6f1027",
                      "isRepeaterBlock": false,
                      "mobileStyles": {},
@@ -3844,13 +3648,10 @@
                    "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
-                   "draggable": false,
                    "dynamicValues": [],
                    "element": null,
-                   "elementBeforeConversion": null,
                    "extendedFromComponent": "c59d99b6ba6f1027",
                    "innerHTML": null,
-                   "innerText": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -3870,13 +3671,10 @@
                   "property": "innerHTML",
                   "type": "key"
                  },
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "div",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": null,
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": true,
                  "mobileStyles": {},
@@ -3893,13 +3691,10 @@
                 "id": "comments-list"
                },
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": "section",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -3911,6 +3706,7 @@
                "visibilityCondition": null
               },
               {
+               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "alignItems": "center",
@@ -3924,10 +3720,10 @@
                "blockName": "Container",
                "children": [
                 {
+                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "alignItems": "center",
-                  "backgroundColor": "var(--ink-gray-1)",
                   "border": "1px solid  #E2E2E2",
                   "borderRadius": " 8px",
                   "boxSizing": "border-box",
@@ -3945,6 +3741,7 @@
                  "blockName": "button",
                  "children": [
                   {
+                   "activeState": null,
                    "attributes": {},
                    "baseStyles": {
                     "color": "var(--ink-gray-8)",
@@ -3957,17 +3754,14 @@
                    "blockDataScript": "",
                    "blockId": "d9yghuo49",
                    "blockName": "Discover",
-                   "children": null,
+                   "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
-                   "draggable": false,
                    "dynamicValues": [],
                    "element": "p",
-                   "elementBeforeConversion": null,
                    "extendedFromComponent": null,
                    "innerHTML": "<p>Load more</p>",
-                   "innerText": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -3986,13 +3780,10 @@
                   "id": "load-more-btn"
                  },
                  "dataKey": null,
-                 "draggable": false,
                  "dynamicValues": [],
                  "element": "button",
-                 "elementBeforeConversion": null,
                  "extendedFromComponent": null,
                  "innerHTML": "",
-                 "innerText": null,
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
                  "mobileStyles": {},
@@ -4007,13 +3798,10 @@
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "draggable": false,
                "dynamicValues": [],
                "element": "section",
-               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": "",
-               "innerText": null,
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -4028,13 +3816,10 @@
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
-             "draggable": false,
              "dynamicValues": [],
              "element": "section",
-             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": "",
-             "innerText": null,
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -4049,13 +3834,10 @@
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
-           "draggable": false,
            "dynamicValues": [],
            "element": "section",
-           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": "",
-           "innerText": null,
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -4070,13 +3852,10 @@
          "classes": [],
          "customAttributes": {},
          "dataKey": null,
-         "draggable": false,
          "dynamicValues": [],
          "element": "section",
-         "elementBeforeConversion": null,
          "extendedFromComponent": null,
          "innerHTML": "",
-         "innerText": null,
          "isChildOfComponent": null,
          "isRepeaterBlock": false,
          "mobileStyles": {},
@@ -4089,15 +3868,14 @@
         }
        ],
        "classes": [],
-       "customAttributes": {},
+       "customAttributes": {
+        "id": "main-body"
+       },
        "dataKey": null,
-       "draggable": false,
        "dynamicValues": [],
        "element": "div",
-       "elementBeforeConversion": null,
        "extendedFromComponent": null,
        "innerHTML": null,
-       "innerText": null,
        "isChildOfComponent": null,
        "isRepeaterBlock": false,
        "mobileStyles": {},
@@ -4115,13 +3893,10 @@
      "classes": [],
      "customAttributes": {},
      "dataKey": null,
-     "draggable": false,
      "dynamicValues": [],
      "element": "div",
-     "elementBeforeConversion": null,
      "extendedFromComponent": null,
      "innerHTML": null,
-     "innerText": null,
      "isChildOfComponent": null,
      "isRepeaterBlock": false,
      "mobileStyles": {},
@@ -4139,10 +3914,8 @@
    "draggable": false,
    "dynamicValues": [],
    "element": "div",
-   "elementBeforeConversion": null,
    "extendedFromComponent": null,
    "innerHTML": null,
-   "innerText": null,
    "isChildOfComponent": null,
    "isRepeaterBlock": false,
    "mobileStyles": {},
@@ -4169,14 +3942,14 @@
  "idx": 3,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-25 15:59:27.664940",
+ "modified": "2026-05-26 11:08:21.351201",
  "modified_by": "Administrator",
  "name": "page-b301f073",
  "owner": "Administrator",
  "page_data_script": "slug = frappe.form_dict.slug\n\npost_exists = frappe.db.exists(\"Cafe Post\", {\"slug\": slug})\n\nif not post_exists:\n    raise frappe.PageDoesNotExistError\n\npost = frappe.get_doc(\"Cafe Post\", {\"slug\": slug})\n\ndt = frappe.utils.getdate(post.creation)\nmonths = [\n    \"Jan\",\n    \"Feb\",\n    \"Mar\",\n    \"Apr\",\n    \"May\",\n    \"Jun\",\n    \"Jul\",\n    \"Aug\",\n    \"Sep\",\n    \"Oct\",\n    \"Nov\",\n    \"Dec\",\n]\npost.creation = f\"{months[dt.month - 1]} {dt.day} {dt.year}\"\n\ncomment_count = (\n    frappe.db.count(\"Cafe Post Comment\", filters={\"post\": post.name}) or \"No\"\n)\n\n\ndef format_number(num):\n    if num is None:\n        return \"\"\n\n    num = float(num)\n    abs_num = abs(num)\n\n    if abs_num >= 1_000_000_000:\n        return f\"{num / 1_000_000_000:.1f}\".rstrip(\"0\").rstrip(\".\") + \"b\"\n    elif abs_num >= 1_000_000:\n        return f\"{num / 1_000_000:.1f}\".rstrip(\"0\").rstrip(\".\") + \"m\"\n    elif abs_num >= 1_000:\n        return f\"{num / 1_000:.1f}\".rstrip(\"0\").rstrip(\".\") + \"k\"\n    else:\n        return str(int(num)) if num == int(num) else str(num)\n\n\nlike_count = format_number(\n    frappe.db.count(\"Cafe Social Like\", filters={\"post\": post.name})\n)\n\nComment = frappe.qb.DocType(\"Cafe Post Comment\")\nUser = frappe.qb.DocType(\"User\")\nCafeUser = frappe.qb.DocType(\"Cafe User\")\n\ncomments_limit = int(frappe.form_dict.commentsCursor or 0) + 10\n\nquery = (\n    frappe.qb.from_(Comment)\n    .inner_join(User)\n    .on(Comment.owner == User.name)\n    .left_join(CafeUser)\n    .on(Comment.owner == CafeUser.name)\n    .select(\n        Comment.name,\n        Comment.content,\n        Comment.owner,\n        Comment.creation,\n        User.full_name,\n        User.user_image,\n        CafeUser.handle,\n    )\n    .where(Comment.post == post.name)\n    .orderby(Comment.creation, order=frappe.qb.desc)\n    .limit(comments_limit)\n)\ncomments = query.run(as_dict=True)\nif comments:\n    comment_names = [c.name for c in comments]\n    Like = frappe.qb.DocType(\"Cafe Social Like\")\n    likes_query = (\n        frappe.qb.from_(Like)\n        .select(Like.comment, frappe.qb.functions(\"Count\", Like.name).as_(\"count\"))\n        .where(Like.comment.isin(comment_names))\n        .groupby(Like.comment)\n    )\n    likes_result = likes_query.run(as_dict=True)\n    likes_map = {row.comment: row.count for row in likes_result}\n\n    for comment in comments:\n        comment.likes = likes_map.get(comment.name, 0)\n        comment.time_ago = frappe.utils.pretty_date(comment.creation)\n        comment.author_url = f\"/cafe/profile/{comment.handle}\"\n        comment.liked_by_me = (\n            1\n            if bool(\n                frappe.db.exists(\n                    \"Cafe Social Like\",\n                    {\"comment\": comment.name, \"owner\": frappe.session.user},\n                )\n            )\n            else 0\n        )\n        comment.show_action_btns = comment.owner == frappe.session.user\n\npost.tags = [\n    {\n        \"tag\": tag.tag,\n        \"url\": f\"/cafe/explore?tag={tag.tag}\",\n    }\n    for tag in post.tags\n    if tag\n]\n\ndata.post = {\n    \"name\": post.name,\n    \"title\": post.title,\n    \"content\": post.content,\n    \"cover_image\": post.cover_image,\n    \"reading_time\": post.reading_time,\n    \"creation\": post.creation,\n    \"tags\": post.tags,\n    \"comment_count\": comment_count,\n    \"like_count\": like_count,\n    \"comments\": comments,\n    \"liked_by_me\": 1\n    if bool(\n        frappe.db.exists(\n            \"Cafe Social Like\", {\"owner\": frappe.session.user, \"post\": post.name}\n        )\n    )\n    else 0,\n    \"bookmarked_by_me\": 1\n    if bool(\n        frappe.db.exists(\n            \"Cafe Post Bookmark\", {\"post\": post.name, \"owner\": frappe.session.user}\n        )\n    )\n    else 0,\n    # \"show_load_more_btn\": comment_count > 10,\n}\nuser = {}\nif post.publisher:\n    author = frappe.db.get_value(\n        \"Cafe Publication\",\n        post.publisher,\n        [\"name\", \"title\", \"handle\", \"description\", \"image\"],\n        as_dict=1,\n    )\nelse:\n    user = frappe.db.get_value(\n        \"User\", post.owner, [\"user_image\", \"full_name\"], as_dict=1\n    )\n    author = frappe.db.get_value(\n        \"Cafe User\",\n        post.owner,\n        [\"name\", \"handle\", \"company\", \"designation\", \"bio\"],\n        as_dict=1,\n    )\n\n\nfilter = {\"publisher\": author.name} if post.publisher else {\"user\": author.name}\n\ndata.author = {\n    \"name\": user.full_name if not post.publisher else author.title,\n    \"handle\": author.handle if not post.publisher else author.handle,\n    \"image\": user.user_image if not post.publisher else author.image,\n    \"bio\": author.bio if not post.publisher else author.description,\n    \"is_subscribed\": bool(\n        frappe.db.exists(\"Cafe Subscription\", {\"owner\": frappe.session.user, **filter})\n    ),\n    \"author_url\": f\"/cafe/profile/{author.handle}\",\n    \"is_publisher\": 1 if bool(post.publisher) else 0,\n}\n\ncurrent_user = {}\n\nif frappe.session.user != \"Guest\":\n    current_user = frappe.get_doc(\"Cafe User\", {\"name\": frappe.session.user}).as_dict()\n\n\nbreadcrumbs = [\n    {\"label\": \"Café\", \"url\": \"/cafe/explore\"},\n    {\"label\": data.author[\"name\"], \"url\": f\"/cafe/profile/{data.author['handle']}\"},\n    {\"label\": data.post[\"title\"], \"url\": \"#\"},\n]\n\n\ndata.page_data = {\n    \"is_logged_in\": frappe.session.user != \"Guest\",\n    \"author\": data.author,\n    \"post\": {\n        \"name\": post.name,\n        \"title\": post.title,\n        \"description\": post.description,\n        \"bookmarked_by_me\": post.bookmarked_by_me,\n    },\n    \"is_user_author\": post.owner == frappe.session.user,\n    \"user\": {\n        \"name\": frappe.db.get_value(\"User\", frappe.session.user, [\"name\"]),\n        \"handle\": current_user.handle,\n    },\n    \"breadcrumbs\": breadcrumbs,\n}\n",
  "page_name": "page-b301f073",
  "page_title": "Post",
- "preview": "/files/page-b301f073-preview.webp?v=c488d",
+ "preview": "/files/page-b301f073-preview.webp?v=b4aa4",
  "project_folder": "cafe",
  "published": 1,
  "route": "cafe/posts/:slug"
