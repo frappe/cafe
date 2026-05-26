@@ -16,7 +16,9 @@ class CafePost(Document):
 	from typing import TYPE_CHECKING
 
 	if TYPE_CHECKING:
-		from cafe.cafe.doctype.cafe_post_tag_item.cafe_post_tag_item import CafePostTagItem
+		from cafe.cafe.doctype.cafe_post_tag_item.cafe_post_tag_item import (
+			CafePostTagItem,
+		)
 		from frappe.types import DF
 
 		content: DF.TextEditor
@@ -34,7 +36,8 @@ class CafePost(Document):
 		if self.content:
 			self.reading_time = self.calculate_reading_time()
 
-		self.slug = self.generate_slug()
+		if not self.slug:
+			self.slug = self.generate_slug()
 
 	def generate_slug(self) -> str:
 		slug = self.title.lower()
