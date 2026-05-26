@@ -30,6 +30,7 @@
       "fontFamily": "Inter Regular",
       "overflow": "hidden",
       "paddingBottom": "0px",
+      "position": "relative",
       "width": "100%"
      },
      "blockClientScript": "",
@@ -300,7 +301,10 @@
        "props": {},
        "rawStyles": {},
        "referenceBlockId": null,
-       "tabletStyles": {},
+       "tabletStyles": {
+        "__last_display": "flex",
+        "display": "none"
+       },
        "visibilityCondition": null
       },
       {
@@ -330,7 +334,7 @@
          "baseStyles": {},
          "blockClientScript": "",
          "blockDataScript": "",
-         "blockId": "utlkys7rk",
+         "blockId": "5zli5qfta",
          "blockName": "Navbar",
          "children": [
           {
@@ -339,8 +343,8 @@
            "baseStyles": {},
            "blockClientScript": "",
            "blockDataScript": "",
-           "blockId": "3i1eqhjgj",
-           "blockName": "repeater",
+           "blockId": "x6uqgifra",
+           "blockName": "container",
            "children": [
             {
              "activeState": null,
@@ -348,8 +352,8 @@
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
-             "blockId": "p4eoddrrg",
-             "blockName": "Breadcrumb",
+             "blockId": "bycly28ge",
+             "blockName": "Logo",
              "children": [
               {
                "activeState": null,
@@ -357,62 +361,20 @@
                "baseStyles": {},
                "blockClientScript": "",
                "blockDataScript": "",
-               "blockId": "lezzzoups",
+               "blockId": "p7clk3oll",
                "blockName": null,
                "children": [],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
-               "dynamicValues": [
-                {
-                 "comesFrom": "dataScript",
-                 "key": "label",
-                 "property": "innerHTML",
-                 "type": "key"
-                },
-                {
-                 "comesFrom": "dataScript",
-                 "key": "url",
-                 "property": "href",
-                 "type": "attribute"
-                }
-               ],
-               "element": null,
-               "extendedFromComponent": null,
-               "innerHTML": null,
+               "dynamicValues": [],
                "isChildOfComponent": "9735c922f3a19e17",
                "isRepeaterBlock": false,
                "mobileStyles": {},
                "originalElement": null,
                "props": {},
                "rawStyles": {},
-               "referenceBlockId": "84cgqe9c4",
-               "tabletStyles": {},
-               "visibilityCondition": null
-              },
-              {
-               "activeState": null,
-               "attributes": {},
-               "baseStyles": {},
-               "blockClientScript": "",
-               "blockDataScript": "",
-               "blockId": "zwtwqfvjt",
-               "blockName": "icon/line/small-right-chevron",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
-               "dataKey": null,
-               "dynamicValues": [],
-               "element": null,
-               "extendedFromComponent": null,
-               "innerHTML": null,
-               "isChildOfComponent": "9735c922f3a19e17",
-               "isRepeaterBlock": false,
-               "mobileStyles": {},
-               "originalElement": "__raw_html__",
-               "props": {},
-               "rawStyles": {},
-               "referenceBlockId": "4f0ntr4dl",
+               "referenceBlockId": "ryuaqjb8y",
                "tabletStyles": {},
                "visibilityCondition": null
               }
@@ -421,36 +383,123 @@
              "customAttributes": {},
              "dataKey": null,
              "dynamicValues": [],
-             "element": null,
-             "extendedFromComponent": null,
-             "innerHTML": null,
              "isChildOfComponent": "9735c922f3a19e17",
              "isRepeaterBlock": false,
              "mobileStyles": {},
              "originalElement": null,
              "props": {},
              "rawStyles": {},
-             "referenceBlockId": "x05xeqja6",
+             "referenceBlockId": "jgkkrosog",
              "tabletStyles": {},
              "visibilityCondition": null
+            },
+            {
+             "activeState": null,
+             "attributes": {},
+             "baseStyles": {},
+             "blockClientScript": "",
+             "blockDataScript": "",
+             "blockId": "zheyntdv2",
+             "blockName": "repeater",
+             "children": [
+              {
+               "activeState": null,
+               "attributes": {},
+               "baseStyles": {},
+               "blockClientScript": "",
+               "blockDataScript": "",
+               "blockId": "lnpsnuxnu",
+               "blockName": "Breadcrumb",
+               "children": [
+                {
+                 "activeState": null,
+                 "attributes": {},
+                 "baseStyles": {},
+                 "blockClientScript": "",
+                 "blockDataScript": "",
+                 "blockId": "xrrd5e31o",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "dataKey": null,
+                 "dynamicValues": [
+                  {
+                   "comesFrom": "dataScript",
+                   "key": "label",
+                   "property": "innerHTML",
+                   "type": "key"
+                  },
+                  {
+                   "comesFrom": "dataScript",
+                   "key": "url",
+                   "property": "href",
+                   "type": "attribute"
+                  }
+                 ],
+                 "isChildOfComponent": "9735c922f3a19e17",
+                 "mobileStyles": {},
+                 "props": {},
+                 "rawStyles": {},
+                 "referenceBlockId": "84cgqe9c4",
+                 "tabletStyles": {}
+                },
+                {
+                 "activeState": null,
+                 "attributes": {},
+                 "baseStyles": {},
+                 "blockClientScript": "",
+                 "blockDataScript": "",
+                 "blockId": "03cmc867z",
+                 "blockName": "icon/line/small-right-chevron",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "dataKey": null,
+                 "dynamicValues": [],
+                 "isChildOfComponent": "9735c922f3a19e17",
+                 "mobileStyles": {},
+                 "originalElement": "__raw_html__",
+                 "props": {},
+                 "rawStyles": {},
+                 "referenceBlockId": "4f0ntr4dl",
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "dataKey": null,
+               "dynamicValues": [],
+               "isChildOfComponent": "9735c922f3a19e17",
+               "mobileStyles": {},
+               "props": {},
+               "rawStyles": {},
+               "referenceBlockId": "x05xeqja6",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "dataKey": null,
+             "dynamicValues": [],
+             "isChildOfComponent": "9735c922f3a19e17",
+             "isRepeaterBlock": true,
+             "mobileStyles": {},
+             "props": {},
+             "rawStyles": {},
+             "referenceBlockId": "pvefwtvzp",
+             "tabletStyles": {}
             }
            ],
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
            "dynamicValues": [],
-           "element": null,
-           "extendedFromComponent": null,
-           "innerHTML": null,
            "isChildOfComponent": "9735c922f3a19e17",
-           "isRepeaterBlock": true,
            "mobileStyles": {},
-           "originalElement": null,
            "props": {},
            "rawStyles": {},
-           "referenceBlockId": "pvefwtvzp",
-           "tabletStyles": {},
-           "visibilityCondition": null
+           "referenceBlockId": "iu6tb0242",
+           "tabletStyles": {}
           },
           {
            "activeState": null,
@@ -458,7 +507,7 @@
            "baseStyles": {},
            "blockClientScript": "",
            "blockDataScript": "",
-           "blockId": "4xqq2b3gn",
+           "blockId": "p73utgedh",
            "blockName": "Action Button",
            "children": [
             {
@@ -467,7 +516,7 @@
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
-             "blockId": "bdnpp4r50",
+             "blockId": "laeg3ljtq",
              "blockName": "button-link",
              "children": [
               {
@@ -476,25 +525,18 @@
                "baseStyles": {},
                "blockClientScript": "",
                "blockDataScript": "",
-               "blockId": "nq9a6sy1i",
-               "blockName": null,
+               "blockId": "p1jeysjr6",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
                "dynamicValues": [],
-               "element": null,
-               "extendedFromComponent": null,
-               "innerHTML": null,
                "isChildOfComponent": "9735c922f3a19e17",
-               "isRepeaterBlock": false,
                "mobileStyles": {},
-               "originalElement": null,
                "props": {},
                "rawStyles": {},
                "referenceBlockId": "5jzswrxyt",
-               "tabletStyles": {},
-               "visibilityCondition": null
+               "tabletStyles": {}
               },
               {
                "activeState": null,
@@ -502,79 +544,53 @@
                "baseStyles": {},
                "blockClientScript": "",
                "blockDataScript": "",
-               "blockId": "lrlt30gaw",
-               "blockName": null,
+               "blockId": "6c3q9yq47",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
                "dynamicValues": [],
-               "element": null,
-               "extendedFromComponent": null,
-               "innerHTML": null,
                "isChildOfComponent": "9735c922f3a19e17",
-               "isRepeaterBlock": false,
                "mobileStyles": {},
-               "originalElement": null,
                "props": {},
                "rawStyles": {},
                "referenceBlockId": "6hj9nbh9x",
-               "tabletStyles": {},
-               "visibilityCondition": null
+               "tabletStyles": {}
               }
              ],
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
              "dynamicValues": [],
-             "element": null,
-             "extendedFromComponent": null,
-             "innerHTML": null,
              "isChildOfComponent": "9735c922f3a19e17",
-             "isRepeaterBlock": false,
              "mobileStyles": {},
-             "originalElement": null,
              "props": {},
              "rawStyles": {},
              "referenceBlockId": "9xigw8wuc",
-             "tabletStyles": {},
-             "visibilityCondition": null
+             "tabletStyles": {}
             }
            ],
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
            "dynamicValues": [],
-           "element": null,
-           "extendedFromComponent": null,
-           "innerHTML": null,
            "isChildOfComponent": "9735c922f3a19e17",
-           "isRepeaterBlock": false,
            "mobileStyles": {},
-           "originalElement": null,
            "props": {},
            "rawStyles": {},
            "referenceBlockId": "d6zkdhe05",
-           "tabletStyles": {},
-           "visibilityCondition": null
+           "tabletStyles": {}
           }
          ],
          "classes": [],
          "customAttributes": {},
          "dataKey": null,
          "dynamicValues": [],
-         "element": null,
          "extendedFromComponent": "9735c922f3a19e17",
-         "innerHTML": null,
-         "isChildOfComponent": null,
-         "isRepeaterBlock": false,
          "mobileStyles": {},
-         "originalElement": null,
          "props": {},
          "rawStyles": {},
-         "referenceBlockId": null,
-         "tabletStyles": {},
-         "visibilityCondition": null
+         "tabletStyles": {}
         },
         {
          "activeState": null,
@@ -589,6 +605,8 @@
           "marginTop": "24px",
           "maxWidth": "600px",
           "paddingBottom": "0px",
+          "paddingLeft": "18px",
+          "paddingRight": "18px",
           "paddingTop": "0px",
           "width": "100%"
          },
@@ -806,129 +824,31 @@
                    "activeState": null,
                    "attributes": {},
                    "baseStyles": {
-                    "alignItems": "center",
-                    "alignSelf": "stretch",
-                    "display": "flex",
-                    "gap": "8px",
-                    "width": "100%"
+                    "color": "var(--ink-gray-8)",
+                    "fontSize": "14px",
+                    "fontWeight": "500",
+                    "letterSpacing": "0.24px",
+                    "lineHeight": "115% "
                    },
                    "blockClientScript": "",
                    "blockDataScript": "",
-                   "blockId": "o23spmabh",
-                   "blockName": "Container",
-                   "children": [
-                    {
-                     "activeState": null,
-                     "attributes": {},
-                     "baseStyles": {
-                      "alignItems": "flex-start",
-                      "display": "flex",
-                      "flexDirection": "column"
-                     },
-                     "blockClientScript": "",
-                     "blockDataScript": "",
-                     "blockId": "4yvysn3d8",
-                     "blockName": "Container",
-                     "children": [
-                      {
-                       "activeState": null,
-                       "attributes": {},
-                       "baseStyles": {
-                        "color": "var(--ink-gray-8)",
-                        "fontSize": "14px",
-                        "fontWeight": "500",
-                        "letterSpacing": "0.24px",
-                        "lineHeight": "115% "
-                       },
-                       "blockClientScript": "",
-                       "blockDataScript": "",
-                       "blockId": "4qaq3yfu2",
-                       "blockName": "Jane Doe",
-                       "children": [],
-                       "classes": [],
-                       "customAttributes": {},
-                       "dataKey": null,
-                       "dynamicValues": [
-                        {
-                         "comesFrom": "dataScript",
-                         "key": "author.name",
-                         "property": "innerHTML",
-                         "type": "key"
-                        }
-                       ],
-                       "element": "p",
-                       "extendedFromComponent": null,
-                       "innerHTML": "<p>Jane Doe</p>",
-                       "isChildOfComponent": null,
-                       "isRepeaterBlock": false,
-                       "mobileStyles": {},
-                       "originalElement": "",
-                       "props": {},
-                       "rawStyles": {},
-                       "referenceBlockId": null,
-                       "tabletStyles": {},
-                       "visibilityCondition": null
-                      }
-                     ],
-                     "classes": [],
-                     "customAttributes": {},
-                     "dataKey": null,
-                     "dynamicValues": [],
-                     "element": "section",
-                     "extendedFromComponent": null,
-                     "innerHTML": "",
-                     "isChildOfComponent": null,
-                     "isRepeaterBlock": false,
-                     "mobileStyles": {},
-                     "originalElement": "",
-                     "props": {},
-                     "rawStyles": {},
-                     "referenceBlockId": null,
-                     "tabletStyles": {},
-                     "visibilityCondition": null
-                    },
-                    {
-                     "activeState": null,
-                     "attributes": {},
-                     "baseStyles": {
-                      "alignItems": "flex-start",
-                      "display": "flex",
-                      "flexDirection": "column",
-                      "height": "16px",
-                      "width": "98px"
-                     },
-                     "blockClientScript": "",
-                     "blockDataScript": "",
-                     "blockId": "y5ipmr8ki",
-                     "blockName": "Container",
-                     "children": [],
-                     "classes": [],
-                     "customAttributes": {},
-                     "dataKey": null,
-                     "dynamicValues": [],
-                     "element": "svg",
-                     "extendedFromComponent": null,
-                     "innerHTML": "",
-                     "isChildOfComponent": null,
-                     "isRepeaterBlock": false,
-                     "mobileStyles": {},
-                     "originalElement": "__raw_html__",
-                     "props": {},
-                     "rawStyles": {
-                      "flex": "1 0 0"
-                     },
-                     "referenceBlockId": null,
-                     "tabletStyles": {},
-                     "visibilityCondition": null
-                    }
-                   ],
+                   "blockId": "4qaq3yfu2",
+                   "blockName": "Jane Doe",
+                   "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "dataKey": null,
-                   "dynamicValues": [],
-                   "element": "section",
+                   "dynamicValues": [
+                    {
+                     "comesFrom": "dataScript",
+                     "key": "author.name",
+                     "property": "innerHTML",
+                     "type": "key"
+                    }
+                   ],
+                   "element": "p",
                    "extendedFromComponent": null,
-                   "innerHTML": "",
+                   "innerHTML": "<p>Jane Doe</p>",
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
                    "mobileStyles": {},
@@ -946,7 +866,7 @@
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "flexShrink": 0,
+                    "flexShrink": 1,
                     "gap": "4px",
                     "height": "fit-content",
                     "justifyContent": "flex-start",
@@ -1021,7 +941,9 @@
                      "innerHTML": "<p>•</p>",
                      "isChildOfComponent": null,
                      "isRepeaterBlock": false,
-                     "mobileStyles": {},
+                     "mobileStyles": {
+                      "display": "none"
+                     },
                      "originalElement": "",
                      "props": {},
                      "rawStyles": {},
@@ -1078,7 +1000,11 @@
                    "innerHTML": null,
                    "isChildOfComponent": null,
                    "isRepeaterBlock": false,
-                   "mobileStyles": {},
+                   "mobileStyles": {
+                    "alignItems": "flex-start",
+                    "flexDirection": "column",
+                    "justifyContent": "flex-start"
+                   },
                    "originalElement": null,
                    "props": {},
                    "rawStyles": {},
@@ -1096,7 +1022,9 @@
                  "innerHTML": "",
                  "isChildOfComponent": null,
                  "isRepeaterBlock": false,
-                 "mobileStyles": {},
+                 "mobileStyles": {
+                  "flexWrap": "nowrap"
+                 },
                  "originalElement": "",
                  "props": {},
                  "rawStyles": {},
@@ -1495,8 +1423,7 @@
              },
              "baseStyles": {
               "alignSelf": "stretch",
-              "boxShadow": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
-              "height": "310.5px"
+              "boxShadow": "0 1px 2px 0 rgba(0, 0, 0, 0.05)"
              },
              "blockClientScript": "",
              "blockDataScript": "",
@@ -3863,7 +3790,9 @@
          "props": {},
          "rawStyles": {},
          "referenceBlockId": null,
-         "tabletStyles": {},
+         "tabletStyles": {
+          "position": "relative"
+         },
          "visibilityCondition": null
         }
        ],
@@ -3942,15 +3871,16 @@
  "idx": 3,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-26 11:08:21.351201",
+ "modified": "2026-05-26 12:51:31.561856",
  "modified_by": "Administrator",
  "name": "page-b301f073",
  "owner": "Administrator",
  "page_data_script": "slug = frappe.form_dict.slug\n\npost_exists = frappe.db.exists(\"Cafe Post\", {\"slug\": slug})\n\nif not post_exists:\n    raise frappe.PageDoesNotExistError\n\npost = frappe.get_doc(\"Cafe Post\", {\"slug\": slug})\n\ndt = frappe.utils.getdate(post.creation)\nmonths = [\n    \"Jan\",\n    \"Feb\",\n    \"Mar\",\n    \"Apr\",\n    \"May\",\n    \"Jun\",\n    \"Jul\",\n    \"Aug\",\n    \"Sep\",\n    \"Oct\",\n    \"Nov\",\n    \"Dec\",\n]\npost.creation = f\"{months[dt.month - 1]} {dt.day} {dt.year}\"\n\ncomment_count = (\n    frappe.db.count(\"Cafe Post Comment\", filters={\"post\": post.name}) or \"No\"\n)\n\n\ndef format_number(num):\n    if num is None:\n        return \"\"\n\n    num = float(num)\n    abs_num = abs(num)\n\n    if abs_num >= 1_000_000_000:\n        return f\"{num / 1_000_000_000:.1f}\".rstrip(\"0\").rstrip(\".\") + \"b\"\n    elif abs_num >= 1_000_000:\n        return f\"{num / 1_000_000:.1f}\".rstrip(\"0\").rstrip(\".\") + \"m\"\n    elif abs_num >= 1_000:\n        return f\"{num / 1_000:.1f}\".rstrip(\"0\").rstrip(\".\") + \"k\"\n    else:\n        return str(int(num)) if num == int(num) else str(num)\n\n\nlike_count = format_number(\n    frappe.db.count(\"Cafe Social Like\", filters={\"post\": post.name})\n)\n\nComment = frappe.qb.DocType(\"Cafe Post Comment\")\nUser = frappe.qb.DocType(\"User\")\nCafeUser = frappe.qb.DocType(\"Cafe User\")\n\ncomments_limit = int(frappe.form_dict.commentsCursor or 0) + 10\n\nquery = (\n    frappe.qb.from_(Comment)\n    .inner_join(User)\n    .on(Comment.owner == User.name)\n    .left_join(CafeUser)\n    .on(Comment.owner == CafeUser.name)\n    .select(\n        Comment.name,\n        Comment.content,\n        Comment.owner,\n        Comment.creation,\n        User.full_name,\n        User.user_image,\n        CafeUser.handle,\n    )\n    .where(Comment.post == post.name)\n    .orderby(Comment.creation, order=frappe.qb.desc)\n    .limit(comments_limit)\n)\ncomments = query.run(as_dict=True)\nif comments:\n    comment_names = [c.name for c in comments]\n    Like = frappe.qb.DocType(\"Cafe Social Like\")\n    likes_query = (\n        frappe.qb.from_(Like)\n        .select(Like.comment, frappe.qb.functions(\"Count\", Like.name).as_(\"count\"))\n        .where(Like.comment.isin(comment_names))\n        .groupby(Like.comment)\n    )\n    likes_result = likes_query.run(as_dict=True)\n    likes_map = {row.comment: row.count for row in likes_result}\n\n    for comment in comments:\n        comment.likes = likes_map.get(comment.name, 0)\n        comment.time_ago = frappe.utils.pretty_date(comment.creation)\n        comment.author_url = f\"/cafe/profile/{comment.handle}\"\n        comment.liked_by_me = (\n            1\n            if bool(\n                frappe.db.exists(\n                    \"Cafe Social Like\",\n                    {\"comment\": comment.name, \"owner\": frappe.session.user},\n                )\n            )\n            else 0\n        )\n        comment.show_action_btns = comment.owner == frappe.session.user\n\npost.tags = [\n    {\n        \"tag\": tag.tag,\n        \"url\": f\"/cafe/explore?tag={tag.tag}\",\n    }\n    for tag in post.tags\n    if tag\n]\n\ndata.post = {\n    \"name\": post.name,\n    \"title\": post.title,\n    \"content\": post.content,\n    \"cover_image\": post.cover_image,\n    \"reading_time\": post.reading_time,\n    \"creation\": post.creation,\n    \"tags\": post.tags,\n    \"comment_count\": comment_count,\n    \"like_count\": like_count,\n    \"comments\": comments,\n    \"liked_by_me\": 1\n    if bool(\n        frappe.db.exists(\n            \"Cafe Social Like\", {\"owner\": frappe.session.user, \"post\": post.name}\n        )\n    )\n    else 0,\n    \"bookmarked_by_me\": 1\n    if bool(\n        frappe.db.exists(\n            \"Cafe Post Bookmark\", {\"post\": post.name, \"owner\": frappe.session.user}\n        )\n    )\n    else 0,\n    # \"show_load_more_btn\": comment_count > 10,\n}\nuser = {}\nif post.publisher:\n    author = frappe.db.get_value(\n        \"Cafe Publication\",\n        post.publisher,\n        [\"name\", \"title\", \"handle\", \"description\", \"image\"],\n        as_dict=1,\n    )\nelse:\n    user = frappe.db.get_value(\n        \"User\", post.owner, [\"user_image\", \"full_name\"], as_dict=1\n    )\n    author = frappe.db.get_value(\n        \"Cafe User\",\n        post.owner,\n        [\"name\", \"handle\", \"company\", \"designation\", \"bio\"],\n        as_dict=1,\n    )\n\n\nfilter = {\"publisher\": author.name} if post.publisher else {\"user\": author.name}\n\ndata.author = {\n    \"name\": user.full_name if not post.publisher else author.title,\n    \"handle\": author.handle if not post.publisher else author.handle,\n    \"image\": user.user_image if not post.publisher else author.image,\n    \"bio\": author.bio if not post.publisher else author.description,\n    \"is_subscribed\": bool(\n        frappe.db.exists(\"Cafe Subscription\", {\"owner\": frappe.session.user, **filter})\n    ),\n    \"author_url\": f\"/cafe/profile/{author.handle}\",\n    \"is_publisher\": 1 if bool(post.publisher) else 0,\n}\n\ncurrent_user = {}\n\nif frappe.session.user != \"Guest\":\n    current_user = frappe.get_doc(\"Cafe User\", {\"name\": frappe.session.user}).as_dict()\n\n\nbreadcrumbs = [\n    {\"label\": \"Café\", \"url\": \"/cafe/explore\"},\n    {\"label\": data.author[\"name\"], \"url\": f\"/cafe/profile/{data.author['handle']}\"},\n    {\"label\": data.post[\"title\"], \"url\": \"#\"},\n]\n\n\ndata.page_data = {\n    \"is_logged_in\": frappe.session.user != \"Guest\",\n    \"author\": data.author,\n    \"post\": {\n        \"name\": post.name,\n        \"title\": post.title,\n        \"description\": post.description,\n        \"bookmarked_by_me\": post.bookmarked_by_me,\n    },\n    \"is_user_author\": post.owner == frappe.session.user,\n    \"user\": {\n        \"name\": frappe.db.get_value(\"User\", frappe.session.user, [\"name\"]),\n        \"handle\": current_user.handle,\n    },\n    \"breadcrumbs\": breadcrumbs,\n}\n",
  "page_name": "page-b301f073",
  "page_title": "Post",
- "preview": "/files/page-b301f073-preview.webp?v=b4aa4",
+ "preview": "/files/page-b301f073-preview.webp?v=f75e6",
  "project_folder": "cafe",
  "published": 1,
+ "published_at": "2026-05-26 12:51:31.561661",
  "route": "cafe/posts/:slug"
 }
