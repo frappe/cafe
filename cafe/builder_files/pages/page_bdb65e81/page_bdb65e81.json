@@ -797,9 +797,9 @@
                "activeState": null,
                "attributes": {},
                "baseStyles": {
-                "color": "var(--ink-gray-7)",
+                "color": "var(--ink-gray-8)",
                 "fontSize": "13px",
-                "fontWeight": "500",
+                "fontWeight": "600",
                 "letterSpacing": "0.21px",
                 "lineHeight": "115% "
                },
@@ -904,6 +904,7 @@
                "baseStyles": {
                 "color": "var(--ink-gray-7)",
                 "fontSize": "13px",
+                "fontWeight": "500",
                 "letterSpacing": "0.21px",
                 "lineHeight": "115% "
                },
@@ -1086,6 +1087,7 @@
                "baseStyles": {
                 "color": "var(--ink-gray-7)",
                 "fontSize": "13px",
+                "fontWeight": "500",
                 "letterSpacing": "0.21px",
                 "lineHeight": "115% "
                },
@@ -1130,6 +1132,7 @@
                  "baseStyles": {
                   "alignItems": "center",
                   "borderRadius": " 8px",
+                  "color": "var(--ink-gray-5)",
                   "display": "flex",
                   "gap": "8px",
                   "justifyContent": "center",
@@ -1144,7 +1147,7 @@
                    "activeState": null,
                    "attributes": {},
                    "baseStyles": {
-                    "color": "var(--ink-gray-7)",
+                    "color": "var(--ink-gray-5)",
                     "height": "16px",
                     "width": "100%"
                    },
@@ -1328,16 +1331,16 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-26 15:43:37.194932",
+ "modified": "2026-05-27 12:28:16.963500",
  "modified_by": "Administrator",
  "name": "page-bdb65e81",
  "owner": "Administrator",
  "page_data_script": "user = frappe.db.get_value(\n    \"Cafe User\",\n    {\"handle\": frappe.form_dict.handle},\n    [\"handle\", \"company\", \"designation\", \"bio\", \"introduction\", \"user\"],\n    as_dict=1,\n)\n\nif not user:\n    raise frappe.PageDoesNotExistError\n\nfrappe_user = frappe.db.get_value(\"User\", user.user, [\"full_name\", \"email\"], as_dict=1)\n\nbreadcrumbs = [\n    {\"label\": \"Café\", \"url\": \"/cafe/explore\"},\n    {\"label\": frappe_user.full_name, \"url\": f\"/cafe/profile/{user.handle}\"},\n    {\"label\": \"Settings\", \"url\": \"#\"},\n]\n\ndata.page_data = {\"breadcrumbs\": breadcrumbs, \"user\": {**user, **frappe_user}}\n",
  "page_name": "page-bdb65e81",
  "page_title": "Settings",
- "preview": "/files/page-bdb65e81-preview.webp?v=e1b85",
+ "preview": "/files/page-bdb65e81-preview.webp?v=aa0a7",
  "project_folder": "cafe",
  "published": 1,
- "published_at": "2026-05-26 15:43:37.194537",
+ "published_at": "2026-05-27 12:28:16.963188",
  "route": "cafe/profile/:handle/settings"
 }
