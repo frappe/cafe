@@ -14,7 +14,9 @@ class CafeUser(Document):
 	from typing import TYPE_CHECKING
 
 	if TYPE_CHECKING:
-		from cafe.cafe.doctype.cafe_user_experience.cafe_user_experience import CafeUserExperience
+		from cafe.cafe.doctype.cafe_user_experience.cafe_user_experience import (
+			CafeUserExperience,
+		)
 		from frappe.types import DF
 
 		bio: DF.SmallText | None
@@ -29,10 +31,9 @@ class CafeUser(Document):
 
 	def validate(self):
 		# self.validate_permission()
+		if self.handle:
+			self.handle = self.handle.lower()
 		self.validate_handle()
-
-	def before_save(self):
-		self.handle = self.handle.lower()
 
 	def validate_handle(self):
 		if not self.handle:
@@ -48,6 +49,12 @@ class CafeUser(Document):
 
 		if len(self.handle) > 30:
 			frappe.throw("Handle must be at most 30 characters long")
+
+		handle_exists = frappe.db.exists("Cafe User", {"handle": self.handle})
+		if handle_exists:
+			frappe.throw(
+				f"Handle '{self.handle}' is already taken. Please choose a different one."
+			)
 
 	def validate_permission(self):
 		if not frappe.session.user:

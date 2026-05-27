@@ -1019,152 +1019,50 @@
                  "attributes": {},
                  "baseStyles": {
                   "alignItems": "center",
-                  "alignSelf": "stretch",
                   "display": "flex",
-                  "gap": "4px",
-                  "width": "100%"
+                  "gap": "6px"
                  },
                  "blockClientScript": "",
                  "blockDataScript": "",
-                 "blockId": "oa5i4qljx",
+                 "blockId": "hprdvaicv",
                  "blockName": "Container",
                  "children": [
                   {
                    "activeState": null,
                    "attributes": {},
                    "baseStyles": {
-                    "alignItems": "center",
+                    "alignItems": "flex-start",
                     "display": "flex",
-                    "gap": "6px"
+                    "flexDirection": "column"
                    },
                    "blockClientScript": "",
                    "blockDataScript": "",
-                   "blockId": "hprdvaicv",
+                   "blockId": "wqujc5c75",
                    "blockName": "Container",
                    "children": [
                     {
                      "activeState": null,
                      "attributes": {},
                      "baseStyles": {
-                      "alignItems": "flex-start",
-                      "display": "flex",
-                      "flexDirection": "column"
+                      "height": "16px",
+                      "width": "100%"
                      },
                      "blockClientScript": "",
                      "blockDataScript": "",
-                     "blockId": "wqujc5c75",
-                     "blockName": "Container",
-                     "children": [
-                      {
-                       "activeState": null,
-                       "attributes": {},
-                       "baseStyles": {
-                        "height": "16px",
-                        "width": "100%"
-                       },
-                       "blockClientScript": "",
-                       "blockDataScript": "",
-                       "blockId": "c0h1ytqfs",
-                       "blockName": "icon/line/job",
-                       "children": [],
-                       "classes": [],
-                       "customAttributes": {},
-                       "dataKey": null,
-                       "dynamicValues": [],
-                       "element": "svg",
-                       "extendedFromComponent": null,
-                       "innerHTML": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12.5 1.5C13.8807 1.5 15 2.61929 15 4V9C15 9.65281 14.5822 10.206 14 10.4121V12C14 13.3807 12.8807 14.5 11.5 14.5H4.5C3.11929 14.5 2 13.3807 2 12V10.4121C1.41782 10.206 1 9.65281 1 9V4C1 2.61929 2.11929 1.5 3.5 1.5H12.5ZM3 12C3 12.8284 3.67157 13.5 4.5 13.5H11.5C12.3284 13.5 13 12.8284 13 12V10.5H3V12ZM3.5 2.5C2.67157 2.5 2 3.17157 2 4V9C2 9.27614 2.22386 9.5 2.5 9.5H13.5C13.7761 9.5 14 9.27614 14 9V4C14 3.17157 13.3284 2.5 12.5 2.5H3.5ZM9 7C9.27614 7 9.5 7.22386 9.5 7.5C9.5 7.77614 9.27614 8 9 8H7C6.72386 8 6.5 7.77614 6.5 7.5C6.5 7.22386 6.72386 7 7 7H9Z\" fill=\"#7C7C7C\"/>\n</svg>\n",
-                       "isChildOfComponent": null,
-                       "isRepeaterBlock": false,
-                       "mobileStyles": {},
-                       "originalElement": "__raw_html__",
-                       "props": {},
-                       "rawStyles": {},
-                       "referenceBlockId": null,
-                       "tabletStyles": {},
-                       "visibilityCondition": null
-                      }
-                     ],
+                     "blockId": "c0h1ytqfs",
+                     "blockName": "icon/line/job",
+                     "children": [],
                      "classes": [],
                      "customAttributes": {},
                      "dataKey": null,
                      "dynamicValues": [],
-                     "element": "section",
+                     "element": "svg",
                      "extendedFromComponent": null,
-                     "innerHTML": "",
+                     "innerHTML": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12.5 1.5C13.8807 1.5 15 2.61929 15 4V9C15 9.65281 14.5822 10.206 14 10.4121V12C14 13.3807 12.8807 14.5 11.5 14.5H4.5C3.11929 14.5 2 13.3807 2 12V10.4121C1.41782 10.206 1 9.65281 1 9V4C1 2.61929 2.11929 1.5 3.5 1.5H12.5ZM3 12C3 12.8284 3.67157 13.5 4.5 13.5H11.5C12.3284 13.5 13 12.8284 13 12V10.5H3V12ZM3.5 2.5C2.67157 2.5 2 3.17157 2 4V9C2 9.27614 2.22386 9.5 2.5 9.5H13.5C13.7761 9.5 14 9.27614 14 9V4C14 3.17157 13.3284 2.5 12.5 2.5H3.5ZM9 7C9.27614 7 9.5 7.22386 9.5 7.5C9.5 7.77614 9.27614 8 9 8H7C6.72386 8 6.5 7.77614 6.5 7.5C6.5 7.22386 6.72386 7 7 7H9Z\" fill=\"#7C7C7C\"/>\n</svg>\n",
                      "isChildOfComponent": null,
                      "isRepeaterBlock": false,
                      "mobileStyles": {},
-                     "originalElement": "",
-                     "props": {},
-                     "rawStyles": {},
-                     "referenceBlockId": null,
-                     "tabletStyles": {},
-                     "visibilityCondition": null
-                    },
-                    {
-                     "activeState": null,
-                     "attributes": {},
-                     "baseStyles": {
-                      "alignItems": "flex-start",
-                      "display": "flex",
-                      "flexDirection": "column"
-                     },
-                     "blockClientScript": "",
-                     "blockDataScript": "",
-                     "blockId": "up3kn1rm6",
-                     "blockName": "Container",
-                     "children": [
-                      {
-                       "activeState": null,
-                       "attributes": {},
-                       "baseStyles": {
-                        "color": "var(--ink-gray-5)",
-                        "fontSize": "13px",
-                        "letterSpacing": "0.26px",
-                        "lineHeight": "115% "
-                       },
-                       "blockClientScript": "",
-                       "blockDataScript": "",
-                       "blockId": "i3ly3afw0",
-                       "blockName": "Product Designer at Stripe",
-                       "children": [],
-                       "classes": [],
-                       "customAttributes": {},
-                       "dataKey": null,
-                       "dynamicValues": [
-                        {
-                         "comesFrom": "dataScript",
-                         "key": "user.designation",
-                         "property": "innerHTML",
-                         "type": "key"
-                        }
-                       ],
-                       "element": "p",
-                       "extendedFromComponent": null,
-                       "innerHTML": "<p>Product Designer at Stripe</p>",
-                       "isChildOfComponent": null,
-                       "isRepeaterBlock": false,
-                       "mobileStyles": {},
-                       "originalElement": "",
-                       "props": {},
-                       "rawStyles": {},
-                       "referenceBlockId": null,
-                       "tabletStyles": {},
-                       "visibilityCondition": null
-                      }
-                     ],
-                     "classes": [],
-                     "customAttributes": {},
-                     "dataKey": null,
-                     "dynamicValues": [],
-                     "element": "section",
-                     "extendedFromComponent": null,
-                     "innerHTML": "",
-                     "isChildOfComponent": null,
-                     "isRepeaterBlock": false,
-                     "mobileStyles": {},
-                     "originalElement": "",
+                     "originalElement": "__raw_html__",
                      "props": {},
                      "rawStyles": {},
                      "referenceBlockId": null,
@@ -1187,42 +1085,7 @@
                    "rawStyles": {},
                    "referenceBlockId": null,
                    "tabletStyles": {},
-                   "visibilityCondition": {
-                    "comesFrom": "dataScript",
-                    "key": "user.designation"
-                   }
-                  },
-                  {
-                   "activeState": null,
-                   "attributes": {},
-                   "baseStyles": {
-                    "height": "16px",
-                    "width": "16px"
-                   },
-                   "blockClientScript": "",
-                   "blockDataScript": "",
-                   "blockId": "aiu4ffjy4",
-                   "blockName": "icon/line/dot",
-                   "children": [],
-                   "classes": [],
-                   "customAttributes": {},
-                   "dataKey": null,
-                   "dynamicValues": [],
-                   "element": "svg",
-                   "extendedFromComponent": null,
-                   "innerHTML": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6Z\" fill=\"#7C7C7C\"/>\n</svg>\n",
-                   "isChildOfComponent": null,
-                   "isRepeaterBlock": false,
-                   "mobileStyles": {},
-                   "originalElement": "__raw_html__",
-                   "props": {},
-                   "rawStyles": {},
-                   "referenceBlockId": null,
-                   "tabletStyles": {},
-                   "visibilityCondition": {
-                    "comesFrom": "dataScript",
-                    "key": "user.designation"
-                   }
+                   "visibilityCondition": null
                   },
                   {
                    "activeState": null,
@@ -1230,106 +1093,41 @@
                    "baseStyles": {
                     "alignItems": "flex-start",
                     "display": "flex",
-                    "flexDirection": "column",
-                    "gap": "10px",
-                    "width": "59px"
+                    "flexDirection": "column"
                    },
                    "blockClientScript": "",
                    "blockDataScript": "",
-                   "blockId": "3hujlc9me",
-                   "blockName": "Frame 54",
+                   "blockId": "up3kn1rm6",
+                   "blockName": "Container",
                    "children": [
                     {
                      "activeState": null,
                      "attributes": {},
                      "baseStyles": {
-                      "alignItems": "flex-start",
-                      "alignSelf": "stretch",
-                      "display": "flex",
-                      "flexDirection": "row"
+                      "color": "var(--ink-gray-5)",
+                      "fontSize": "13px",
+                      "letterSpacing": "0.26px",
+                      "lineHeight": "115% "
                      },
                      "blockClientScript": "",
                      "blockDataScript": "",
-                     "blockId": "3paisglf5",
-                     "blockName": "Container",
-                     "children": [
-                      {
-                       "activeState": null,
-                       "attributes": {},
-                       "baseStyles": {
-                        "color": "var(--ink-gray-5)",
-                        "fontSize": "14px",
-                        "letterSpacing": "0.28px",
-                        "lineHeight": "115% "
-                       },
-                       "blockClientScript": "",
-                       "blockDataScript": "",
-                       "blockId": "8f5gpppvd",
-                       "blockName": "@",
-                       "children": [],
-                       "classes": [],
-                       "customAttributes": {},
-                       "dataKey": null,
-                       "dynamicValues": [],
-                       "element": "p",
-                       "extendedFromComponent": null,
-                       "innerHTML": "<p>@</p>",
-                       "isChildOfComponent": null,
-                       "isRepeaterBlock": false,
-                       "mobileStyles": {},
-                       "originalElement": "",
-                       "props": {},
-                       "rawStyles": {},
-                       "referenceBlockId": null,
-                       "tabletStyles": {},
-                       "visibilityCondition": null
-                      },
-                      {
-                       "activeState": null,
-                       "attributes": {},
-                       "baseStyles": {
-                        "color": "var(--ink-gray-5)",
-                        "fontSize": "14px",
-                        "letterSpacing": "0.28px",
-                        "lineHeight": "115% "
-                       },
-                       "blockClientScript": "",
-                       "blockDataScript": "",
-                       "blockId": "7zwmt1knh",
-                       "blockName": "@arivera",
-                       "children": [],
-                       "classes": [],
-                       "customAttributes": {},
-                       "dataKey": null,
-                       "dynamicValues": [
-                        {
-                         "comesFrom": "dataScript",
-                         "key": "user.handle",
-                         "property": "innerHTML",
-                         "type": "key"
-                        }
-                       ],
-                       "element": "p",
-                       "extendedFromComponent": null,
-                       "innerHTML": "<p>@arivera</p>",
-                       "isChildOfComponent": null,
-                       "isRepeaterBlock": false,
-                       "mobileStyles": {},
-                       "originalElement": "",
-                       "props": {},
-                       "rawStyles": {},
-                       "referenceBlockId": null,
-                       "tabletStyles": {},
-                       "visibilityCondition": null
-                      }
-                     ],
+                     "blockId": "i3ly3afw0",
+                     "blockName": "Product Designer at Stripe",
+                     "children": [],
                      "classes": [],
                      "customAttributes": {},
                      "dataKey": null,
-                     "dynamicValues": [],
-                     "element": "section",
+                     "dynamicValues": [
+                      {
+                       "comesFrom": "dataScript",
+                       "key": "user.designation",
+                       "property": "innerHTML",
+                       "type": "key"
+                      }
+                     ],
+                     "element": "p",
                      "extendedFromComponent": null,
-                     "innerHTML": "",
+                     "innerHTML": "<p>Product Designer at Stripe</p>",
                      "isChildOfComponent": null,
                      "isRepeaterBlock": false,
                      "mobileStyles": {},
@@ -1374,7 +1172,10 @@
                  "rawStyles": {},
                  "referenceBlockId": null,
                  "tabletStyles": {},
-                 "visibilityCondition": null
+                 "visibilityCondition": {
+                  "comesFrom": "dataScript",
+                  "key": "user.designation"
+                 }
                 }
                ],
                "classes": [],
@@ -4584,16 +4385,16 @@
  "idx": 3,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-27 12:57:33.561269",
+ "modified": "2026-05-27 23:31:23.539201",
  "modified_by": "Administrator",
  "name": "page-260c9d18",
  "owner": "Administrator",
- "page_data_script": "user = frappe.db.get_value(\n    \"Cafe User\",\n    {\"handle\": frappe.form_dict.handle},\n    [\"handle\", \"company\", \"designation\", \"bio\", \"introduction\", \"user\"],\n    as_dict=1,\n)\n\nif not user:\n    raise frappe.PageDoesNotExistError\n\nfrappe_user = frappe.db.get_value(\n    \"User\", user.user, [\"full_name\", \"user_image\", \"first_name\", \"last_name\"], as_dict=1\n)\n\ndata.can_edit_profile = user.user == frappe.session.user\n\ndata.user = {\n    **user,\n    **frappe_user,\n    \"designation\": f\"{user.designation} at {user.company}\"\n    if user.designation\n    else None,\n}\n\ndata.all_posts_url = f\"/cafe/profile/{user.handle}/posts\"\n\ndata.education = []\ndata.work_history = []\n\n\nall_experiences = frappe.db.get_all(\n    \"Cafe User Experience\",\n    filters={\n        \"parent\": user.user,\n    },\n    fields=[\n        \"name\",\n        \"organization\",\n        \"title\",\n        \"description\",\n        \"from_month\",\n        \"from_year\",\n        \"to_month\",\n        \"to_year\",\n        \"is_current\",\n        \"experience_type\",\n        \"parentfield\",\n    ],\n    order_by=\"from_year desc, from_month desc\",\n)\n\n# data.experiences=experiences\n\nfor exp in all_experiences:\n    from_date = (\n        f\"{exp['from_month']} {exp['from_year']}\"\n        if exp[\"from_month\"]\n        else str(exp[\"from_year\"])\n    )\n\n    if exp[\"is_current\"]:\n        duration = f\"{from_date} - Present\"\n    else:\n        to_date = (\n            f\"{exp['to_month']} {exp['to_year']}\"\n            if exp[\"to_month\"]\n            else str(exp[\"to_year\"])\n            if exp[\"to_year\"]\n            else \"\"\n        )\n        duration = f\"{from_date} - {to_date}\" if to_date else from_date\n\n    exp[\"duration\"] = duration\n    if exp.experience_type == \"Work\":\n        data.work_history.append(exp)\n    else:\n        data.education.append(exp)\n\ndata.posts = {\"data\": [], \"are_more_than_three\": 0}\n\nposts = frappe.db.get_all(\n    \"Cafe Post\",\n    fields=[\n        \"name\",\n        \"title\",\n        \"description\",\n        \"cover_image\",\n        \"reading_time\",\n        \"slug\",\n        \"creation\",\n    ],\n    limit=3,\n    filters={\n        \"owner\": user.user,\n    },\n    order_by=\"creation desc\",\n)\n\nfor post in posts:\n    count = frappe.db.count(\"Cafe Post Comment\", filters={\"post\": post[\"name\"]})\n\n    if count == 0:\n        post[\"comments_count\"] = None\n    elif count == 1:\n        post[\"comments_count\"] = f\"{count} comment\"\n    else:\n        post[\"comments_count\"] = f\"{count} comments\"\n\n    if post.get(\"creation\"):\n        dt = frappe.utils.getdate(post[\"creation\"])\n        months = [\n            \"Jan\",\n            \"Feb\",\n            \"Mar\",\n            \"Apr\",\n            \"May\",\n            \"Jun\",\n            \"Jul\",\n            \"Aug\",\n            \"Sep\",\n            \"Oct\",\n            \"Nov\",\n            \"Dec\",\n        ]\n        post[\"formatted_date\"] = f\"{months[dt.month - 1]} {dt.day} {dt.year}\"\n\n    post.url = f\"/cafe/posts/{post.slug}\"\n\ndata.posts[\"data\"] = posts\ndata.posts[\"are_more_than_three\"] = frappe.db.count(\"Cafe Post\") > 3\n\n\nbreadcrumbs = [\n    {\"label\": \"Café\", \"url\": \"/cafe/explore\"},\n    {\"label\": frappe_user.full_name, \"url\": \"#\"},\n]\n\ndata.page_data = {\n    \"user\": data.user,\n    \"all_posts_url\": data.all_posts_url,\n    \"posts_length\": len(data.posts[\"data\"]),\n    \"work_history_length\": len(data.work_history),\n    \"education_length\": len(data.education),\n    \"breadcrumbs\": breadcrumbs,\n}\n",
+ "page_data_script": "user = frappe.db.get_value(\n    \"Cafe User\",\n    {\"handle\": frappe.form_dict.handle},\n    [\"handle\", \"company\", \"designation\", \"bio\", \"introduction\", \"user\"],\n    as_dict=1,\n)\n\nif not user:\n    raise frappe.PageDoesNotExistError\n\nfrappe_user = frappe.db.get_value(\n    \"User\", user.user, [\"full_name\", \"user_image\", \"first_name\", \"last_name\"], as_dict=1\n)\n\ndata.can_edit_profile = user.user == frappe.session.user\n\ndata.user = {\n    **user,\n    **frappe_user,\n    \"designation\": f\"{user.designation} at {user.company}\"\n    if user.designation\n    else None,\n}\n\ndata.all_posts_url = f\"/cafe/profile/{user.handle}/posts\"\n\ndata.education = []\ndata.work_history = []\n\n\nall_experiences = frappe.db.get_all(\n    \"Cafe User Experience\",\n    filters={\n        \"parent\": user.user,\n    },\n    fields=[\n        \"name\",\n        \"organization\",\n        \"title\",\n        \"description\",\n        \"from_month\",\n        \"from_year\",\n        \"to_month\",\n        \"to_year\",\n        \"is_current\",\n        \"experience_type\",\n        \"parentfield\",\n    ],\n    order_by=\"from_year desc, from_month desc\",\n)\n\n# data.experiences=experiences\n\nfor exp in all_experiences:\n    from_date = (\n        f\"{exp['from_month']} {exp['from_year']}\"\n        if exp[\"from_month\"]\n        else str(exp[\"from_year\"])\n    )\n\n    if exp[\"is_current\"]:\n        duration = f\"{from_date} - Present\"\n    else:\n        to_date = (\n            f\"{exp['to_month']} {exp['to_year']}\"\n            if exp[\"to_month\"]\n            else str(exp[\"to_year\"])\n            if exp[\"to_year\"]\n            else \"\"\n        )\n        duration = f\"{from_date} - {to_date}\" if to_date else from_date\n\n    exp[\"duration\"] = duration\n    if exp.experience_type == \"Work\":\n        data.work_history.append(exp)\n    else:\n        data.education.append(exp)\n\ndata.posts = {\"data\": [], \"are_more_than_three\": 0}\n\nposts = frappe.db.get_all(\n    \"Cafe Post\",\n    fields=[\n        \"name\",\n        \"title\",\n        \"description\",\n        \"cover_image\",\n        \"reading_time\",\n        \"slug\",\n        \"creation\",\n    ],\n    limit=3,\n    filters={\n        \"owner\": user.user,\n    },\n    order_by=\"creation desc\",\n)\n\nfor post in posts:\n    count = frappe.db.count(\"Cafe Post Comment\", filters={\"post\": post[\"name\"]})\n\n    if count == 0:\n        post[\"comments_count\"] = None\n    elif count == 1:\n        post[\"comments_count\"] = f\"{count} comment\"\n    else:\n        post[\"comments_count\"] = f\"{count} comments\"\n\n    if post.get(\"creation\"):\n        dt = frappe.utils.getdate(post[\"creation\"])\n        months = [\n            \"Jan\",\n            \"Feb\",\n            \"Mar\",\n            \"Apr\",\n            \"May\",\n            \"Jun\",\n            \"Jul\",\n            \"Aug\",\n            \"Sep\",\n            \"Oct\",\n            \"Nov\",\n            \"Dec\",\n        ]\n        post[\"formatted_date\"] = f\"{months[dt.month - 1]} {dt.day} {dt.year}\"\n\n    post.url = f\"/cafe/posts/{post.slug}\"\n\ndata.posts[\"data\"] = posts\ndata.posts[\"are_more_than_three\"] = frappe.db.count(\"Cafe Post\") > 3\n\n\nbreadcrumbs = [\n    {\"label\": \"Café\", \"url\": \"/cafe/explore\"},\n    {\"label\": frappe_user.full_name, \"url\": \"#\"},\n]\n\ndata.page_data = {\n    \"is_logged_in\": frappe.session.user != \"Guest\",\n    \"user\": data.user,\n    \"all_posts_url\": data.all_posts_url,\n    \"posts_length\": len(data.posts[\"data\"]),\n    \"work_history_length\": len(data.work_history),\n    \"education_length\": len(data.education),\n    \"breadcrumbs\": breadcrumbs,\n}\n",
  "page_name": "page-260c9d18",
  "page_title": "Profile",
- "preview": "/files/page-260c9d18-preview.webp?v=c46c2",
+ "preview": "/files/page-260c9d18-preview.webp?v=2817c",
  "project_folder": "cafe",
  "published": 1,
- "published_at": "2026-05-27 12:57:33.560833",
+ "published_at": "2026-05-27 23:31:23.538931",
  "route": "cafe/profile/:handle"
 }
