@@ -33,10 +33,16 @@ class CafeUser(Document):
 		# self.validate_permission()
 		if self.handle:
 			self.handle = self.handle.lower()
+
 		self.validate_handle()
 
+		if self.bio and len(self.bio) > 165:
+			frappe.throw("Bio cannot exceed 165 characters")
+		if self.introduction and len(self.introduction) > 500:
+			frappe.throw("Introduction cannot exceed 500 characters")
+
 	def validate_handle(self):
-		if not self.handle:
+		if not self.handle or not self.has_value_changed("handle"):
 			return
 
 		if re.search(r"[^a-z0-9_-]", self.handle):
@@ -47,10 +53,9 @@ class CafeUser(Document):
 		if len(self.handle) < 3:
 			frappe.throw("Handle must be at least 3 characters long")
 
-		if len(self.handle) > 30:
-			frappe.throw("Handle must be at most 30 characters long")
-
-		handle_exists = frappe.db.exists("Cafe User", {"handle": self.handle})
+		handle_exists = frappe.db.get_value(
+			"Cafe User", {"handle": self.handle}, "name"
+		)
 		if handle_exists:
 			frappe.throw(
 				f"Handle '{self.handle}' is already taken. Please choose a different one."

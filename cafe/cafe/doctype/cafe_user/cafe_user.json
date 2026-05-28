@@ -33,12 +33,14 @@
   {
    "fieldname": "company",
    "fieldtype": "Data",
-   "label": "Company"
+   "label": "Company",
+   "length": 100
   },
   {
    "fieldname": "designation",
    "fieldtype": "Data",
-   "label": "Designation"
+   "label": "Designation",
+   "length": 100
   },
   {
    "fieldname": "work_history",
@@ -83,13 +85,14 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Handle",
+   "length": 30,
    "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-05-27 23:33:48.203903",
+ "modified": "2026-05-28 17:15:01.707410",
  "modified_by": "Administrator",
  "module": "Cafe",
  "name": "Cafe User",
