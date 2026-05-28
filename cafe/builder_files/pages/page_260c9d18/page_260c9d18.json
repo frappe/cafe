@@ -4372,13 +4372,13 @@
  "body_html": "",
  "client_scripts": [
   {
-   "builder_script": "Profile page script"
-  },
-  {
    "builder_script": "Dialog Manager"
   },
   {
    "builder_script": "Frappe Client"
+  },
+  {
+   "builder_script": "Toast Manager"
   },
   {
    "builder_script": "Global CSS"
@@ -4387,7 +4387,7 @@
    "builder_script": "Global initialization"
   },
   {
-   "builder_script": "Toast Manager"
+   "builder_script": "Profile page script"
   }
  ],
  "creation": "2026-04-20 11:27:50.358856",
@@ -4400,7 +4400,7 @@
  "idx": 3,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-28 12:19:41.430948",
+ "modified": "2026-05-28 12:43:44.651506",
  "modified_by": "Administrator",
  "name": "page-260c9d18",
  "owner": "Administrator",
@@ -4410,6 +4410,6 @@
  "preview": "/files/page-260c9d18-preview.webp?v=9a669",
  "project_folder": "cafe",
  "published": 1,
- "published_at": "2026-05-28 11:50:39.513676",
+ "published_at": "2026-05-28 12:43:44.650565",
  "route": "cafe/profile/:handle"
 }

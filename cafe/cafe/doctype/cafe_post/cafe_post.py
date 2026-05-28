@@ -32,6 +32,27 @@ class CafePost(Document):
 		title: DF.Data
 	# end: auto-generated types
 
+	def validate(self):
+		if self.title:
+			# Strip HTML comments syntax
+			self.title = re.sub(r"<!--|-->", "", self.title).strip()
+			if len(self.title) > 60:
+				frappe.throw(
+					frappe._(
+						"Title cannot exceed 60 characters. Current length: {0}"
+					).format(len(self.title))
+				)
+
+		if self.description:
+			# Strip HTML comments syntax
+			self.description = re.sub(r"<!--|-->", "", self.description).strip()
+			if len(self.description) > 250:
+				frappe.throw(
+					frappe._(
+						"Description cannot exceed 250 characters. Current length: {0}"
+					).format(len(self.description))
+				)
+
 	def before_save(self):
 		if self.content:
 			self.reading_time = self.calculate_reading_time()
