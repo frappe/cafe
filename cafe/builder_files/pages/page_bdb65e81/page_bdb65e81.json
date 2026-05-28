@@ -746,7 +746,7 @@
           "height": "100vh",
           "marginBottom": "0px",
           "marginTop": "24px",
-          "maxWidth": "600px",
+          "maxWidth": "700px",
           "paddingBottom": "0px",
           "paddingLeft": "18px",
           "paddingRight": "18px",
@@ -1321,7 +1321,23 @@
    "visibilityCondition": null
   }
  ],
- "client_scripts": [],
+ "client_scripts": [
+  {
+   "builder_script": "Dialog Manager"
+  },
+  {
+   "builder_script": "Frappe Client"
+  },
+  {
+   "builder_script": "Global CSS"
+  },
+  {
+   "builder_script": "Global initialization"
+  },
+  {
+   "builder_script": "Toast Manager"
+  }
+ ],
  "creation": "2026-05-14 12:41:28.965229",
  "disable_indexing": 0,
  "docstatus": 0,
@@ -1331,16 +1347,16 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-27 23:45:45.077939",
+ "modified": "2026-05-28 12:20:23.674467",
  "modified_by": "Administrator",
  "name": "page-bdb65e81",
  "owner": "Administrator",
  "page_data_script": "user = frappe.db.get_value(\n    \"Cafe User\",\n    {\"handle\": frappe.form_dict.handle},\n    [\"handle\", \"company\", \"designation\", \"bio\", \"introduction\", \"user\"],\n    as_dict=1,\n)\n\nif not user:\n    raise frappe.PageDoesNotExistError\n\nfrappe_user = frappe.db.get_value(\"User\", user.user, [\"full_name\", \"email\"], as_dict=1)\n\nbreadcrumbs = [\n    {\"label\": \"Café\", \"url\": \"/cafe/explore\"},\n    {\"label\": frappe_user.full_name, \"url\": f\"/cafe/profile/{user.handle}\"},\n    {\"label\": \"Settings\", \"url\": \"#\"},\n]\n\ndata.page_data = {\n    \"is_logged_in\": frappe.session.user != \"Guest\",\n    \"breadcrumbs\": breadcrumbs,\n    \"user\": {**user, **frappe_user},\n}\n",
  "page_name": "page-bdb65e81",
  "page_title": "Settings",
- "preview": "/files/page-bdb65e81-preview.webp?v=36f8d",
+ "preview": "/files/page-bdb65e81-preview.webp?v=f1756",
  "project_folder": "cafe",
  "published": 1,
- "published_at": "2026-05-27 12:28:16.963188",
+ "published_at": "2026-05-28 11:52:01.500718",
  "route": "cafe/profile/:handle/settings"
 }

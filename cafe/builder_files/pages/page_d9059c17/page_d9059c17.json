@@ -1077,6 +1077,21 @@
  "client_scripts": [
   {
    "builder_script": "Edit post script"
+  },
+  {
+   "builder_script": "Dialog Manager"
+  },
+  {
+   "builder_script": "Frappe Client"
+  },
+  {
+   "builder_script": "Global CSS"
+  },
+  {
+   "builder_script": "Global initialization"
+  },
+  {
+   "builder_script": "Toast Manager"
   }
  ],
  "creation": "2026-05-18 16:14:18.340883",
@@ -1089,7 +1104,7 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-27 23:45:49.497014",
+ "modified": "2026-05-28 12:21:46.649178",
  "modified_by": "Administrator",
  "name": "page-d9059c17",
  "owner": "Administrator",

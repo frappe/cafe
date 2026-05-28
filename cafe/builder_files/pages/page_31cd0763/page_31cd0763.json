@@ -742,7 +742,7 @@
           "height": "100vh",
           "marginBottom": "0px",
           "marginTop": "24px",
-          "maxWidth": "600px",
+          "maxWidth": "700px",
           "paddingBottom": "0px",
           "paddingLeft": "18px",
           "paddingRight": "18px",
@@ -1433,7 +1433,23 @@
    "visibilityCondition": null
   }
  ],
- "client_scripts": [],
+ "client_scripts": [
+  {
+   "builder_script": "Dialog Manager"
+  },
+  {
+   "builder_script": "Frappe Client"
+  },
+  {
+   "builder_script": "Global CSS"
+  },
+  {
+   "builder_script": "Global initialization"
+  },
+  {
+   "builder_script": "Toast Manager"
+  }
+ ],
  "creation": "2026-05-22 18:00:53.821573",
  "disable_indexing": 0,
  "docstatus": 0,
@@ -1443,16 +1459,16 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-27 23:45:20.065444",
+ "modified": "2026-05-28 12:21:33.741392",
  "modified_by": "Administrator",
  "name": "page-31cd0763",
  "owner": "Administrator",
  "page_data_script": "user = frappe.db.get_value(\n    \"Cafe User\",\n    {\"handle\": frappe.form_dict.handle},\n    [\"handle\", \"user\"],\n    as_dict=1,\n)\n\nif user.user != frappe.session.user:\n    raise frappe.PermissionError(\"You don't have permission to view this page\")\n\nUserBookmark = frappe.qb.DocType(\"Cafe Post Bookmark\")\nPost = frappe.qb.DocType(\"Cafe Post\")\nCafeUser = frappe.qb.DocType(\"Cafe User\")\n\nquery = (\n    frappe.qb.from_(UserBookmark)\n    .inner_join(Post)\n    .on(UserBookmark.post == Post.name)\n    .select(\n        Post.name,\n        Post.title,\n        Post.description,\n        Post.cover_image,\n        Post.reading_time,\n        Post.slug,\n        Post.creation,\n    )\n    .where(UserBookmark.owner == frappe.session.user)\n)\n\ndata.posts = query.run(as_dict=True)\n\nuser_data = frappe.db.get_value(\n    \"User\", frappe.form_dict.handle, [\"full_name\"], as_dict=1\n)\n\nbreadcrumbs = [\n    {\"label\": \"Café\", \"url\": \"/cafe/explore\"},\n    {\"label\": user_data.full_name, \"url\": f\"/cafe/profile/{user.handle}\"},\n    {\"label\": \"Bookmarks\", \"url\": \"#\"},\n]\n\ndata.page_data = {\n    \"is_logged_in\": frappe.session.user != \"Guest\",\n    \"breadcrumbs\": breadcrumbs,\n}\n",
  "page_name": "page-31cd0763",
  "page_title": "User Bookmarks",
- "preview": "/files/page-31cd0763-preview.webp?v=12ee2",
+ "preview": "/files/page-31cd0763-preview.webp?v=68d25",
  "project_folder": "cafe",
  "published": 1,
- "published_at": "2026-05-26 15:44:38.509319",
+ "published_at": "2026-05-28 11:51:04.800752",
  "route": "cafe/profile/:handle/bookmarks"
 }
