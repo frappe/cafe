@@ -886,181 +886,6 @@
              "baseStyles": {
               "alignItems": "center",
               "alignSelf": "stretch",
-              "boxSizing": "border-box",
-              "display": "flex",
-              "gap": "12px",
-              "height": "50px",
-              "justifyContent": "center",
-              "width": "100%"
-             },
-             "blockClientScript": "",
-             "blockDataScript": "",
-             "blockId": "jkfiyqyq1",
-             "blockName": "Email address",
-             "children": [
-              {
-               "activeState": null,
-               "attributes": {},
-               "baseStyles": {
-                "color": "var(--ink-gray-7)",
-                "fontSize": "13px",
-                "fontWeight": "500",
-                "letterSpacing": "0.21px",
-                "lineHeight": "115% "
-               },
-               "blockClientScript": "",
-               "blockDataScript": "",
-               "blockId": "2j74n7zx7",
-               "blockName": "text",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
-               "dataKey": null,
-               "dynamicValues": [],
-               "element": "p",
-               "extendedFromComponent": null,
-               "innerHTML": "<p>Email Address</p>",
-               "isChildOfComponent": null,
-               "isRepeaterBlock": false,
-               "mobileStyles": {},
-               "originalElement": "",
-               "props": {},
-               "rawStyles": {
-                "flex": "1 0 0"
-               },
-               "referenceBlockId": null,
-               "tabletStyles": {},
-               "visibilityCondition": null
-              },
-              {
-               "activeState": null,
-               "attributes": {},
-               "baseStyles": {
-                "alignItems": "flex-start",
-                "display": "flex",
-                "gap": "8px"
-               },
-               "blockClientScript": "",
-               "blockDataScript": "",
-               "blockId": "gt0jjuwu9",
-               "blockName": "suffix",
-               "children": [
-                {
-                 "activeState": null,
-                 "attributes": {},
-                 "baseStyles": {
-                  "alignItems": "center",
-                  "borderRadius": " 8px",
-                  "display": "flex",
-                  "gap": "8px",
-                  "justifyContent": "center",
-                  "padding": "6px 8px"
-                 },
-                 "blockClientScript": "",
-                 "blockDataScript": "",
-                 "blockId": "641o20c8c",
-                 "blockName": "button",
-                 "children": [
-                  {
-                   "activeState": null,
-                   "attributes": {},
-                   "baseStyles": {
-                    "color": "var(--ink-gray-5)",
-                    "fontSize": "13px",
-                    "letterSpacing": "0.28px",
-                    "lineHeight": "115% "
-                   },
-                   "blockClientScript": "",
-                   "blockDataScript": "",
-                   "blockId": "trzxg0xes",
-                   "blockName": "Discover",
-                   "children": [],
-                   "classes": [],
-                   "customAttributes": {},
-                   "dataKey": null,
-                   "dynamicValues": [
-                    {
-                     "comesFrom": "dataScript",
-                     "key": "page_data.user.email",
-                     "property": "innerHTML",
-                     "type": "key"
-                    }
-                   ],
-                   "element": "p",
-                   "extendedFromComponent": null,
-                   "innerHTML": "<p>email</p>",
-                   "isChildOfComponent": null,
-                   "isRepeaterBlock": false,
-                   "mobileStyles": {},
-                   "originalElement": "",
-                   "props": {},
-                   "rawStyles": {},
-                   "referenceBlockId": null,
-                   "tabletStyles": {},
-                   "visibilityCondition": null
-                  }
-                 ],
-                 "classes": [],
-                 "customAttributes": {},
-                 "dataKey": null,
-                 "dynamicValues": [],
-                 "element": "div",
-                 "extendedFromComponent": null,
-                 "innerHTML": "",
-                 "isChildOfComponent": null,
-                 "isRepeaterBlock": false,
-                 "mobileStyles": {},
-                 "originalElement": "",
-                 "props": {},
-                 "rawStyles": {},
-                 "referenceBlockId": null,
-                 "tabletStyles": {},
-                 "visibilityCondition": null
-                }
-               ],
-               "classes": [],
-               "customAttributes": {},
-               "dataKey": null,
-               "dynamicValues": [],
-               "element": "section",
-               "extendedFromComponent": null,
-               "innerHTML": "",
-               "isChildOfComponent": null,
-               "isRepeaterBlock": false,
-               "mobileStyles": {},
-               "originalElement": "",
-               "props": {},
-               "rawStyles": {},
-               "referenceBlockId": null,
-               "tabletStyles": {},
-               "visibilityCondition": null
-              }
-             ],
-             "classes": [],
-             "customAttributes": {},
-             "dataKey": null,
-             "dynamicValues": [],
-             "element": "div",
-             "extendedFromComponent": null,
-             "innerHTML": "",
-             "isChildOfComponent": null,
-             "isRepeaterBlock": false,
-             "mobileStyles": {},
-             "originalElement": "",
-             "props": {},
-             "rawStyles": {
-              "borderBottom": "1px solid  #EDEDED"
-             },
-             "referenceBlockId": null,
-             "tabletStyles": {},
-             "visibilityCondition": null
-            },
-            {
-             "activeState": null,
-             "attributes": {},
-             "baseStyles": {
-              "alignItems": "center",
-              "alignSelf": "stretch",
               "borderRadius": "4px",
               "boxSizing": "border-box",
               "display": "flex",
@@ -1222,7 +1047,185 @@
              "mobileStyles": {},
              "originalElement": "",
              "props": {},
-             "rawStyles": {},
+             "rawStyles": {
+              "borderBottom": "1px solid #ededed"
+             },
+             "referenceBlockId": null,
+             "tabletStyles": {},
+             "visibilityCondition": null
+            },
+            {
+             "activeState": null,
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "center",
+              "alignSelf": "stretch",
+              "backgroundColor": "#ffffff00",
+              "borderRadius": "4px",
+              "boxSizing": "border-box",
+              "display": "flex",
+              "flexGrow": 0,
+              "flexWrap": "nowrap",
+              "gap": "12px",
+              "height": "50px",
+              "justifyContent": "space-between",
+              "overflowX": "hidden",
+              "overflowY": "hidden",
+              "transitionDuration": "300ms",
+              "transitionProperty": "all",
+              "transitionTimingFunction": "ease",
+              "width": "100%"
+             },
+             "blockClientScript": "this.addEventListener(\"click\", function () {\n  dialog({\n    title: \"Logout\",\n    message: \"Are you sure you want to logout?\",\n    size: \"sm\",\n    actions: [\n      {\n        label: \"Logout\",\n        variant: \"solid\",\n        onClick: function (close) {\n          close();\n          window.location.href = \"/logout\";\n        },\n      },\n      {\n        label: \"Cancel\",\n        variant: \"outline\",\n        onClick: function (close) {\n          close();\n        },\n      },\n    ],\n  });\n});\n",
+             "blockDataScript": "",
+             "blockId": "qjy6dsquq",
+             "blockName": "Logout",
+             "children": [
+              {
+               "activeState": null,
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--ink-gray-7)",
+                "fontSize": "13px",
+                "fontWeight": "500",
+                "letterSpacing": "0.21px",
+                "lineHeight": "115% "
+               },
+               "blockClientScript": "",
+               "blockDataScript": "",
+               "blockId": "9z3rp20rq",
+               "blockName": "text",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "dataKey": null,
+               "dynamicValues": [],
+               "element": "p",
+               "extendedFromComponent": null,
+               "innerHTML": "Logout",
+               "isChildOfComponent": null,
+               "isRepeaterBlock": false,
+               "mobileStyles": {},
+               "originalElement": "",
+               "props": {},
+               "rawStyles": {},
+               "referenceBlockId": null,
+               "tabletStyles": {},
+               "visibilityCondition": null
+              },
+              {
+               "activeState": null,
+               "attributes": {},
+               "baseStyles": {
+                "alignItems": "flex-start",
+                "display": "flex",
+                "gap": "8px"
+               },
+               "blockClientScript": "",
+               "blockDataScript": "",
+               "blockId": "7oputdtuz",
+               "blockName": "suffix",
+               "children": [
+                {
+                 "activeState": null,
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "borderRadius": " 8px",
+                  "color": "var(--ink-gray-5)",
+                  "display": "flex",
+                  "gap": "8px",
+                  "justifyContent": "center",
+                  "padding": "6px 8px"
+                 },
+                 "blockClientScript": "",
+                 "blockDataScript": "",
+                 "blockId": "37tpylrcw",
+                 "blockName": "button",
+                 "children": [
+                  {
+                   "activeState": null,
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--ink-gray-5)",
+                    "height": "16px",
+                    "width": "100%"
+                   },
+                   "blockClientScript": "",
+                   "blockDataScript": "",
+                   "blockId": "glnmfewcz",
+                   "blockName": "icon/line/arrow-right",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "dataKey": null,
+                   "dynamicValues": [],
+                   "element": "svg",
+                   "extendedFromComponent": null,
+                   "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-log-out-icon lucide-log-out\"><path d=\"m16 17 5-5-5-5\"/><path d=\"M21 12H9\"/><path d=\"M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4\"/></svg>",
+                   "isChildOfComponent": null,
+                   "isRepeaterBlock": false,
+                   "mobileStyles": {},
+                   "originalElement": "__raw_html__",
+                   "props": {},
+                   "rawStyles": {},
+                   "referenceBlockId": null,
+                   "tabletStyles": {},
+                   "visibilityCondition": null
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "dataKey": null,
+                 "dynamicValues": [],
+                 "element": "div",
+                 "extendedFromComponent": null,
+                 "innerHTML": "",
+                 "isChildOfComponent": null,
+                 "isRepeaterBlock": false,
+                 "mobileStyles": {},
+                 "originalElement": "",
+                 "props": {},
+                 "rawStyles": {},
+                 "referenceBlockId": null,
+                 "tabletStyles": {},
+                 "visibilityCondition": null
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "dataKey": null,
+               "dynamicValues": [],
+               "element": "section",
+               "extendedFromComponent": null,
+               "innerHTML": "",
+               "isChildOfComponent": null,
+               "isRepeaterBlock": false,
+               "mobileStyles": {},
+               "originalElement": "",
+               "props": {},
+               "rawStyles": {},
+               "referenceBlockId": null,
+               "tabletStyles": {},
+               "visibilityCondition": null
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "dataKey": null,
+             "dynamicValues": [],
+             "editable": false,
+             "element": "button",
+             "extendedFromComponent": null,
+             "innerHTML": "",
+             "isChildOfComponent": null,
+             "isRepeaterBlock": false,
+             "mobileStyles": {},
+             "originalElement": "",
+             "props": {},
+             "rawStyles": {
+              "borderBottom": "1px solid #ededed"
+             },
              "referenceBlockId": null,
              "tabletStyles": {},
              "visibilityCondition": null
@@ -1329,13 +1332,13 @@
    "builder_script": "Frappe Client"
   },
   {
+   "builder_script": "Toast Manager"
+  },
+  {
    "builder_script": "Global CSS"
   },
   {
    "builder_script": "Global initialization"
-  },
-  {
-   "builder_script": "Toast Manager"
   }
  ],
  "creation": "2026-05-14 12:41:28.965229",
@@ -1347,16 +1350,16 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-28 12:20:23.674467",
+ "modified": "2026-05-29 15:45:56.537526",
  "modified_by": "Administrator",
  "name": "page-bdb65e81",
  "owner": "Administrator",
  "page_data_script": "user = frappe.db.get_value(\n    \"Cafe User\",\n    {\"handle\": frappe.form_dict.handle},\n    [\"handle\", \"company\", \"designation\", \"bio\", \"introduction\", \"user\"],\n    as_dict=1,\n)\n\nif not user:\n    raise frappe.PageDoesNotExistError\n\nfrappe_user = frappe.db.get_value(\"User\", user.user, [\"full_name\", \"email\"], as_dict=1)\n\nbreadcrumbs = [\n    {\"label\": \"Café\", \"url\": \"/cafe/explore\"},\n    {\"label\": frappe_user.full_name, \"url\": f\"/cafe/profile/{user.handle}\"},\n    {\"label\": \"Settings\", \"url\": \"#\"},\n]\n\ndata.page_data = {\n    \"is_logged_in\": frappe.session.user != \"Guest\",\n    \"breadcrumbs\": breadcrumbs,\n    \"user\": {**user, **frappe_user},\n}\n",
  "page_name": "page-bdb65e81",
  "page_title": "Settings",
- "preview": "/files/page-bdb65e81-preview.webp?v=f1756",
+ "preview": "/files/page-bdb65e81-preview.webp?v=7654e",
  "project_folder": "cafe",
  "published": 1,
- "published_at": "2026-05-28 11:52:01.500718",
+ "published_at": "2026-05-29 15:34:35.155639",
  "route": "cafe/profile/:handle/settings"
 }
