@@ -970,30 +970,6 @@
            "referenceBlockId": null,
            "tabletStyles": {},
            "visibilityCondition": null
-          },
-          {
-           "activeState": null,
-           "attributes": {},
-           "baseStyles": {
-            "flexShrink": 0,
-            "height": "200px",
-            "objectFit": "cover",
-            "position": "static",
-            "width": "100%"
-           },
-           "blockClientScript": "",
-           "blockDataScript": "",
-           "blockId": "yij3rj6yp",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
-           "dataKey": null,
-           "dynamicValues": [],
-           "element": "img",
-           "mobileStyles": {},
-           "props": {},
-           "rawStyles": {},
-           "tabletStyles": {}
           }
          ],
          "classes": [],
@@ -1076,10 +1052,10 @@
  ],
  "client_scripts": [
   {
-   "builder_script": "Edit post script"
+   "builder_script": "Dialog Manager"
   },
   {
-   "builder_script": "Dialog Manager"
+   "builder_script": "Toast Manager"
   },
   {
    "builder_script": "Frappe Client"
@@ -1091,7 +1067,7 @@
    "builder_script": "Global initialization"
   },
   {
-   "builder_script": "Toast Manager"
+   "builder_script": "Edit post script"
   }
  ],
  "creation": "2026-05-18 16:14:18.340883",
@@ -1104,7 +1080,7 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-05-28 12:21:46.649178",
+ "modified": "2026-05-29 12:26:44.989146",
  "modified_by": "Administrator",
  "name": "page-d9059c17",
  "owner": "Administrator",
@@ -1114,6 +1090,6 @@
  "preview": "/files/page-d9059c17-preview.webp?v=66925",
  "project_folder": "cafe",
  "published": 1,
- "published_at": "2026-05-27 11:07:48.913216",
+ "published_at": "2026-05-29 12:26:44.988777",
  "route": "cafe/posts/edit"
 }

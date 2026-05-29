@@ -7,6 +7,7 @@ import frappe
 from frappe.model.document import Document
 from frappe.query_builder.functions import Count
 from frappe.utils import pretty_date, strip_html
+from frappe.utils.data import cstr
 
 
 class CafePost(Document):
@@ -60,6 +61,14 @@ class CafePost(Document):
 		if not self.slug:
 			self.slug = self.generate_slug()
 
+	def on_update(self):
+		before = self.get_doc_before_save()
+		if not (before and before.published) and self.published:
+			frappe.enqueue(
+				"cafe.cafe.doctype.cafe_post.cafe_post.notify_subscribers",
+				post_name=self.name,
+			)
+
 	def generate_slug(self) -> str:
 		slug = self.title.lower()
 		slug = re.sub(r"[^a-z0-9\s-]", "", slug)
@@ -77,6 +86,61 @@ class CafePost(Document):
 		minutes = max(1, round(word_count / WORDS_PER_MINUTE))
 
 		return f"{minutes} min read"
+
+
+def notify_subscribers(post_name: str):
+	post = frappe.get_doc("Cafe Post", post_name)
+
+	recipients = set()
+
+	cafe_user = frappe.db.get_value(
+		"Cafe User", {"user": post.owner}, ["name", "handle"], as_dict=True
+	)
+	if cafe_user:
+		author_subs = frappe.get_all(
+			"Cafe Subscription",
+			filters={"user": cafe_user.name},
+			pluck="owner",
+		)
+		recipients.update(author_subs)
+
+	recipients.discard(post.owner)
+
+	if not recipients:
+		return
+
+	site_url = frappe.utils.get_url()
+	post_url = f"{site_url}/cafe/posts/{post.slug}"
+
+	author_name = frappe.db.get_value("User", post.owner, "full_name") or post.owner
+	author_handle = cafe_user.handle if cafe_user else None
+	author_profile_url = (
+		f"{site_url}/cafe/profile/{author_handle}"
+		if author_handle
+		else f"{site_url}/cafe/profile/{post.owner}"
+	)
+
+	tags = [t.tag for t in post.tags] if post.tags else []
+
+	frappe.sendmail(
+		recipients=list(recipients),
+		subject=f"{post.title}",
+		template="new_post_notification",
+		args={
+			"title": post.title,
+			"description": post.description,
+			"cover_image": post.cover_image,
+			"post_url": post_url,
+			"author_name": author_name,
+			"author_handle": f"@{author_handle}" if author_handle else None,
+			"author_profile_url": author_profile_url,
+			"reading_time": post.reading_time,
+			"publication": post.publication,
+			"tags": tags,
+			"site_name": cstr(frappe.local.site_name),
+		},
+		header=["New post on Cafe", "orange"],
+	)
 
 
 @frappe.whitelist(allow_guest=True)
