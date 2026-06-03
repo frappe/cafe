@@ -13,15 +13,14 @@ required_apps = ["builder"]
 website_redirects = [{"source": r"/cafe/?", "target": "/cafe/explore"}]
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "cafe",
-# 		"logo": "/assets/cafe/logo.png",
-# 		"title": "Cafe",
-# 		"route": "/cafe",
-# 		"has_permission": "cafe.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "cafe",
+		"logo": "/assets/cafe/builder_assets/cafe_logo.svg",
+		"title": "Cafe",
+		"route": "/cafe",
+	}
+]
 
 # Includes in <head>
 # ------------------
