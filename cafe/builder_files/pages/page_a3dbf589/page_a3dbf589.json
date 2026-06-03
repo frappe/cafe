@@ -3,7 +3,6 @@
  "authenticated_access": 0,
  "blocks": [
   {
-   "activeState": null,
    "attributes": {},
    "baseStyles": {
     "alignItems": "center",
@@ -15,9 +14,9 @@
    "blockClientScript": "",
    "blockDataScript": "",
    "blockId": "root",
+   "blockName": null,
    "children": [
     {
-     "activeState": null,
      "attributes": {},
      "baseStyles": {
       "display": "flex",
@@ -33,7 +32,6 @@
      "blockName": "App layout",
      "children": [
       {
-       "activeState": null,
        "attributes": {},
        "baseStyles": {
         "maxHeight": "100%"
@@ -44,7 +42,6 @@
        "blockName": "Sidebar",
        "children": [
         {
-         "activeState": null,
          "attributes": {},
          "baseStyles": {},
          "blockClientScript": "",
@@ -53,21 +50,23 @@
          "blockName": "Logo",
          "children": [
           {
-           "activeState": null,
            "attributes": {},
            "baseStyles": {},
            "blockClientScript": "",
            "blockDataScript": "",
            "blockId": "gimxali7m",
            "blockName": null,
-           "children": [],
+           "children": null,
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
+           "draggable": false,
            "dynamicValues": [],
            "element": null,
+           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": null,
+           "innerText": null,
            "isChildOfComponent": "a74edf7ebda043de",
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -82,10 +81,13 @@
          "classes": [],
          "customAttributes": {},
          "dataKey": null,
+         "draggable": false,
          "dynamicValues": [],
          "element": null,
+         "elementBeforeConversion": null,
          "extendedFromComponent": null,
          "innerHTML": null,
+         "innerText": null,
          "isChildOfComponent": "a74edf7ebda043de",
          "isRepeaterBlock": false,
          "mobileStyles": {},
@@ -97,7 +99,6 @@
          "visibilityCondition": null
         },
         {
-         "activeState": null,
          "attributes": {},
          "baseStyles": {
           "flexGrow": 1,
@@ -109,7 +110,6 @@
          "blockName": "container",
          "children": [
           {
-           "activeState": null,
            "attributes": {},
            "baseStyles": {},
            "blockClientScript": "",
@@ -118,21 +118,23 @@
            "blockName": "Home icon",
            "children": [
             {
-             "activeState": null,
              "attributes": {},
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "42c1c388",
              "blockName": "icon/line/home",
-             "children": [],
+             "children": null,
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
+             "draggable": false,
              "dynamicValues": [],
              "element": null,
+             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": null,
+             "innerText": null,
              "isChildOfComponent": "a74edf7ebda043de",
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -147,10 +149,13 @@
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
+           "draggable": false,
            "dynamicValues": [],
            "element": null,
+           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": null,
+           "innerText": null,
            "isChildOfComponent": "a74edf7ebda043de",
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -162,7 +167,6 @@
            "visibilityCondition": null
           },
           {
-           "activeState": null,
            "attributes": {},
            "baseStyles": {},
            "blockClientScript": "",
@@ -171,21 +175,23 @@
            "blockName": "Profile icon",
            "children": [
             {
-             "activeState": null,
              "attributes": {},
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "937efeed",
              "blockName": "icon/line/user",
-             "children": [],
+             "children": null,
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
+             "draggable": false,
              "dynamicValues": [],
              "element": null,
+             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": null,
+             "innerText": null,
              "isChildOfComponent": "a74edf7ebda043de",
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -200,10 +206,13 @@
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
+           "draggable": false,
            "dynamicValues": [],
            "element": null,
+           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": null,
+           "innerText": null,
            "isChildOfComponent": "a74edf7ebda043de",
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -215,7 +224,6 @@
            "visibilityCondition": null
           },
           {
-           "activeState": null,
            "attributes": {},
            "baseStyles": {},
            "blockClientScript": "",
@@ -224,21 +232,23 @@
            "blockName": "Settings icon",
            "children": [
             {
-             "activeState": null,
              "attributes": {},
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "0ab61ddc",
              "blockName": "icon/line/settings",
-             "children": [],
+             "children": null,
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
+             "draggable": false,
              "dynamicValues": [],
              "element": null,
+             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": null,
+             "innerText": null,
              "isChildOfComponent": "a74edf7ebda043de",
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -253,10 +263,13 @@
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
+           "draggable": false,
            "dynamicValues": [],
            "element": null,
+           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": null,
+           "innerText": null,
            "isChildOfComponent": "a74edf7ebda043de",
            "isRepeaterBlock": false,
            "mobileStyles": {},
@@ -271,10 +284,13 @@
          "classes": [],
          "customAttributes": {},
          "dataKey": null,
+         "draggable": false,
          "dynamicValues": [],
          "element": null,
+         "elementBeforeConversion": null,
          "extendedFromComponent": null,
          "innerHTML": null,
+         "innerText": null,
          "isChildOfComponent": "a74edf7ebda043de",
          "isRepeaterBlock": false,
          "mobileStyles": {},
@@ -289,10 +305,13 @@
        "classes": [],
        "customAttributes": {},
        "dataKey": null,
+       "draggable": false,
        "dynamicValues": [],
        "element": null,
+       "elementBeforeConversion": null,
        "extendedFromComponent": "a74edf7ebda043de",
        "innerHTML": null,
+       "innerText": null,
        "isChildOfComponent": null,
        "isRepeaterBlock": false,
        "mobileStyles": {},
@@ -304,7 +323,6 @@
        "visibilityCondition": null
       },
       {
-       "activeState": null,
        "attributes": {},
        "baseStyles": {
         "alignItems": "center",
@@ -325,7 +343,6 @@
        "blockName": "Main body",
        "children": [
         {
-         "activeState": null,
          "attributes": {},
          "baseStyles": {},
          "blockClientScript": "",
@@ -334,7 +351,6 @@
          "blockName": "Navbar",
          "children": [
           {
-           "activeState": null,
            "attributes": {},
            "baseStyles": {},
            "blockClientScript": "",
@@ -343,7 +359,6 @@
            "blockName": "container",
            "children": [
             {
-             "activeState": null,
              "attributes": {},
              "baseStyles": {},
              "blockClientScript": "",
@@ -352,18 +367,23 @@
              "blockName": "Logo",
              "children": [
               {
-               "activeState": null,
                "attributes": {},
                "baseStyles": {},
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "qa575xxw9",
                "blockName": null,
-               "children": [],
+               "children": null,
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
+               "draggable": false,
                "dynamicValues": [],
+               "element": null,
+               "elementBeforeConversion": null,
+               "extendedFromComponent": null,
+               "innerHTML": null,
+               "innerText": null,
                "isChildOfComponent": "9735c922f3a19e17",
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -378,7 +398,13 @@
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
+             "draggable": false,
              "dynamicValues": [],
+             "element": null,
+             "elementBeforeConversion": null,
+             "extendedFromComponent": null,
+             "innerHTML": null,
+             "innerText": null,
              "isChildOfComponent": "9735c922f3a19e17",
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -390,7 +416,6 @@
              "visibilityCondition": null
             },
             {
-             "activeState": null,
              "attributes": {},
              "baseStyles": {},
              "blockClientScript": "",
@@ -399,7 +424,6 @@
              "blockName": "repeater",
              "children": [
               {
-               "activeState": null,
                "attributes": {},
                "baseStyles": {},
                "blockClientScript": "",
@@ -408,16 +432,17 @@
                "blockName": "Breadcrumb",
                "children": [
                 {
-                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {},
                  "blockClientScript": "",
                  "blockDataScript": "",
                  "blockId": "j0b6rf27p",
-                 "children": [],
+                 "blockName": null,
+                 "children": null,
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
+                 "draggable": false,
                  "dynamicValues": [
                   {
                    "comesFrom": "dataScript",
@@ -432,73 +457,113 @@
                    "type": "attribute"
                   }
                  ],
+                 "element": null,
+                 "elementBeforeConversion": null,
+                 "extendedFromComponent": null,
+                 "innerHTML": null,
+                 "innerText": null,
                  "isChildOfComponent": "9735c922f3a19e17",
+                 "isRepeaterBlock": false,
                  "mobileStyles": {},
+                 "originalElement": null,
                  "props": {},
                  "rawStyles": {},
                  "referenceBlockId": "84cgqe9c4",
-                 "tabletStyles": {}
+                 "tabletStyles": {},
+                 "visibilityCondition": null
                 },
                 {
-                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {},
                  "blockClientScript": "",
                  "blockDataScript": "",
                  "blockId": "pa75xz1xk",
                  "blockName": "icon/line/small-right-chevron",
-                 "children": [],
+                 "children": null,
                  "classes": [],
                  "customAttributes": {},
                  "dataKey": null,
+                 "draggable": false,
                  "dynamicValues": [],
+                 "element": null,
+                 "elementBeforeConversion": null,
+                 "extendedFromComponent": null,
+                 "innerHTML": null,
+                 "innerText": null,
                  "isChildOfComponent": "9735c922f3a19e17",
+                 "isRepeaterBlock": false,
                  "mobileStyles": {},
                  "originalElement": "__raw_html__",
                  "props": {},
                  "rawStyles": {},
                  "referenceBlockId": "4f0ntr4dl",
-                 "tabletStyles": {}
+                 "tabletStyles": {},
+                 "visibilityCondition": null
                 }
                ],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
+               "draggable": false,
                "dynamicValues": [],
+               "element": null,
+               "elementBeforeConversion": null,
+               "extendedFromComponent": null,
+               "innerHTML": null,
+               "innerText": null,
                "isChildOfComponent": "9735c922f3a19e17",
+               "isRepeaterBlock": false,
                "mobileStyles": {},
+               "originalElement": null,
                "props": {},
                "rawStyles": {},
                "referenceBlockId": "x05xeqja6",
-               "tabletStyles": {}
+               "tabletStyles": {},
+               "visibilityCondition": null
               }
              ],
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
+             "draggable": false,
              "dynamicValues": [],
+             "element": null,
+             "elementBeforeConversion": null,
+             "extendedFromComponent": null,
+             "innerHTML": null,
+             "innerText": null,
              "isChildOfComponent": "9735c922f3a19e17",
              "isRepeaterBlock": true,
              "mobileStyles": {},
+             "originalElement": null,
              "props": {},
              "rawStyles": {},
              "referenceBlockId": "pvefwtvzp",
-             "tabletStyles": {}
+             "tabletStyles": {},
+             "visibilityCondition": null
             }
            ],
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
+           "draggable": false,
            "dynamicValues": [],
+           "element": null,
+           "elementBeforeConversion": null,
+           "extendedFromComponent": null,
+           "innerHTML": null,
+           "innerText": null,
            "isChildOfComponent": "9735c922f3a19e17",
+           "isRepeaterBlock": false,
            "mobileStyles": {},
+           "originalElement": null,
            "props": {},
            "rawStyles": {},
            "referenceBlockId": "iu6tb0242",
-           "tabletStyles": {}
+           "tabletStyles": {},
+           "visibilityCondition": null
           },
           {
-           "activeState": null,
            "attributes": {},
            "baseStyles": {},
            "blockClientScript": "",
@@ -507,7 +572,6 @@
            "blockName": "Action Button",
            "children": [
             {
-             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "__last_display": "flex",
@@ -519,80 +583,125 @@
              "blockName": "button-link",
              "children": [
               {
-               "activeState": null,
                "attributes": {},
                "baseStyles": {},
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "2n2eee4e7",
-               "children": [],
+               "blockName": null,
+               "children": null,
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
+               "draggable": false,
                "dynamicValues": [],
+               "element": null,
+               "elementBeforeConversion": null,
+               "extendedFromComponent": null,
+               "innerHTML": null,
+               "innerText": null,
                "isChildOfComponent": "9735c922f3a19e17",
+               "isRepeaterBlock": false,
                "mobileStyles": {},
+               "originalElement": null,
                "props": {},
                "rawStyles": {},
                "referenceBlockId": "5jzswrxyt",
-               "tabletStyles": {}
+               "tabletStyles": {},
+               "visibilityCondition": null
               },
               {
-               "activeState": null,
                "attributes": {},
                "baseStyles": {},
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "yeuhpa8yp",
-               "children": [],
+               "blockName": null,
+               "children": null,
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
+               "draggable": false,
                "dynamicValues": [],
+               "element": null,
+               "elementBeforeConversion": null,
+               "extendedFromComponent": null,
+               "innerHTML": null,
+               "innerText": null,
                "isChildOfComponent": "9735c922f3a19e17",
+               "isRepeaterBlock": false,
                "mobileStyles": {},
+               "originalElement": null,
                "props": {},
                "rawStyles": {},
                "referenceBlockId": "6hj9nbh9x",
-               "tabletStyles": {}
+               "tabletStyles": {},
+               "visibilityCondition": null
               }
              ],
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
+             "draggable": false,
              "dynamicValues": [],
+             "element": null,
+             "elementBeforeConversion": null,
+             "extendedFromComponent": null,
+             "innerHTML": null,
+             "innerText": null,
              "isChildOfComponent": "9735c922f3a19e17",
+             "isRepeaterBlock": false,
              "mobileStyles": {},
+             "originalElement": null,
              "props": {},
              "rawStyles": {},
              "referenceBlockId": "9xigw8wuc",
-             "tabletStyles": {}
+             "tabletStyles": {},
+             "visibilityCondition": null
             }
            ],
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
+           "draggable": false,
            "dynamicValues": [],
+           "element": null,
+           "elementBeforeConversion": null,
+           "extendedFromComponent": null,
+           "innerHTML": null,
+           "innerText": null,
            "isChildOfComponent": "9735c922f3a19e17",
+           "isRepeaterBlock": false,
            "mobileStyles": {},
+           "originalElement": null,
            "props": {},
            "rawStyles": {},
            "referenceBlockId": "d6zkdhe05",
-           "tabletStyles": {}
+           "tabletStyles": {},
+           "visibilityCondition": null
           }
          ],
          "classes": [],
          "customAttributes": {},
          "dataKey": null,
+         "draggable": false,
          "dynamicValues": [],
+         "element": null,
+         "elementBeforeConversion": null,
          "extendedFromComponent": "9735c922f3a19e17",
+         "innerHTML": null,
+         "innerText": null,
+         "isChildOfComponent": null,
+         "isRepeaterBlock": false,
          "mobileStyles": {},
+         "originalElement": null,
          "props": {},
          "rawStyles": {},
-         "tabletStyles": {}
+         "referenceBlockId": null,
+         "tabletStyles": {},
+         "visibilityCondition": null
         },
         {
-         "activeState": null,
          "attributes": {},
          "baseStyles": {
           "alignItems": "flex-start",
@@ -600,8 +709,10 @@
           "flexDirection": "column",
           "gap": "4px",
           "height": "100vh",
-          "marginBottom": "0px",
-          "marginTop": "24px",
+          "marginBottom": "40px",
+          "marginLeft": "0px",
+          "marginRight": "0px",
+          "marginTop": "40px",
           "maxWidth": "700px",
           "overflowX": "visible",
           "overflowY": "visible",
@@ -618,7 +729,6 @@
          "blockName": "Container",
          "children": [
           {
-           "activeState": null,
            "attributes": {},
            "baseStyles": {
             "color": "var(--ink-gray-8)",
@@ -632,14 +742,17 @@
            "blockDataScript": "",
            "blockId": "0u4e92ro4",
            "blockName": "Writings from people on Cafe",
-           "children": [],
+           "children": null,
            "classes": [],
            "customAttributes": {},
            "dataKey": null,
+           "draggable": false,
            "dynamicValues": [],
            "element": "p",
+           "elementBeforeConversion": null,
            "extendedFromComponent": null,
            "innerHTML": "Setup your account to get started!",
+           "innerText": null,
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
            "mobileStyles": {
@@ -653,7 +766,6 @@
            "visibilityCondition": null
           },
           {
-           "activeState": null,
            "attributes": {},
            "baseStyles": {
             "display": "flex",
@@ -671,9 +783,9 @@
            "blockClientScript": "",
            "blockDataScript": "",
            "blockId": "gwmugzslr",
+           "blockName": null,
            "children": [
             {
-             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "alignItems": "center",
@@ -696,7 +808,6 @@
              "blockName": "container",
              "children": [
               {
-               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "display": "flex",
@@ -717,7 +828,6 @@
                "blockName": "container",
                "children": [
                 {
-                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "color": "var(--ink-gray-6)",
@@ -736,22 +846,29 @@
                  "blockClientScript": "",
                  "blockDataScript": "",
                  "blockId": "2qtd2m1tm",
-                 "children": [],
+                 "blockName": null,
+                 "children": null,
                  "classes": [],
-                 "customAttributes": {
-                  "for": "name"
-                 },
+                 "customAttributes": {},
                  "dataKey": null,
+                 "draggable": false,
                  "dynamicValues": [],
                  "element": "label",
+                 "elementBeforeConversion": null,
+                 "extendedFromComponent": null,
                  "innerHTML": "<p>First Name</p>",
+                 "innerText": null,
+                 "isChildOfComponent": null,
+                 "isRepeaterBlock": false,
                  "mobileStyles": {},
+                 "originalElement": null,
                  "props": {},
                  "rawStyles": {},
-                 "tabletStyles": {}
+                 "referenceBlockId": null,
+                 "tabletStyles": {},
+                 "visibilityCondition": null
                 },
                 {
-                 "activeState": null,
                  "attributes": {
                   "placeholder": "John"
                  },
@@ -781,37 +898,56 @@
                  "blockDataScript": "",
                  "blockId": "c08n7j95j",
                  "blockName": "First name input",
-                 "children": [],
+                 "children": null,
                  "classes": [
                   "form-input"
                  ],
                  "customAttributes": {
-                  "name": "first-name",
+                  "id": "first-name",
                   "required": "true"
                  },
                  "dataKey": null,
+                 "draggable": false,
                  "dynamicValues": [],
                  "element": "input",
+                 "elementBeforeConversion": null,
+                 "extendedFromComponent": null,
+                 "innerHTML": null,
+                 "innerText": null,
+                 "isChildOfComponent": null,
+                 "isRepeaterBlock": false,
                  "mobileStyles": {},
+                 "originalElement": null,
                  "props": {},
                  "rawStyles": {
                   "line-height": "1.15"
                  },
-                 "tabletStyles": {}
+                 "referenceBlockId": null,
+                 "tabletStyles": {},
+                 "visibilityCondition": null
                 }
                ],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
+               "draggable": false,
                "dynamicValues": [],
                "element": "div",
+               "elementBeforeConversion": null,
+               "extendedFromComponent": null,
+               "innerHTML": null,
+               "innerText": null,
+               "isChildOfComponent": null,
+               "isRepeaterBlock": false,
                "mobileStyles": {},
+               "originalElement": null,
                "props": {},
                "rawStyles": {},
-               "tabletStyles": {}
+               "referenceBlockId": null,
+               "tabletStyles": {},
+               "visibilityCondition": null
               },
               {
-               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "display": "flex",
@@ -832,7 +968,6 @@
                "blockName": "container",
                "children": [
                 {
-                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "color": "var(--ink-gray-6)",
@@ -851,22 +986,29 @@
                  "blockClientScript": "",
                  "blockDataScript": "",
                  "blockId": "zj6zaefd7",
-                 "children": [],
+                 "blockName": null,
+                 "children": null,
                  "classes": [],
-                 "customAttributes": {
-                  "for": "name"
-                 },
+                 "customAttributes": {},
                  "dataKey": null,
+                 "draggable": false,
                  "dynamicValues": [],
                  "element": "label",
+                 "elementBeforeConversion": null,
+                 "extendedFromComponent": null,
                  "innerHTML": "<p>Last Name</p>",
+                 "innerText": null,
+                 "isChildOfComponent": null,
+                 "isRepeaterBlock": false,
                  "mobileStyles": {},
+                 "originalElement": null,
                  "props": {},
                  "rawStyles": {},
-                 "tabletStyles": {}
+                 "referenceBlockId": null,
+                 "tabletStyles": {},
+                 "visibilityCondition": null
                 },
                 {
-                 "activeState": null,
                  "attributes": {
                   "placeholder": "Doe"
                  },
@@ -896,50 +1038,79 @@
                  "blockDataScript": "",
                  "blockId": "ob2x3oivg",
                  "blockName": "Last name input",
-                 "children": [],
+                 "children": null,
                  "classes": [
                   "form-input"
                  ],
                  "customAttributes": {
-                  "name": "last-name",
+                  "id": "last-name",
                   "required": "true"
                  },
                  "dataKey": null,
+                 "draggable": false,
                  "dynamicValues": [],
                  "element": "input",
+                 "elementBeforeConversion": null,
+                 "extendedFromComponent": null,
+                 "innerHTML": null,
+                 "innerText": null,
+                 "isChildOfComponent": null,
+                 "isRepeaterBlock": false,
                  "mobileStyles": {},
+                 "originalElement": null,
                  "props": {},
                  "rawStyles": {
                   "line-height": "1.15"
                  },
-                 "tabletStyles": {}
+                 "referenceBlockId": null,
+                 "tabletStyles": {},
+                 "visibilityCondition": null
                 }
                ],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
+               "draggable": false,
                "dynamicValues": [],
                "element": "div",
+               "elementBeforeConversion": null,
+               "extendedFromComponent": null,
+               "innerHTML": null,
+               "innerText": null,
+               "isChildOfComponent": null,
+               "isRepeaterBlock": false,
                "mobileStyles": {},
+               "originalElement": null,
                "props": {},
                "rawStyles": {},
-               "tabletStyles": {}
+               "referenceBlockId": null,
+               "tabletStyles": {},
+               "visibilityCondition": null
               }
              ],
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
+             "draggable": false,
              "dynamicValues": [],
              "element": "div",
+             "elementBeforeConversion": null,
+             "extendedFromComponent": null,
+             "innerHTML": null,
+             "innerText": null,
+             "isChildOfComponent": null,
+             "isRepeaterBlock": false,
              "mobileStyles": {
               "flexDirection": "column"
              },
+             "originalElement": null,
              "props": {},
              "rawStyles": {},
-             "tabletStyles": {}
+             "referenceBlockId": null,
+             "tabletStyles": {},
+             "visibilityCondition": null
             },
             {
-             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "alignItems": "center",
@@ -962,7 +1133,6 @@
              "blockName": "container",
              "children": [
               {
-               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "display": "flex",
@@ -983,7 +1153,6 @@
                "blockName": "container",
                "children": [
                 {
-                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "color": "var(--ink-gray-6)",
@@ -1002,22 +1171,31 @@
                  "blockClientScript": "",
                  "blockDataScript": "",
                  "blockId": "w2vzc1aao",
-                 "children": [],
+                 "blockName": null,
+                 "children": null,
                  "classes": [],
                  "customAttributes": {
                   "for": "name"
                  },
                  "dataKey": null,
+                 "draggable": false,
                  "dynamicValues": [],
                  "element": "label",
-                 "innerHTML": "Company",
+                 "elementBeforeConversion": null,
+                 "extendedFromComponent": null,
+                 "innerHTML": "<p>Company</p>",
+                 "innerText": null,
+                 "isChildOfComponent": null,
+                 "isRepeaterBlock": false,
                  "mobileStyles": {},
+                 "originalElement": null,
                  "props": {},
                  "rawStyles": {},
-                 "tabletStyles": {}
+                 "referenceBlockId": null,
+                 "tabletStyles": {},
+                 "visibilityCondition": null
                 },
                 {
-                 "activeState": null,
                  "attributes": {
                   "placeholder": "ACME"
                  },
@@ -1047,37 +1225,56 @@
                  "blockDataScript": "",
                  "blockId": "3edalwdp7",
                  "blockName": "Company input",
-                 "children": [],
+                 "children": null,
                  "classes": [
                   "form-input"
                  ],
                  "customAttributes": {
-                  "name": "company-name",
+                  "id": "company-name",
                   "required": "true"
                  },
                  "dataKey": null,
+                 "draggable": false,
                  "dynamicValues": [],
                  "element": "input",
+                 "elementBeforeConversion": null,
+                 "extendedFromComponent": null,
+                 "innerHTML": null,
+                 "innerText": null,
+                 "isChildOfComponent": null,
+                 "isRepeaterBlock": false,
                  "mobileStyles": {},
+                 "originalElement": null,
                  "props": {},
                  "rawStyles": {
                   "line-height": "1.15"
                  },
-                 "tabletStyles": {}
+                 "referenceBlockId": null,
+                 "tabletStyles": {},
+                 "visibilityCondition": null
                 }
                ],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
+               "draggable": false,
                "dynamicValues": [],
                "element": "div",
+               "elementBeforeConversion": null,
+               "extendedFromComponent": null,
+               "innerHTML": null,
+               "innerText": null,
+               "isChildOfComponent": null,
+               "isRepeaterBlock": false,
                "mobileStyles": {},
+               "originalElement": null,
                "props": {},
                "rawStyles": {},
-               "tabletStyles": {}
+               "referenceBlockId": null,
+               "tabletStyles": {},
+               "visibilityCondition": null
               },
               {
-               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "display": "flex",
@@ -1098,7 +1295,6 @@
                "blockName": "container",
                "children": [
                 {
-                 "activeState": null,
                  "attributes": {},
                  "baseStyles": {
                   "color": "var(--ink-gray-6)",
@@ -1117,22 +1313,31 @@
                  "blockClientScript": "",
                  "blockDataScript": "",
                  "blockId": "u5zwwwfii",
-                 "children": [],
+                 "blockName": null,
+                 "children": null,
                  "classes": [],
                  "customAttributes": {
                   "for": "name"
                  },
                  "dataKey": null,
+                 "draggable": false,
                  "dynamicValues": [],
                  "element": "label",
+                 "elementBeforeConversion": null,
+                 "extendedFromComponent": null,
                  "innerHTML": "Designation",
+                 "innerText": null,
+                 "isChildOfComponent": null,
+                 "isRepeaterBlock": false,
                  "mobileStyles": {},
+                 "originalElement": null,
                  "props": {},
                  "rawStyles": {},
-                 "tabletStyles": {}
+                 "referenceBlockId": null,
+                 "tabletStyles": {},
+                 "visibilityCondition": null
                 },
                 {
-                 "activeState": null,
                  "attributes": {
                   "placeholder": "CEO"
                  },
@@ -1162,50 +1367,79 @@
                  "blockDataScript": "",
                  "blockId": "uldd5snta",
                  "blockName": "Designation input",
-                 "children": [],
+                 "children": null,
                  "classes": [
                   "form-input"
                  ],
                  "customAttributes": {
-                  "name": "designation",
+                  "id": "designation",
                   "required": "true"
                  },
                  "dataKey": null,
+                 "draggable": false,
                  "dynamicValues": [],
                  "element": "input",
+                 "elementBeforeConversion": null,
+                 "extendedFromComponent": null,
+                 "innerHTML": null,
+                 "innerText": null,
+                 "isChildOfComponent": null,
+                 "isRepeaterBlock": false,
                  "mobileStyles": {},
+                 "originalElement": null,
                  "props": {},
                  "rawStyles": {
                   "line-height": "1.15"
                  },
-                 "tabletStyles": {}
+                 "referenceBlockId": null,
+                 "tabletStyles": {},
+                 "visibilityCondition": null
                 }
                ],
                "classes": [],
                "customAttributes": {},
                "dataKey": null,
+               "draggable": false,
                "dynamicValues": [],
                "element": "div",
+               "elementBeforeConversion": null,
+               "extendedFromComponent": null,
+               "innerHTML": null,
+               "innerText": null,
+               "isChildOfComponent": null,
+               "isRepeaterBlock": false,
                "mobileStyles": {},
+               "originalElement": null,
                "props": {},
                "rawStyles": {},
-               "tabletStyles": {}
+               "referenceBlockId": null,
+               "tabletStyles": {},
+               "visibilityCondition": null
               }
              ],
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
+             "draggable": false,
              "dynamicValues": [],
              "element": "div",
+             "elementBeforeConversion": null,
+             "extendedFromComponent": null,
+             "innerHTML": null,
+             "innerText": null,
+             "isChildOfComponent": null,
+             "isRepeaterBlock": false,
              "mobileStyles": {
               "flexDirection": "column"
              },
+             "originalElement": null,
              "props": {},
              "rawStyles": {},
-             "tabletStyles": {}
+             "referenceBlockId": null,
+             "tabletStyles": {},
+             "visibilityCondition": null
             },
             {
-             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "display": "flex",
@@ -1226,7 +1460,6 @@
              "blockName": "container",
              "children": [
               {
-               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "color": "var(--ink-gray-6)",
@@ -1245,22 +1478,31 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "9ch3qxe3j",
-               "children": [],
+               "blockName": null,
+               "children": null,
                "classes": [],
                "customAttributes": {
                 "for": "name"
                },
                "dataKey": null,
+               "draggable": false,
                "dynamicValues": [],
                "element": "label",
+               "elementBeforeConversion": null,
+               "extendedFromComponent": null,
                "innerHTML": "<p>Handle</p>",
+               "innerText": null,
+               "isChildOfComponent": null,
+               "isRepeaterBlock": false,
                "mobileStyles": {},
+               "originalElement": null,
                "props": {},
                "rawStyles": {},
-               "tabletStyles": {}
+               "referenceBlockId": null,
+               "tabletStyles": {},
+               "visibilityCondition": null
               },
               {
-               "activeState": null,
                "attributes": {
                 "placeholder": "john-doe"
                },
@@ -1290,37 +1532,56 @@
                "blockDataScript": "",
                "blockId": "plfrs73yi",
                "blockName": "Handle input",
-               "children": [],
+               "children": null,
                "classes": [
                 "form-input"
                ],
                "customAttributes": {
-                "name": "handle",
+                "id": "handle",
                 "required": "true"
                },
                "dataKey": null,
+               "draggable": false,
                "dynamicValues": [],
                "element": "input",
+               "elementBeforeConversion": null,
+               "extendedFromComponent": null,
+               "innerHTML": null,
+               "innerText": null,
+               "isChildOfComponent": null,
+               "isRepeaterBlock": false,
                "mobileStyles": {},
+               "originalElement": null,
                "props": {},
                "rawStyles": {
                 "line-height": "1.15"
                },
-               "tabletStyles": {}
+               "referenceBlockId": null,
+               "tabletStyles": {},
+               "visibilityCondition": null
               }
              ],
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
+             "draggable": false,
              "dynamicValues": [],
              "element": "div",
+             "elementBeforeConversion": null,
+             "extendedFromComponent": null,
+             "innerHTML": null,
+             "innerText": null,
+             "isChildOfComponent": null,
+             "isRepeaterBlock": false,
              "mobileStyles": {},
+             "originalElement": null,
              "props": {},
              "rawStyles": {},
-             "tabletStyles": {}
+             "referenceBlockId": null,
+             "tabletStyles": {},
+             "visibilityCondition": null
             },
             {
-             "activeState": null,
              "attributes": {},
              "baseStyles": {
               "display": "flex",
@@ -1341,7 +1602,6 @@
              "blockName": "container",
              "children": [
               {
-               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "color": "var(--ink-gray-6)",
@@ -1360,22 +1620,31 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "mzt84eoj3",
-               "children": [],
+               "blockName": null,
+               "children": null,
                "classes": [],
                "customAttributes": {
                 "for": "name"
                },
                "dataKey": null,
+               "draggable": false,
                "dynamicValues": [],
                "element": "label",
+               "elementBeforeConversion": null,
+               "extendedFromComponent": null,
                "innerHTML": "Bio",
+               "innerText": null,
+               "isChildOfComponent": null,
+               "isRepeaterBlock": false,
                "mobileStyles": {},
+               "originalElement": null,
                "props": {},
                "rawStyles": {},
-               "tabletStyles": {}
+               "referenceBlockId": null,
+               "tabletStyles": {},
+               "visibilityCondition": null
               },
               {
-               "activeState": null,
                "attributes": {
                 "placeholder": "John Doe is a Mumbai-based marketing professional and tech enthusiast."
                },
@@ -1405,37 +1674,56 @@
                "blockDataScript": "",
                "blockId": "3w978lo5x",
                "blockName": "Bio input",
-               "children": [],
+               "children": null,
                "classes": [
                 "form-input"
                ],
                "customAttributes": {
-                "name": "bio",
+                "id": "bio",
                 "required": "true"
                },
                "dataKey": null,
+               "draggable": false,
                "dynamicValues": [],
                "element": "input",
+               "elementBeforeConversion": null,
+               "extendedFromComponent": null,
+               "innerHTML": null,
+               "innerText": null,
+               "isChildOfComponent": null,
+               "isRepeaterBlock": false,
                "mobileStyles": {},
+               "originalElement": null,
                "props": {},
                "rawStyles": {
                 "line-height": "1.15"
                },
-               "tabletStyles": {}
+               "referenceBlockId": null,
+               "tabletStyles": {},
+               "visibilityCondition": null
               }
              ],
              "classes": [],
              "customAttributes": {},
              "dataKey": null,
+             "draggable": false,
              "dynamicValues": [],
              "element": "div",
+             "elementBeforeConversion": null,
+             "extendedFromComponent": null,
+             "innerHTML": null,
+             "innerText": null,
+             "isChildOfComponent": null,
+             "isRepeaterBlock": false,
              "mobileStyles": {},
+             "originalElement": null,
              "props": {},
              "rawStyles": {},
-             "tabletStyles": {}
+             "referenceBlockId": null,
+             "tabletStyles": {},
+             "visibilityCondition": null
             },
             {
-             "activeState": null,
              "attributes": {
               "href": "#"
              },
@@ -1465,7 +1753,6 @@
              "blockName": "Submit button",
              "children": [
               {
-               "activeState": null,
                "attributes": {},
                "baseStyles": {
                 "color": "var(--neutral-white, #FFF)",
@@ -1483,19 +1770,29 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "blgu1pnf7",
-               "children": [],
+               "blockName": null,
+               "children": null,
                "classes": [
                 "__text_block__"
                ],
                "customAttributes": {},
                "dataKey": null,
+               "draggable": false,
                "dynamicValues": [],
                "element": "p",
+               "elementBeforeConversion": null,
+               "extendedFromComponent": null,
                "innerHTML": "Submit",
+               "innerText": null,
+               "isChildOfComponent": null,
+               "isRepeaterBlock": false,
                "mobileStyles": {},
+               "originalElement": null,
                "props": {},
                "rawStyles": {},
-               "tabletStyles": {}
+               "referenceBlockId": null,
+               "tabletStyles": {},
+               "visibilityCondition": null
               }
              ],
              "classes": [
@@ -1511,16 +1808,26 @@
               "property": "innerHTML",
               "type": ""
              },
+             "draggable": false,
              "dynamicValues": [],
              "element": "button",
+             "elementBeforeConversion": null,
+             "extendedFromComponent": null,
+             "innerHTML": null,
+             "innerText": null,
+             "isChildOfComponent": null,
+             "isRepeaterBlock": false,
              "mobileStyles": {},
+             "originalElement": null,
              "props": {},
              "rawStyles": {
               "flex-shrink": "0",
               "hover:background": "#383838",
               "transition": "all 0.1s ease-out"
              },
-             "tabletStyles": {}
+             "referenceBlockId": null,
+             "tabletStyles": {},
+             "visibilityCondition": null
             }
            ],
            "classes": [],
@@ -1528,21 +1835,34 @@
             "id": "onboarding-form"
            },
            "dataKey": null,
+           "draggable": false,
            "dynamicValues": [],
            "element": "div",
+           "elementBeforeConversion": null,
+           "extendedFromComponent": null,
+           "innerHTML": null,
+           "innerText": null,
+           "isChildOfComponent": null,
+           "isRepeaterBlock": false,
            "mobileStyles": {},
+           "originalElement": null,
            "props": {},
            "rawStyles": {},
-           "tabletStyles": {}
+           "referenceBlockId": null,
+           "tabletStyles": {},
+           "visibilityCondition": null
           }
          ],
          "classes": [],
          "customAttributes": {},
          "dataKey": null,
+         "draggable": false,
          "dynamicValues": [],
          "element": "section",
+         "elementBeforeConversion": null,
          "extendedFromComponent": null,
          "innerHTML": "",
+         "innerText": null,
          "isChildOfComponent": null,
          "isRepeaterBlock": false,
          "mobileStyles": {},
@@ -1557,10 +1877,13 @@
        "classes": [],
        "customAttributes": {},
        "dataKey": null,
+       "draggable": false,
        "dynamicValues": [],
        "element": "div",
+       "elementBeforeConversion": null,
        "extendedFromComponent": null,
        "innerHTML": null,
+       "innerText": null,
        "isChildOfComponent": null,
        "isRepeaterBlock": false,
        "mobileStyles": {},
@@ -1577,10 +1900,13 @@
      "classes": [],
      "customAttributes": {},
      "dataKey": null,
+     "draggable": false,
      "dynamicValues": [],
      "element": "div",
+     "elementBeforeConversion": null,
      "extendedFromComponent": null,
      "innerHTML": null,
+     "innerText": null,
      "isChildOfComponent": null,
      "isRepeaterBlock": false,
      "mobileStyles": {},
@@ -1598,11 +1924,19 @@
    "draggable": false,
    "dynamicValues": [],
    "element": "div",
+   "elementBeforeConversion": null,
+   "extendedFromComponent": null,
+   "innerHTML": null,
+   "innerText": null,
+   "isChildOfComponent": null,
+   "isRepeaterBlock": false,
    "mobileStyles": {},
    "originalElement": "body",
    "props": {},
    "rawStyles": {},
-   "tabletStyles": {}
+   "referenceBlockId": null,
+   "tabletStyles": {},
+   "visibilityCondition": null
   }
  ],
  "client_scripts": [
@@ -1634,16 +1968,16 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-06-03 17:24:58.884499",
+ "modified": "2026-06-03 18:59:17.868045",
  "modified_by": "Administrator",
  "name": "page-a3dbf589",
  "owner": "Administrator",
- "page_data_script": "if frappe.db.exists(\"Cafe User\", frappe.session.user):\n    handle = frappe.db.get_value(\"Cafe User\", frappe.session.user, \"handle\")\n    redirect(f\"/cafe/profile/{handle}\")\n\nbreadcrumbs = [\n    {\"label\": \"Café\", \"url\": \"#\"},\n    {\"label\": \"Onboarding\", \"url\": \"#\"},\n]\n\ndata.page_data = {\n    \"breadcrumbs\": breadcrumbs,\n    \"user\": frappe.session.user,\n}\n",
+ "page_data_script": "if frappe.session.user == \"Guest\":\n    redirect(\"/login\")\n\nif frappe.db.exists(\"Cafe User\", frappe.session.user):\n    handle = frappe.db.get_value(\"Cafe User\", frappe.session.user, \"handle\")\n    redirect(f\"/cafe/profile/{handle}\")\n\nbreadcrumbs = [\n    {\"label\": \"Café\", \"url\": \"#\"},\n    {\"label\": \"Onboarding\", \"url\": \"#\"},\n]\n\ndata.page_data = {\n    \"breadcrumbs\": breadcrumbs,\n    \"user\": frappe.session.user,\n}\n",
  "page_name": "page-a3dbf589",
  "page_title": "Onboarding",
- "preview": "/files/page-a3dbf589-preview.webp?v=18a0d",
+ "preview": "/files/page-a3dbf589-preview.webp?v=def5b",
  "project_folder": "cafe",
  "published": 1,
- "published_at": "2026-06-03 17:24:58.884408",
+ "published_at": "2026-06-03 18:53:49.978047",
  "route": "cafe/onboarding"
 }
