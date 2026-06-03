@@ -69,6 +69,33 @@ class CafePost(Document):
 				post_name=self.name,
 			)
 
+	def on_trash(self):
+		# Delete bookmarks, replies and its likes before deleting the post
+		comments = frappe.get_all(
+			"Cafe Post Comment",
+			filters={"post": self.name},
+			fields=["name", "comment"],
+		)
+
+		like_or_filters = [["post", "=", self.name]]
+		if comments:
+			like_or_filters.append(["comment", "in", [c.name for c in comments]])
+		likes = frappe.get_all(
+			"Cafe Social Like", or_filters=like_or_filters, pluck="name"
+		)
+		for like in likes:
+			frappe.delete_doc("Cafe Social Like", like, ignore_permissions=True)
+
+		for comment in sorted(comments, key=lambda c: not c.comment):
+			frappe.delete_doc(
+				"Cafe Post Comment", comment.name, ignore_permissions=True
+			)
+
+		for bookmark in frappe.get_all(
+			"Cafe Post Bookmark", filters={"post": self.name}, pluck="name"
+		):
+			frappe.delete_doc("Cafe Post Bookmark", bookmark, ignore_permissions=True)
+
 	def generate_slug(self) -> str:
 		slug = self.title.lower()
 		slug = re.sub(r"[^a-z0-9\s-]", "", slug)
