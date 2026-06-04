@@ -1231,7 +1231,9 @@
          "innerHTML": "",
          "isChildOfComponent": null,
          "isRepeaterBlock": false,
-         "mobileStyles": {},
+         "mobileStyles": {
+          "marginTop": "24px"
+         },
          "originalElement": "",
          "props": {},
          "rawStyles": {},
@@ -1326,16 +1328,16 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-06-03 23:34:15.045552",
+ "modified": "2026-06-04 08:59:13.569023",
  "modified_by": "Administrator",
  "name": "page-a3dbf589",
  "owner": "Administrator",
  "page_data_script": "if frappe.session.user == \"Guest\":\n    redirect(\"/login\")\n\nif frappe.db.exists(\"Cafe User\", frappe.session.user):\n    handle = frappe.db.get_value(\"Cafe User\", frappe.session.user, \"handle\")\n    redirect(f\"/cafe/profile/{handle}\")\n\nbreadcrumbs = [\n    {\"label\": \"Café\", \"url\": \"#\"},\n    {\"label\": \"Onboarding\", \"url\": \"#\"},\n]\n\ndata.page_data = {\n    \"breadcrumbs\": breadcrumbs,\n    \"user\": frappe.session.user,\n}\n",
  "page_name": "page-a3dbf589",
  "page_title": "Onboarding",
- "preview": "/files/page-a3dbf589-preview.webp?v=679de",
+ "preview": "/files/page-a3dbf589-preview.webp?v=592a7",
  "project_folder": "cafe",
  "published": 1,
- "published_at": "2026-06-03 23:34:15.045455",
+ "published_at": "2026-06-04 08:59:13.568813",
  "route": "cafe/onboarding"
 }
