@@ -10,7 +10,8 @@
     "display": "flex",
     "flexDirection": "column",
     "flexShrink": 0,
-    "flexWrap": "wrap"
+    "flexWrap": "wrap",
+    "position": "relative"
    },
    "blockClientScript": "",
    "blockDataScript": "",
@@ -61,13 +62,13 @@
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "column",
-          "gap": "24px",
+          "gap": "26px",
           "height": "100vh",
           "justifyContent": "flex-start",
-          "marginBottom": "40px",
+          "marginBottom": "100px",
           "marginLeft": "0px",
           "marginRight": "0px",
-          "marginTop": "40px",
+          "marginTop": "100px",
           "maxWidth": "700px",
           "overflowX": "visible",
           "overflowY": "visible",
@@ -155,7 +156,8 @@
             "fontSize": "32px",
             "fontWeight": "500",
             "letterSpacing": "0.16px",
-            "lineHeight": "150% "
+            "lineHeight": "150% ",
+            "textAlign": "center"
            },
            "blockClientScript": "",
            "blockDataScript": "",
@@ -1441,13 +1443,15 @@
          "isChildOfComponent": null,
          "isRepeaterBlock": false,
          "mobileStyles": {
-          "marginTop": "24px"
+          "marginTop": "30px"
          },
          "originalElement": "",
          "props": {},
          "rawStyles": {},
          "referenceBlockId": null,
-         "tabletStyles": {},
+         "tabletStyles": {
+          "marginTop": "70px"
+         },
          "visibilityCondition": null
         }
        ],
@@ -1537,16 +1541,16 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-06-04 10:08:02.490942",
+ "modified": "2026-06-04 12:14:43.209081",
  "modified_by": "Administrator",
  "name": "page-a3dbf589",
  "owner": "Administrator",
  "page_data_script": "if frappe.session.user == \"Guest\":\n    redirect(\"/login\")\n\nif frappe.db.exists(\"Cafe User\", frappe.session.user):\n    handle = frappe.db.get_value(\"Cafe User\", frappe.session.user, \"handle\")\n    redirect(f\"/cafe/profile/{handle}\")\n\nbreadcrumbs = [\n    {\"label\": \"Café\", \"url\": \"#\"},\n    {\"label\": \"Onboarding\", \"url\": \"#\"},\n]\n\ndata.page_data = {\n    \"breadcrumbs\": breadcrumbs,\n    \"user\": frappe.session.user,\n}\n",
  "page_name": "page-a3dbf589",
  "page_title": "Onboarding",
- "preview": "/files/page-a3dbf589-preview.webp?v=19430",
+ "preview": "/files/page-a3dbf589-preview.webp?v=9797b",
  "project_folder": "cafe",
  "published": 1,
- "published_at": "2026-06-04 10:08:02.490674",
+ "published_at": "2026-06-04 12:14:43.208754",
  "route": "cafe/onboarding"
 }

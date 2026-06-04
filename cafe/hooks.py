@@ -13,6 +13,7 @@ required_apps = ["builder"]
 website_redirects = [
 	{"source": "/cafe", "target": "/cafe/explore"},
 	{"source": "/cafe/posts", "target": "/cafe/explore"},
+	{"source": "/cafe/profile", "target": "/cafe/explore"},
 ]
 
 # Each item in the list will be shown as an app in the apps page
