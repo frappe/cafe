@@ -29,6 +29,47 @@ class CafeUser(Document):
 		work_history: DF.Table[CafeUserExperience]
 	# end: auto-generated types
 
+	def on_trash(self):
+		self.delete_owned_content()
+
+	def delete_owned_content(self):
+		for post in frappe.get_all(
+			"Cafe Post", filters={"owner": self.user}, pluck="name"
+		):
+			frappe.delete_doc("Cafe Post", post, ignore_permissions=True)
+
+		for comment in frappe.get_all(
+			"Cafe Post Comment", filters={"owner": self.user}, pluck="name"
+		):
+			frappe.delete_doc("Cafe Post Comment", comment, ignore_permissions=True)
+
+		for like in frappe.get_all(
+			"Cafe Social Like", filters={"owner": self.user}, pluck="name"
+		):
+			frappe.delete_doc("Cafe Social Like", like, ignore_permissions=True)
+
+		for bookmark in frappe.get_all(
+			"Cafe Post Bookmark", filters={"owner": self.user}, pluck="name"
+		):
+			frappe.delete_doc("Cafe Post Bookmark", bookmark, ignore_permissions=True)
+
+		for subscription in frappe.get_all(
+			"Cafe Subscription", filters={"user": self.name}, pluck="name"
+		):
+			frappe.delete_doc(
+				"Cafe Subscription", subscription, ignore_permissions=True
+			)
+
+		member_rows = frappe.get_all(
+			"Cafe Publication Member",
+			filters={"user": self.name},
+			fields=["parent"],
+		)
+		for publication in {row.parent for row in member_rows}:
+			doc = frappe.get_doc("Cafe Publication", publication)
+			doc.members = [m for m in doc.members if m.user != self.name]
+			doc.save(ignore_permissions=True)
+
 	def validate(self):
 		# self.validate_permission()
 		if self.handle:
