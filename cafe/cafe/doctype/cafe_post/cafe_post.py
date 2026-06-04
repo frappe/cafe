@@ -37,20 +37,20 @@ class CafePost(Document):
 		if self.title:
 			# Strip HTML comments syntax
 			self.title = re.sub(r"<!--|-->", "", self.title).strip()
-			if len(self.title) > 60:
+			if len(self.title) > 150:
 				frappe.throw(
 					frappe._(
-						"Title cannot exceed 60 characters. Current length: {0}"
+						"Title cannot exceed 150 characters. Current length: {0}"
 					).format(len(self.title))
 				)
 
 		if self.description:
 			# Strip HTML comments syntax
 			self.description = re.sub(r"<!--|-->", "", self.description).strip()
-			if len(self.description) > 250:
+			if len(self.description) > 350:
 				frappe.throw(
 					frappe._(
-						"Description cannot exceed 250 characters. Current length: {0}"
+						"Description cannot exceed 350 characters. Current length: {0}"
 					).format(len(self.description))
 				)
 
