@@ -1,0 +1,106 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Cafe Post Tag",
+  "is_standard": 1,
+  "modified": "2026-05-18 11:52:11.163412",
+  "name": "Personal Development",
+  "title": "Personal Development"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Cafe Post Tag",
+  "is_standard": 1,
+  "modified": "2026-05-18 11:52:44.183005",
+  "name": "Personal Finance",
+  "title": "Personal Finance"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Cafe Post Tag",
+  "is_standard": 1,
+  "modified": "2026-05-18 11:52:52.290933",
+  "name": "Health & Fitness",
+  "title": "Health & Fitness"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Cafe Post Tag",
+  "is_standard": 1,
+  "modified": "2026-05-18 11:52:59.683123",
+  "name": "Lifestyle",
+  "title": "Lifestyle"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Cafe Post Tag",
+  "is_standard": 1,
+  "modified": "2026-05-18 11:53:22.821850",
+  "name": "Science",
+  "title": "Science"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Cafe Post Tag",
+  "is_standard": 1,
+  "modified": "2026-05-18 11:54:11.408048",
+  "name": "Culture",
+  "title": "Culture"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Cafe Post Tag",
+  "is_standard": 1,
+  "modified": "2026-05-18 11:55:28.707975",
+  "name": "Marketing",
+  "title": "Marketing"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Cafe Post Tag",
+  "is_standard": 1,
+  "modified": "2026-05-18 11:55:10.344926",
+  "name": "Cryptocurrency",
+  "title": "Cryptocurrency"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Cafe Post Tag",
+  "is_standard": 1,
+  "modified": "2026-05-18 11:52:20.482741",
+  "name": "Space Exploration",
+  "title": "Space Exploration"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Cafe Post Tag",
+  "is_standard": 1,
+  "modified": "2026-05-18 11:54:18.940927",
+  "name": "Design",
+  "title": "Design"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Cafe Post Tag",
+  "is_standard": 1,
+  "modified": "2026-05-18 11:54:42.824580",
+  "name": "Education & Learning",
+  "title": "Education & Learning"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Cafe Post Tag",
+  "is_standard": 1,
+  "modified": "2026-05-18 11:52:25.344828",
+  "name": "Technology",
+  "title": "Technology"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Cafe Post Tag",
+  "is_standard": 1,
+  "modified": "2026-05-18 11:53:39.758746",
+  "name": "Entertainment",
+  "title": "Entertainment"
+ }
+]

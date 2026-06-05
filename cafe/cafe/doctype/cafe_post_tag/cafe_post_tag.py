@@ -26,7 +26,12 @@ class CafePostTag(Document):
 		self.check_standard()
 
 	def check_standard(self):
-		if frappe.conf.developer_mode:
+		if (
+			frappe.conf.developer_mode
+			or frappe.flags.in_migrate
+			or frappe.flags.in_install
+			or frappe.flags.in_import
+		):
 			return
 
 		if self.is_standard:

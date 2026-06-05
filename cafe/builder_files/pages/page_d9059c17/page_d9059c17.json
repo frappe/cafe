@@ -1244,6 +1244,9 @@
    "builder_script": "Frappe Client"
   },
   {
+   "builder_script": "Post typography styles"
+  },
+  {
    "builder_script": "Global CSS"
   },
   {
@@ -1251,9 +1254,6 @@
   },
   {
    "builder_script": "Edit post script"
-  },
-  {
-   "builder_script": "Post content styles"
   }
  ],
  "creation": "2026-05-18 16:14:18.340883",
@@ -1266,7 +1266,7 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-06-03 23:24:56.222468",
+ "modified": "2026-06-05 14:05:58.749551",
  "modified_by": "Administrator",
  "name": "page-d9059c17",
  "owner": "Administrator",

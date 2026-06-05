@@ -26,6 +26,15 @@ add_to_apps_screen = [
 	}
 ]
 
+fixtures = [
+	{
+		"doctype": "Cafe Post Tag",
+		"filters": {
+			"is_standard": 1,
+		},
+	}
+]
+
 # Includes in <head>
 # ------------------
 
