@@ -1,0 +1,8 @@
+{
+ "dark_value": "#E2E2E2",
+ "doctype": "Builder Variable",
+ "name": "outline_gray_2",
+ "type": "Color",
+ "value": "#E2E2E2",
+ "variable_name": "outline-gray-2"
+}
