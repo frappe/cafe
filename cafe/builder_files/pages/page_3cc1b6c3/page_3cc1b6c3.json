@@ -1288,15 +1288,15 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-06-22 12:47:05.191901",
+ "modified": "2026-06-22 13:10:04.817009",
  "modified_by": "Administrator",
  "name": "page-3cc1b6c3",
  "owner": "Administrator",
  "page_name": "page-3cc1b6c3",
  "page_title": "Login",
- "preview": "/files/page-3cc1b6c3-preview.webp?v=08c52",
+ "preview": "/files/page-3cc1b6c3-preview.webp?v=490fa",
  "project_folder": "cafe",
  "published": 1,
- "published_at": "2026-06-22 12:47:05.191366",
+ "published_at": "2026-06-22 13:10:04.816919",
  "route": "cafe/login"
 }
